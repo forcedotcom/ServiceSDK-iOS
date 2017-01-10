@@ -32,11 +32,11 @@
     "version": "1.2.0"
   },
   {
-    "changelog": "sos/3.3.0/changelog.md",
+    "changelog": "sos/3.2.4/changelog.md",
     "date": "2017-02-02",
     "example": "sos/example.md",
     "reference": "api/2.1.0/Classes/SOSSessionManager.html",
     "sdk": "sos",
-    "version": "3.3.0"
+    "version": "3.2.4"
   }
 ]
