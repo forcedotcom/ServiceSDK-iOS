@@ -10,7 +10,7 @@
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ios-sdk/ServiceCase-iOS/CaseUI/Classes/Singletons/SCServiceCloud+CaseUI.h",
       "line": 28,
-      "symbol": "SCServiceCloud(CaseUI)",
+      "symbol": "SCServiceCloud(CaseManagement)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
     },
@@ -360,7 +360,7 @@
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ios-sdk/ServiceCommon-iOS/ServiceCommon/ServiceCommon/Classes/Singletons/SCServiceCloud.h",
       "line": 125,
-      "symbol": "SCServiceCloud(SCSNotifications)",
+      "symbol": "SCServiceCloud(Notifications)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
     },
@@ -486,7 +486,7 @@
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ios-sdk/ServiceKnowledge-iOS/KnowledgeUI/Classes/Singletons/SCServiceCloud+KnowledgeUI.h",
       "line": 28,
-      "symbol": "SCServiceCloud(KnowledgeUI)",
+      "symbol": "SCServiceCloud(Knowledge)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
     },
