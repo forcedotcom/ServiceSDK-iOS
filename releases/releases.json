@@ -3,7 +3,7 @@
     "changelog": "common/changelog.md",
     "date": "2017-02-09",
     "example": "common/example.md",
-    "reference": "api/2.1.0/Classes/SCServiceCloud.html",
+    "reference": "api/206.0/Classes/SCServiceCloud.html",
     "sdk": "common",
     "version": "1.3.0"
   },
@@ -11,7 +11,7 @@
     "changelog": "knowledge/changelog.md",
     "date": "2017-02-09",
     "example": "knowledge/example.md",
-    "reference": "api/2.1.0/Classes/SCKnowledgeInterface.html",
+    "reference": "api/206.0/Classes/SCKnowledgeInterface.html",
     "sdk": "knowledge",
     "version": "2.1.0"
   },
@@ -19,7 +19,7 @@
     "changelog": "case/changelog.md",
     "date": "2017-02-09",
     "example": "case/example.md",
-    "reference": "api/2.1.0/Classes/SCCaseInterface.html",
+    "reference": "api/206.0/Classes/SCCaseInterface.html",
     "sdk": "case",
     "version": "1.3.0"
   },
@@ -27,7 +27,7 @@
     "changelog": "chat/changelog.md",
     "date": "2017-02-09",
     "example": "chat/example.md",
-    "reference": "api/2.1.0/Classes/SCSChat.html",
+    "reference": "api/206.0/Classes/SCSChat.html",
     "sdk": "chat",
     "version": "1.2.0"
   },
@@ -35,7 +35,7 @@
     "changelog": "sos/changelog.md",
     "date": "2017-02-09",
     "example": "sos/example.md",
-    "reference": "api/2.1.0/Classes/SOSSessionManager.html",
+    "reference": "api/206.0/Classes/SOSSessionManager.html",
     "sdk": "sos",
     "version": "3.2.4"
   }
