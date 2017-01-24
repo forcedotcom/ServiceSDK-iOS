@@ -37,6 +37,6 @@
     "example": "sos/example.md",
     "reference": "api/206.0/Classes/SOSSessionManager.html",
     "sdk": "sos",
-    "version": "3.2.4"
+    "version": "3.3.0"
   }
 ]
