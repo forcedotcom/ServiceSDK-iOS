@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SCSMutableArticleQuery Class Reference</title>
+    <title>SCSMinimizable Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -16,9 +16,9 @@
         $("#Nav-Other\\ Constants").hide();
       });
     </script>
-    <a name="//apple_ref/objc/Class/SCSMutableArticleQuery" class="dashAnchor"></a>
+    <a name="//apple_ref/objc/Protocol/SCSMinimizable" class="dashAnchor"></a>
 
-    <a title="SCSMutableArticleQuery Class Reference"></a>
+    <a title="SCSMinimizable Protocol Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -34,7 +34,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html"> Reference</a>
       <img class="carat" src="../img/carat.png" />
-      SCSMutableArticleQuery Class Reference
+      SCSMinimizable Protocol Reference
     </p>
 
     <div class="content-wrapper">
@@ -713,21 +713,14 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>SCSMutableArticleQuery</h1>
+            <h1>SCSMinimizable</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                  <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSMinimizable</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
 
                 </div>
               </div>
-            <p>An <code>SCSMutableArticleQuery</code> object is the mutable version of <code><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></code>. It manages
-the criteria to apply when fetching and searching knowledge articles. This query object
-stores the type of search, the search parameters, and any filters or constraints to apply 
-when searching.</p>
-
-<p>Use this object with <code><a href="../Classes/SCSKnowledgeManager.html#/c:objc(cs)SCSKnowledgeManager(im)fetchArticlesWithQuery:completion:">-[SCSKnowledgeManager fetchArticlesWithQuery:completion:]</a></code>
-to download articles that match your query. To access already downloaded articles
-matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:objc(cs)SCSKnowledgeManager(im)articlesMatchingQuery:completion:">-[SCSKnowledgeManager articlesMatchingQuery:completion:]</a></code>.</p>
+            <p>Protocol used by UI components that are capable of being minimized.</p>
 
           </div>
         </section>
@@ -739,9 +732,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)articleId"></a>
-                    <a name="//apple_ref/objc/Property/articleId" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)articleId">articleId</a>
+                    <a name="/c:objc(pl)SCSMinimizable(py)minimizable"></a>
+                    <a name="//apple_ref/objc/Property/minimizable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizable(py)minimizable">minimizable</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -749,14 +742,19 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Indicates whether or not the receiver is capable of being minimized.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">getter</span><span class="o">=</span><span class="n">isMinimizable</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">minimizable</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isMinimizable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -766,9 +764,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)categories"></a>
-                    <a name="//apple_ref/objc/Property/categories" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)categories">categories</a>
+                    <a name="/c:objc(pl)SCSMinimizable(py)minimized"></a>
+                    <a name="//apple_ref/objc/Property/minimized" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizable(py)minimized">minimized</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -776,14 +774,25 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Property to control whether or not the window is minimized.</p>
+
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    setMinimized:animated:completion:
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">getter</span><span class="o">=</span><span class="n">isMinimized</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">minimized</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isMinimized</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -793,9 +802,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)queryMethod"></a>
-                    <a name="//apple_ref/objc/Property/queryMethod" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)queryMethod">queryMethod</a>
+                    <a name="/c:objc(pl)SCSMinimizable(py)minimizationDelegate"></a>
+                    <a name="//apple_ref/objc/Property/minimizationDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizable(py)minimizationDelegate">minimizationDelegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -803,14 +812,20 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Optional delegate property used to interact with minimized views.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSObject</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="n">minimizationDelegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">minimizationDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -820,9 +835,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)searchTerm"></a>
-                    <a name="//apple_ref/objc/Property/searchTerm" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)searchTerm">searchTerm</a>
+                    <a name="/c:objc(pl)SCSMinimizable(im)setMinimized:animated:completion:"></a>
+                    <a name="//apple_ref/objc/Method/-setMinimized:animated:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizable(im)setMinimized:animated:completion:">-setMinimized:animated:completion:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -830,97 +845,72 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Animated setter for controlling the window minimification.
+- parameter: minimized Boolean indicating if the view should be minimized or not.
+- parameter: animated Indicates whether or not the minimization should occur with an animation.
+- parameter: completion Optional completion block to be called when the operation has completed.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setMinimized</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">minimized</span>
+            <span class="nf">animated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span>
+          <span class="nf">completion</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)())</span><span class="nv">completion</span><span class="p">;</span></code></pre>
 
                         </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)pageSize"></a>
-                    <a name="//apple_ref/objc/Property/pageSize" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)pageSize">pageSize</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
                         <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">setMinimized</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)sortOrder"></a>
-                    <a name="//apple_ref/objc/Property/sortOrder" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)sortOrder">sortOrder</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Boolean indicating if the view should be minimized or not.</p>
 
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Indicates whether or not the minimization should occur with an animation.</p>
 
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)sortByField"></a>
-                    <a name="//apple_ref/objc/Property/sortByField" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)sortByField">sortByField</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional completion block to be called when the operation has completed.</p>
 
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
-
-                        </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>

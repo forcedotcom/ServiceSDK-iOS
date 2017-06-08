@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SCSMutableArticleQuery Class Reference</title>
+    <title>SCSMinimizableDelegate Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -16,9 +16,9 @@
         $("#Nav-Other\\ Constants").hide();
       });
     </script>
-    <a name="//apple_ref/objc/Class/SCSMutableArticleQuery" class="dashAnchor"></a>
+    <a name="//apple_ref/objc/Protocol/SCSMinimizableDelegate" class="dashAnchor"></a>
 
-    <a title="SCSMutableArticleQuery Class Reference"></a>
+    <a title="SCSMinimizableDelegate Protocol Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -34,7 +34,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html"> Reference</a>
       <img class="carat" src="../img/carat.png" />
-      SCSMutableArticleQuery Class Reference
+      SCSMinimizableDelegate Protocol Reference
     </p>
 
     <div class="content-wrapper">
@@ -713,21 +713,14 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>SCSMutableArticleQuery</h1>
+            <h1>SCSMinimizableDelegate</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                  <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSMinimizableDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
 
                 </div>
               </div>
-            <p>An <code>SCSMutableArticleQuery</code> object is the mutable version of <code><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></code>. It manages
-the criteria to apply when fetching and searching knowledge articles. This query object
-stores the type of search, the search parameters, and any filters or constraints to apply 
-when searching.</p>
-
-<p>Use this object with <code><a href="../Classes/SCSKnowledgeManager.html#/c:objc(cs)SCSKnowledgeManager(im)fetchArticlesWithQuery:completion:">-[SCSKnowledgeManager fetchArticlesWithQuery:completion:]</a></code>
-to download articles that match your query. To access already downloaded articles
-matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:objc(cs)SCSKnowledgeManager(im)articlesMatchingQuery:completion:">-[SCSKnowledgeManager articlesMatchingQuery:completion:]</a></code>.</p>
+            <p>Delegate protocol used to interact with, and be informed of changes to, minimizable controllers.</p>
 
           </div>
         </section>
@@ -739,9 +732,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)articleId"></a>
-                    <a name="//apple_ref/objc/Property/articleId" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)articleId">articleId</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:destinationPoint:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:destinationPoint:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:destinationPoint:">-minimizedController:destinationPoint:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -749,16 +742,63 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Overrides the destination point that the minimization will animate to.</p>
+
+<p>The point is a floating point value between 0.0 and 1.0 to indicate a relative position across the screen.  If any dimension in the point is larger than 1.0, it will be assumed to be an absolute position on the screen, and its value will be converted.  If you want to accept the previous position the attachment was minimized to, or you want to accept the system default, simply return the supplied <code>defaultPoint</code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">CGPoint</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+               <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+              <span class="nf">destinationPoint</span><span class="p">:(</span><span class="n">CGPoint</span><span class="p">)</span><span class="nv">defaultPoint</span><span class="p">;</span></code></pre>
 
                         </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">destinationPoint</span> <span class="n">defaultPoint</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>defaultPoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The default point that would be used.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>New point to serve as the initial destination point.</p>
+
                       </div>
                     </section>
                   </div>
@@ -766,9 +806,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)categories"></a>
-                    <a name="//apple_ref/objc/Property/categories" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)categories">categories</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:movedToPoint:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:movedToPoint:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:movedToPoint:">-minimizedController:movedToPoint:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -776,16 +816,56 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Informs the receiver when the minimized view is moved to a new point.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+               <span class="nf">movedToPoint</span><span class="p">:(</span><span class="n">CGPoint</span><span class="p">)</span><span class="nv">point</span><span class="p">;</span></code></pre>
 
                         </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">movedTo</span> <span class="nv">point</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>point</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The new center point for the attachment.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -793,9 +873,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)queryMethod"></a>
-                    <a name="//apple_ref/objc/Property/queryMethod" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)queryMethod">queryMethod</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerWillMinimize:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:controllerWillMinimize:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerWillMinimize:">-minimizedController:controllerWillMinimize:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -803,16 +883,56 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the receiver when the minimized view will be minimized.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+     <span class="nf">controllerWillMinimize</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
 
                         </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">controllerWillMinimize</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not the minimization will be animated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -820,9 +940,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)searchTerm"></a>
-                    <a name="//apple_ref/objc/Property/searchTerm" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)searchTerm">searchTerm</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerDidMinimize:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:controllerDidMinimize:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerDidMinimize:">-minimizedController:controllerDidMinimize:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -830,16 +950,56 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the receiver when the window minimization is complete.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+      <span class="nf">controllerDidMinimize</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
 
                         </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">controllerDidMinimize</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not the minimization was animated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -847,9 +1007,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)pageSize"></a>
-                    <a name="//apple_ref/objc/Property/pageSize" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)pageSize">pageSize</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerWillMaximize:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:controllerWillMaximize:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerWillMaximize:">-minimizedController:controllerWillMaximize:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -857,16 +1017,56 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the receiver when the window will be maximized.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+     <span class="nf">controllerWillMaximize</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
 
                         </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">controllerWillMaximize</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not the maximization will be animated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -874,9 +1074,9 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)sortOrder"></a>
-                    <a name="//apple_ref/objc/Property/sortOrder" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)sortOrder">sortOrder</a>
+                    <a name="/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerDidMaximize:"></a>
+                    <a name="//apple_ref/objc/Method/-minimizedController:controllerDidMaximize:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSMinimizableDelegate(im)minimizedController:controllerDidMaximize:">-minimizedController:controllerDidMaximize:</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -884,43 +1084,56 @@ matching your query, call <code><a href="../Classes/SCSKnowledgeManager.html#/c:
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Notifies the receiver when the window was maximized.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">minimizedController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSMinimizable.html">SCSMinimizable</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">minimized</span>
+      <span class="nf">controllerDidMaximize</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
 
                         </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSMutableArticleQuery(py)sortByField"></a>
-                    <a name="//apple_ref/objc/Property/sortByField" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSMutableArticleQuery(py)sortByField">sortByField</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
                         <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSMutableArticleQuery</span> <span class="p">:</span> <span class="nc"><a href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a></span></code></pre>
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">minimizedController</span><span class="p">(</span><span class="n">_</span> <span class="nv">minimized</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">controllerDidMaximize</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>minimized</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The minimized controller.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not the maximization was animated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
