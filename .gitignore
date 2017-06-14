@@ -1,0 +1,15 @@
+# OSX Files
+build/*
+.DS_Store
+*.swp
+*.lock
+profile
+
+# Xcode Files
+DerivedData/
+build/
+Builds/
+xcuserdata
+
+# App-specific Stuff
+*.framework
