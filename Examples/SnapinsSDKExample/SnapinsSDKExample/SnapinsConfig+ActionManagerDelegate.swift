@@ -7,7 +7,7 @@ import Foundation
 import ServiceCore
 
 /**
- Adds an action manager delegate to the View Controller.
+ Adds an action manager delegate to `SnapinsConfig`.
  This delegate handles events related to the action button API.
  */
 extension SnapinsConfig : SCSActionManagerDelegate {
@@ -21,7 +21,10 @@ extension SnapinsConfig : SCSActionManagerDelegate {
     {
         var mySet = defaultActions
 
-        // Add our custom action button
+        // Add our custom action button.
+        // (In this case, we're always adding the action button, but
+        // you can inspect `controller` to determine whether you want
+        // to add a custom button for a given view controller...)
         if (SnapinsConstants.ENABLE_CUSTOM_ACTION_BUTTONS) {
             mySet.insert(SnapinsConstants.CUSTOM_ACTION_NAME)
         }
@@ -35,10 +38,9 @@ extension SnapinsConfig : SCSActionManagerDelegate {
     func actionManager(_ actionManager: SCSActionManager,
                        viewForActionItemWithName name: String) -> UIView?
     {
-        // Show our custom action button
         if name == SnapinsConstants.CUSTOM_ACTION_NAME {
 
-            // Create the button if we haven't already
+            // Create our custom action button
             let customActionButton = SCSActionButton()
             customActionButton.setTitle(SnapinsConstants.CUSTOM_ACTION_TITLE, for: .normal)
             customActionButton.addTarget(self, action: #selector(myCustomButtonHandler), for: .touchUpInside)

@@ -8,7 +8,7 @@ import ServiceCore
 import ServiceChat
 
 /**
- Adds a chat delegate to the View Controller.
+ Adds a chat delegate to `SnapinsConfig`.
  This delegate handles events related to a Live Agent Chat session.
  */
 extension SnapinsConfig : SCSChatDelegate {

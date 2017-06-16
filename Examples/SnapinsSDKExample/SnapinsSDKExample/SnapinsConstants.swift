@@ -7,10 +7,14 @@ import Foundation
 import ServiceCore
 
 /**
- Snap-ins constant values used through this app.
+ Snap-ins constant values used throughout this app.
+ Update these values with your org settings.
+ Be sure to set the appropriate ENABLE_ values to true.
+ See the Snap-ins Developer's Guide for more info:
+ https://developer.salesforce.com/docs/atlas.en-us.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm
  */
 class SnapinsConstants {
-
+  
   // Community URL used by Knowledge and Case Management
   // TO DO: This variable is required if you're using Knowledge or Cases...
   static let COMMUNITY_URL = "https://<#community_prefix#>.force.com"
@@ -31,20 +35,15 @@ class SnapinsConstants {
   static let ENABLE_CHAT = false
   static let CHAT_POD_NAME = "d.la.<#pod_name#>.salesforce.com"
   static let CHAT_ORG_ID = "<#org_id#>"
-  // e.g. "00BC00000003Lqz"
   static let CHAT_DEPLOYMENT_ID = "<#deployment_id#>"
-  // e.g. "0BNW0000000003F"
   static let CHAT_BUTTON_ID = "<#button_id#>"
-  // e.g. "357200000009MCq"
-
+  
   // SOS Config
   // TO DO: These variables are required for SOS...
   static let ENABLE_SOS = false
   static let SOS_POD_NAME = "d.la.<#pod_name#>.salesforce.com"
   static let SOS_ORG_ID = "<#org_id#>"
-  // e.g. "00BC00000003Lqz"
   static let SOS_DEPLOYMENT_ID = "<#deployment_id#>"
-  // e.g. "0BNW0000000003F"
   
   // Action Button Config
   // TO DO: These variables are used for the custom

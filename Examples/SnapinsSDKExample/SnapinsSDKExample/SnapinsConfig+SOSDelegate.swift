@@ -9,7 +9,7 @@ import ServiceCore
 import ServiceSOS
 
 /**
- Adds an SOS delegate to the View Controller.
+ Adds an SOS delegate to `SnapinsConfig`.
  This delegate handles events related to an SOS session.
  */
 extension SnapinsConfig : SOSDelegate {

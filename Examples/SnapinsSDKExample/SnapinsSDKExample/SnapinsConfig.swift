@@ -33,7 +33,7 @@ class SnapinsConfig : NSObject {
   
   /**
    One time setup for the Snapins configuration.
-   This gets called from the AppDelegate.
+   This is called from the AppDelegate.
   */
   func initialize() {
     initializeKnowledgeAndCases()
@@ -43,6 +43,7 @@ class SnapinsConfig : NSObject {
     if (SnapinsConstants.ENABLE_CUSTOM_ACTION_BUTTONS) {
         let serviceCloud = SCServiceCloud.sharedInstance()
 
+        // Add self as an action button delegate
         serviceCloud.actions.delegate = self
     }
   }
@@ -56,7 +57,8 @@ class SnapinsConfig : NSObject {
     // Create a configuration object for Knowledge or Cases
     // (If both are enabled, the Knowledge config will handle both situations)
     if SnapinsConstants.ENABLE_KNOWLEDGE {
-      // Create configuration object with community url & categories
+      
+      // Create configuration object with community url & knowledge categories
       knowledgeCasesConfig = SCSServiceConfiguration(
         community: URL(string: SnapinsConstants.COMMUNITY_URL)!,
         dataCategoryGroup: SnapinsConstants.KNOWLEDGE_CATEGORY_GROUP,
@@ -65,16 +67,18 @@ class SnapinsConfig : NSObject {
       // Pass configuration to shared instance
       serviceCloud.serviceConfiguration = knowledgeCasesConfig!
     }
+      
     // Only need to make this call if Knowledge ISN'T enabled but Cases is...
     else if SnapinsConstants.ENABLE_CASES {
+      
       // Create configuration object with community url
       knowledgeCasesConfig = SCSServiceConfiguration(community: URL(string: SnapinsConstants.COMMUNITY_URL)!)
       
       // Pass configuration to shared instance
       serviceCloud.serviceConfiguration = knowledgeCasesConfig!
     }
-    
-    // Assign Quick Action if Cases is enabled...
+
+    // We also need to assign a Quick Action for Cases...
     if SnapinsConstants.ENABLE_CASES {
       // Set the Case Mgmt Quick Action
       serviceCloud.cases.caseCreateActionName = SnapinsConstants.CASES_QUICK_ACTION
@@ -88,13 +92,15 @@ class SnapinsConfig : NSObject {
     let serviceCloud = SCServiceCloud.sharedInstance()
 
     if SnapinsConstants.ENABLE_CHAT {
+      
       // Create a configuration object for Chat
       chatConfig = SCSChatConfiguration(liveAgentPod: SnapinsConstants.CHAT_POD_NAME,
                                         orgId: SnapinsConstants.CHAT_ORG_ID,
                                         deploymentId: SnapinsConstants.CHAT_DEPLOYMENT_ID,
                                         buttonId: SnapinsConstants.CHAT_BUTTON_ID)
 
-        serviceCloud.chat.add(self)
+      // Add self as a chat delegate
+      serviceCloud.chat.add(self)
     }
   }
   
@@ -105,11 +111,14 @@ class SnapinsConfig : NSObject {
     let serviceCloud = SCServiceCloud.sharedInstance()
 
     if SnapinsConstants.ENABLE_SOS {
+      
       // Create a configuration object for SOS
       sosConfig = SOSOptions(liveAgentPod: SnapinsConstants.SOS_POD_NAME,
                              orgId: SnapinsConstants.SOS_ORG_ID,
                              deploymentId: SnapinsConstants.SOS_DEPLOYMENT_ID)
-        serviceCloud.sos.add(self)
+      
+      // Add self as an SOS delegate
+      serviceCloud.sos.add(self)
     }
   }
 }
