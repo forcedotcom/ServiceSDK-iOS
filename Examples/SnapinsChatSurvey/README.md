@@ -10,6 +10,6 @@ To use this app, clone this repository, put the required framework files in the 
 
 ## Code Info
 
-* [ViewController](./SnapinsChatSurvey/ViewController.swift): Configures and initializes a chat session
-* [ViewController+ChatDelegate](./SnapinsChatSurvey/ViewController%2BChatDelegate.swift): Delegate for Live Agent Chat events. This implementation handles the end session event and launches the survey view.
+* [ChatConfig](./SnapinsChatSurvey/ChatConfig.swift): Configures and initializes a chat session.
+* [ChatConfigr+ChatDelegate](./SnapinsChatSurvey/ChatConfig%2BChatDelegate.swift): Delegate for Live Agent Chat events. This implementation handles the end session event and launches the survey view.
 * [SurveyViewController](./SnapinsChatSurvey/SurveyViewController.swift): By default, this class launches a web view containing a survey. You could show a local survey instead.

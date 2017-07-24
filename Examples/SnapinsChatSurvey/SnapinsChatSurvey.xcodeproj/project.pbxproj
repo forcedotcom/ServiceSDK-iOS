@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8725F40D1F2163070007E948 /* ViewController+ChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F40C1F2163070007E948 /* ViewController+ChatDelegate.swift */; };
+		870627AB1F269D3D007052DF /* ChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870627AA1F269D3D007052DF /* ChatConfig.swift */; };
+		8725F40D1F2163070007E948 /* ChatConfig+ChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F40C1F2163070007E948 /* ChatConfig+ChatDelegate.swift */; };
 		8738C9911F22626500C2D9BE /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738C9901F22626500C2D9BE /* SurveyViewController.swift */; };
 		87B2A4931F2678FC007299E5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */; };
 		87B2A4941F2678FC007299E5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -48,7 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8725F40C1F2163070007E948 /* ViewController+ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ChatDelegate.swift"; sourceTree = "<group>"; };
+		870627AA1F269D3D007052DF /* ChatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConfig.swift; sourceTree = "<group>"; };
+		8725F40C1F2163070007E948 /* ChatConfig+ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatConfig+ChatDelegate.swift"; sourceTree = "<group>"; };
 		8738C9901F22626500C2D9BE /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
 		87B2A4881F2678D0007299E5 /* SalesforceAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceAnalytics.framework; sourceTree = "<group>"; };
@@ -126,7 +128,8 @@
 			children = (
 				87C375CA1F215F3700E4FAB0 /* AppDelegate.swift */,
 				87C375CC1F215F3700E4FAB0 /* ViewController.swift */,
-				8725F40C1F2163070007E948 /* ViewController+ChatDelegate.swift */,
+				870627AA1F269D3D007052DF /* ChatConfig.swift */,
+				8725F40C1F2163070007E948 /* ChatConfig+ChatDelegate.swift */,
 				8738C9901F22626500C2D9BE /* SurveyViewController.swift */,
 				87C375CE1F215F3700E4FAB0 /* Main.storyboard */,
 				87C375D11F215F3700E4FAB0 /* Assets.xcassets */,
@@ -209,8 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870627AB1F269D3D007052DF /* ChatConfig.swift in Sources */,
 				87C375CD1F215F3700E4FAB0 /* ViewController.swift in Sources */,
-				8725F40D1F2163070007E948 /* ViewController+ChatDelegate.swift in Sources */,
+				8725F40D1F2163070007E948 /* ChatConfig+ChatDelegate.swift in Sources */,
 				87C375CB1F215F3700E4FAB0 /* AppDelegate.swift in Sources */,
 				8738C9911F22626500C2D9BE /* SurveyViewController.swift in Sources */,
 			);
