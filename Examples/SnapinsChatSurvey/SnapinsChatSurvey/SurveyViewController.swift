@@ -1,5 +1,5 @@
 //
-//  WebViewController.swift
+//  SurveyViewController.swift
 //  SnapinsChatSurvey
 //
 
