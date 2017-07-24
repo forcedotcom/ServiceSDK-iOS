@@ -4,7 +4,7 @@ _These sample apps demonstrate Snap-ins features. They do not contain production
 
 ## Instructions
 
-To use an example app, drop the required framework files in the root directory of this repo. You can get the framework files by downloading the iOS SDK from the [Snap-ins Product Page](https://developer.salesforce.com/page/SnapinsMobile).
+To use an example app, drop the required framework files in the [Frameworks root directory](../Frameworks/) of this repo. You can get the framework files by downloading the iOS SDK from the [Snap-ins Product Page](https://developer.salesforce.com/page/SnapinsMobile).
 
 ## Sample Apps
 
