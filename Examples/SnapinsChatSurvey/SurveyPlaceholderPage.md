@@ -10,3 +10,27 @@ Alternatively, you can remove the `UIWebView` from the view controller and displ
 * [Other Sample Apps](https://github.com/forcedotcom/ServiceSDK-iOS/tree/master/Examples)
 
 _This sample app demonstrates Snap-ins features. It doesn't contain production-quality code and is not meant to be used in a production app._
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
