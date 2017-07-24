@@ -6,7 +6,7 @@ A simple Snap-ins SDK Hello World app that launches Knowledge, Cases, Chat, and 
 
 ## Instructions
 
-To use this app, clone this repository, put the [required framework files](https://developer.salesforce.com/page/SnapinsMobile) in the [root directory](../../Frameworks/), and update the `SnapinsConstants` class with your org settings.
+To use this app, clone this repository, put the [required framework files](https://developer.salesforce.com/page/SnapinsMobile) in the [Frameworks root directory](../../Frameworks/), and update the `SnapinsConstants` class with your org settings.
 
 ## Code Info
 
