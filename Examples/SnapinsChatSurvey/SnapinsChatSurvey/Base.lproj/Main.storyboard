@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wrF-jJ-Zp7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="HomeVC" id="BYZ-38-t0r" customClass="ViewController" customModule="SnapinsChatSurvey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQc-TC-fdc">
+                                <rect key="frame" x="16" y="80" width="343" height="21"/>
+                                <string key="text">This sample app demonstrates how to connect your chat experience to a survey at the end of the session. After a successful session, a survey launches.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSi-0Q-xKb">
+                                <rect key="frame" x="152" y="109" width="71" height="30"/>
+                                <state key="normal" title="Start Chat"/>
+                                <connections>
+                                    <action selector="chatButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QV9-oZ-xI1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FSi-0Q-xKb" firstAttribute="top" secondItem="sQc-TC-fdc" secondAttribute="bottom" constant="8" id="O0v-nM-RD6"/>
+                            <constraint firstItem="sQc-TC-fdc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="a5z-A7-k4c"/>
+                            <constraint firstItem="sQc-TC-fdc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kEV-pI-VQ3"/>
+                            <constraint firstItem="sQc-TC-fdc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ndp-t3-6mm"/>
+                            <constraint firstItem="FSi-0Q-xKb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ogi-pf-QXd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="A19-wt-tby"/>
+                    <connections>
+                        <segue destination="RRX-Td-Z4k" kind="show" identifier="SurveyViewSegue" id="ZGD-va-ls9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.79999999999995" y="-575.26236881559225"/>
+        </scene>
+        <!--Chat Survey-->
+        <scene sceneID="Zv4-uA-LuU">
+            <objects>
+                <viewController title="Chat Survey" automaticallyAdjustsScrollViewInsets="NO" id="RRX-Td-Z4k" customClass="SurveyViewController" customModule="SnapinsChatSurvey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O1U-jS-dg6"/>
+                        <viewControllerLayoutGuide type="bottom" id="deI-q0-r8r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tlk-cH-uUb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Im-gB-XGC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3Im-gB-XGC" secondAttribute="trailing" id="7jy-Fx-MlN"/>
+                            <constraint firstItem="3Im-gB-XGC" firstAttribute="top" secondItem="O1U-jS-dg6" secondAttribute="bottom" id="bEO-q9-XhH"/>
+                            <constraint firstItem="3Im-gB-XGC" firstAttribute="leading" secondItem="tlk-cH-uUb" secondAttribute="leading" id="dIw-wg-F5X"/>
+                            <constraint firstItem="deI-q0-r8r" firstAttribute="top" secondItem="3Im-gB-XGC" secondAttribute="bottom" id="eA2-0c-gOl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="3Im-gB-XGC" id="697-uH-dK2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYQ-VC-e9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5999999999999" y="-575.26236881559225"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Th-IU-ZGe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wrF-jJ-Zp7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wgP-J9-Bjg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="f75-r5-wyH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRo-di-NGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="-575.26236881559225"/>
+        </scene>
+    </scenes>
+</document>
