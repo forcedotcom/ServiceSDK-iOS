@@ -10,7 +10,7 @@ import ServiceChat
 /**
  This is a helper class that configures Snap-ins chat and launches a chat session.
  */
-class ChatConfig : NSObject {
+class ChatManager : NSObject {
   
   // TO DO: Fill in these org configuration settings.
   // See the Snap-ins Developer's Guide for more info:
@@ -19,31 +19,39 @@ class ChatConfig : NSObject {
   static let CHAT_ORG_ID = "<#org_id#>"
   static let CHAT_DEPLOYMENT_ID = "<#deployment_id#>"
   static let CHAT_BUTTON_ID = "<#button_id#>"
-
   
-  static var configInstance: ChatConfig?
-  var chatConfigSettings: SCSChatConfiguration?
-  var viewController: UIViewController?
+  /**
+   Key for the notification sent when a chat session successfully ends.
+   (Currently used by ViewController to show survey.)
+   */
+  static let CHAT_SESSION_COMPLETED_NOTIFICATION = "com.salesforce.snapinssdk.chatCompletedKey"
+
+  /**
+   Static instance of the chat manager.
+   */
+  static var chatInstance: ChatManager?
+  
+  /**
+   Chat config object.
+   */
+  var chatConfig: SCSChatConfiguration?
   
   /**
    Gets the singleton ChatConfig instance.
    */
-  static var instance: ChatConfig {
-    if (configInstance == nil) {
-      configInstance = ChatConfig()
+  static var instance: ChatManager {
+    if (chatInstance == nil) {
+      chatInstance = ChatManager()
     }
-    return configInstance!
+    return chatInstance!
   }
   
   /**
-   One time configuration for Live Agent Chat.
+   Configures chat.
    */
-  func initialize(viewController: UIViewController) {
+  func initialize() {
 
-    // Keep view controller so that we can perform segues...
-    self.viewController = viewController
-    
-    // Check if we configured org properly
+    // Check if we configured the org properly
     if (!isOrgConfigured()) {
       return
     }
@@ -51,16 +59,26 @@ class ChatConfig : NSObject {
     // Get the service cloud shared instance
     let serviceCloud = SCServiceCloud.sharedInstance()
     
-    // Create a configuration object for Chat
-    self.chatConfigSettings =
-      SCSChatConfiguration(liveAgentPod: ChatConfig.CHAT_POD_NAME,
-                           orgId: ChatConfig.CHAT_ORG_ID,
-                           deploymentId: ChatConfig.CHAT_DEPLOYMENT_ID,
-                           buttonId: ChatConfig.CHAT_BUTTON_ID)
+    // Create a configuration object for chat
+    self.chatConfig =
+      SCSChatConfiguration(liveAgentPod: ChatManager.CHAT_POD_NAME,
+                           orgId: ChatManager.CHAT_ORG_ID,
+                           deploymentId: ChatManager.CHAT_DEPLOYMENT_ID,
+                           buttonId: ChatManager.CHAT_BUTTON_ID)
     
     // Add self as a chat delegate
-    // (See ViewController+ChatDelegate.swift for the implementation)
+    // (See ChatManager+ChatDelegate.swift for the implementation)
     serviceCloud.chat.add(self)
+  }
+  
+  /**
+   Unsubscribes as chat delegate.
+   */
+  func uninitialize() {
+    if (isOrgConfigured(showAlert: false)) {
+      // Remove ourselves as a chat delegate
+      SCServiceCloud.sharedInstance().chat.remove(self)
+    }
   }
   
   /**
@@ -73,7 +91,7 @@ class ChatConfig : NSObject {
     }
 
     // Start a session with the configuration information
-    SCServiceCloud.sharedInstance().chat.startSession(with: chatConfigSettings)
+    SCServiceCloud.sharedInstance().chat.startSession(with: chatConfig)
   }
   
   /**
@@ -81,17 +99,18 @@ class ChatConfig : NSObject {
    */
   func isOrgConfigured(showAlert: Bool = true) -> Bool {
     
-    // Check whether any of the org settings have not been configured yet...
     let snippetPrefix = "<#"
-    if (ChatConfig.CHAT_POD_NAME.contains(snippetPrefix) ||
-      ChatConfig.CHAT_ORG_ID.contains(snippetPrefix) ||
-      ChatConfig.CHAT_DEPLOYMENT_ID.contains(snippetPrefix) ||
-      ChatConfig.CHAT_BUTTON_ID.contains(snippetPrefix)) {
+
+    // Check whether any of the org settings have not been configured yet...
+    if (ChatManager.CHAT_POD_NAME.contains(snippetPrefix) ||
+        ChatManager.CHAT_ORG_ID.contains(snippetPrefix) ||
+        ChatManager.CHAT_DEPLOYMENT_ID.contains(snippetPrefix) ||
+        ChatManager.CHAT_BUTTON_ID.contains(snippetPrefix)) {
       
       // Show an alert
       if (showAlert) {
         self.showSimpleChatAlert(title: "Invalid Org Settings",
-          message: "Update your org settings in the ViewController class.")
+          message: "Update your org settings in the ChatManager class.")
       }
       
       return false
@@ -121,13 +140,9 @@ class ChatConfig : NSObject {
   }
 
   /**
-   Handle deallocation of object.
+   Handles deallocation of object.
    */
   deinit {
-    if (isOrgConfigured(showAlert: false)) {
-      // Remove ourselves as a chat delegate
-      let serviceCloud = SCServiceCloud.sharedInstance()
-      serviceCloud.chat.remove(self)
-    }
+    uninitialize()
   }
 }

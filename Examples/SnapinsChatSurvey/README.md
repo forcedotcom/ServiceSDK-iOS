@@ -6,10 +6,11 @@ A simple Live Agent Chat app using the Snap-ins SDK that launches a chat session
 
 ## Instructions
 
-To use this app, clone this repository, put the required framework files in the [Frameworks root directory](../../Frameworks/), and update the `ViewController` class with your org settings.
+To use this app, clone this repository, put the required framework files in the [Frameworks root directory](../../Frameworks/), and update the `ChatManager` class with your org settings.
 
 ## Code Info
 
-* [ChatConfig](./SnapinsChatSurvey/ChatConfig.swift): Configures and initializes a chat session.
-* [ChatConfigr+ChatDelegate](./SnapinsChatSurvey/ChatConfig%2BChatDelegate.swift): Delegate for Live Agent Chat events. This implementation handles the end session event and launches the survey view.
+* [ChatManager](./SnapinsChatSurvey/ChatManager): Configures and initializes a chat session.
+* [ChatManager+ChatDelegate](./SnapinsChatSurvey/ChatManager%2BChatDelegate.swift): Delegate for Live Agent Chat events. This implementation handles the end session event and sends a notification when a chat completes successfully.
+* [ViewController](./SnapinsChatSurvey/ViewController.swift): Initial view controller. Tells `ChatManager` to configure and launch chat. Also listens for a chat completion notification and then performs a segue to the `SurveyViewController`.
 * [SurveyViewController](./SnapinsChatSurvey/SurveyViewController.swift): By default, this class launches a web view containing a survey. You could show a local survey instead.
