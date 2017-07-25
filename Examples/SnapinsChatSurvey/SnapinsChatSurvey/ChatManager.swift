@@ -1,5 +1,5 @@
 //
-//  ChatConfig.swift
+//  ChatManager.swift
 //  SnapinsChatSurvey
 //
 
@@ -37,7 +37,7 @@ class ChatManager : NSObject {
   var chatConfig: SCSChatConfiguration?
   
   /**
-   Gets the singleton ChatConfig instance.
+   Gets the singleton ChatManager instance.
    */
   static var instance: ChatManager {
     if (chatInstance == nil) {

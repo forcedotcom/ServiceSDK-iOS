@@ -1,5 +1,5 @@
 //
-//  ChatConfig+ChatDelegate.swift
+//  ChatManager+ChatDelegate.swift
 //  SnapinsChatSurvey
 //
 
@@ -8,7 +8,7 @@ import ServiceCore
 import ServiceChat
 
 /**
- Adds a chat delegate to `ChatConfig`.
+ Adds a chat delegate to `ChatManager`.
  This delegate handles events related to a Live Agent Chat session.
  */
 extension ChatManager : SCSChatDelegate {
