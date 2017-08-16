@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Action Button Customization  Reference</title>
+    <title>servicecommon-strings  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
       });
     </script>
 
-    <a title="Action Button Customization  Reference"></a>
+    <a title="servicecommon-strings  Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -39,7 +39,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="index.html">SnapinsSDK Reference</a>
       <img class="carat" src="img/carat.png" />
-      Action Button Customization  Reference
+      servicecommon-strings  Reference
     </p>
 
     <div class="content-wrapper">
@@ -739,236 +739,12 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>Action Button Customization</h1>
-            <p>Customize the action buttons used throughout the interface.</p>
+            
+            <h1 id='service-common-strings' class='heading'>Service Common Strings</h1>
 
           </div>
         </section>
 
-        <section class="section">
-          <div class="section-content">
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSActionManager"></a>
-                    <a name="//apple_ref/objc/Class/SCSActionManager" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSActionManager">SCSActionManager</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The SCSActionManager class controls the handling and display of the action buttons that are overlaid on the various ServiceSDK interface elements to allow the user to initiate various actions, such as:</p>
-
-<ul>
-<li>Creating a new case.</li>
-<li>Initiating a knowledge article search.</li>
-<li>Starting a Live Agent chat session.</li>
-<li>Initiating an SOS support session.</li>
-</ul>
-
-<p>These built-in actions are managed through the account manager class, and can be customized through the use of it and the associated protocols available.  Furthermore, the SCSActionManagerDelegate protocol can be used to interact with, and customize, the handling of these actions.</p>
-
-<p>Each action button that is displayed is represented by UIView instances that conform to the SCSActionItem protocol.  Each of these items are displayed within a UIViewController instance that conforms to the SCSActionItemController protocol.  Built-in defaults are provided that implement these behaviors, and can be used to extend or customize functionality.  Furthermore, the default action button is exposed as the SCSActionButton class, and can be used to introduce additional actions along side the built-in defaults, while still maintaining the same visual appearance.</p>
-
-                        <a href="Classes/SCSActionManager.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSActionManager</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSActionManager</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate"></a>
-                    <a name="//apple_ref/objc/Protocol/SCSActionManagerDelegate" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate">SCSActionManagerDelegate</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Delegate protocol used by the SCSActionManager to customize the appearance and functionality of the action manager.</p>
-
-                        <a href="Protocols/SCSActionManagerDelegate.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSActionManagerDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SCSActionManagerDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionItem"></a>
-                    <a name="//apple_ref/objc/Protocol/SCSActionItem" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionItem">SCSActionItem</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Protocol defining the type of views capable of being added to an action controller.</p>
-
-                        <a href="Protocols/SCSActionItem.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSActionItem</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SCSActionItem</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(cs)SCSActionButton"></a>
-                    <a name="//apple_ref/objc/Class/SCSActionButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(cs)SCSActionButton">SCSActionButton</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Default SCSActionItem instance that provides the circular button for the default experience.</p>
-
-                        <a href="Classes/SCSActionButton.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSActionButton</span> <span class="p">:</span> <span class="nc">UIButton</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SCSActionItem.html">SCSActionItem</a></span><span class="o">&gt;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSActionButton</span> <span class="p">:</span> <span class="kt">UIButton</span><span class="p">,</span> <span class="kt"><a href="Protocols/SCSActionItem.html">SCSActionItem</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionItemContainer"></a>
-                    <a name="//apple_ref/objc/Protocol/SCSActionItemContainer" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionItemContainer">SCSActionItemContainer</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Protocol defining a type of UIViewController that can be used to display action views.  The current implementation of this protocol is SCSActionButtonViewController.</p>
-
-                        <a href="Protocols/SCSActionItemContainer.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSActionItemContainer</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SCSActionItemContainer</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul class="item-container">
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:SCCDefines.h@T@SCSActionItemDefaultSort"></a>
-                    <a name="//apple_ref/objc/Type/SCSActionItemDefaultSort" class="dashAnchor"></a>
-                    <a class="token" href="#/c:SCCDefines.h@T@SCSActionItemDefaultSort">SCSActionItemDefaultSort</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Type Definitions/SCSActionItemDefaultSort.html" class="slightly-smaller">See more</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
 
       </article>
     </div>
