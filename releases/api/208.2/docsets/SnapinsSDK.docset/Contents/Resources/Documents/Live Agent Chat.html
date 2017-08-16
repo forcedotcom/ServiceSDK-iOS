@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Live Agent Chat  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jazzy.js" defer></script>
+
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        $("#Nav-Constants").hide();
+        $("#Nav-Other\\ Constants").hide();
+      });
+    </script>
+
+    <a title="Live Agent Chat  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="http://forcedotcom.github.io/ServiceSDK-iOS/">
+          SnapinsSDK iOS Reference Documentation Home
+        </a>
+        
+      </p>
+    
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://http%3A%2F%2Fforcedotcom%2Egithub%2Eio%2FServiceSDK%2DiOS%2Freleases%2Fapi%2Fdocsets%2FSnapinsSDK%2Exml">
+            <img class="header-icon" src="img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">SnapinsSDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Live Agent Chat  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name" id="Nav-SDK Common">
+            <a class="nav-group-name-link" href="SDK Common.html">SDK Common</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCServiceCloud.html">SCServiceCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCAppearanceConfigurationDelegate.html">SCAppearanceConfigurationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSMinimizable.html">SCSMinimizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCServiceErrorCode.html">SCServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSNotification.html">SCSNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSNotificationType.html">SCSNotificationType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Case Management">
+            <a class="nav-group-name-link" href="Case Management.html">Case Management</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCCaseInterface.html">SCCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="case-management-strings.html">case-management-strings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseDetailViewController.html">SCSCaseDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCaseDetailViewControllerDelegate.html">SCSCaseDetailViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCaseErrorCode.html">SCSCaseErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseListViewController.html">SCSCaseListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCaseListViewControllerDelegate.html">SCSCaseListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseNotification.html">SCSCaseNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCasePublisherResult.html">SCSCasePublisherResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCasePublisherViewController.html">SCSCasePublisherViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCasePublisherViewControllerDelegate.html">SCSCasePublisherViewControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Knowledge">
+            <a class="nav-group-name-link" href="Knowledge.html">Knowledge</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCKnowledgeInterfaceDelegate.html">SCKnowledgeInterfaceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSKnowledgeManager.html">SCSKnowledgeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="knowledge-strings.html">knowledge-strings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCArticleSortByField.html">SCArticleSortByField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCArticleSortOrder.html">SCArticleSortOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCChannelType.html">SCChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCQueryMethod.html">SCQueryMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticle.html">SCSArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSArticleDownloadOption.html">SCSArticleDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleViewController.html">SCSArticleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSArticleViewControllerDelegate.html">SCSArticleViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleQuery.html">SCSArticleQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCategoryGroup.html">SCSCategoryGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCategory.html">SCSCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSKnowledgeErrorCode.html">SCSKnowledgeErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSMutableArticleQuery.html">SCSMutableArticleQuery</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Live Agent Chat">
+            <a class="nav-group-name-link" href="Live Agent Chat.html">Live Agent Chat</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSChat.html">SCSChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSChatConfiguration.html">SCSChatConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSChatDelegate.html">SCSChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="live-agent-chat-strings.html">live-agent-chat-strings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Live Agent Chat.html#/c:SCSChat.h@T@SCSChatAvailabilityHandler">SCSChatAvailabilityHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Live Agent Chat.html#/c:SCSChat.h@T@SCSChatCompletionHandler">SCSChatCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatEndReason.html">SCSChatEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatErrorCode.html">SCSChatErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatPresentationStyle.html">SCSChatPresentationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatSessionState.html">SCSChatSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatObject.html">SCSPrechatObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatPickerObject.html">SCSPrechatPickerObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatPickerOption.html">SCSPrechatPickerOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatTextInputObject.html">SCSPrechatTextInputObject</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-SOS">
+            <a class="nav-group-name-link" href="SOS.html">SOS</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSSessionManager.html">SOSSessionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSOptions.html">SOSOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSDelegate.html">SOSDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="sos-strings.html">sos-strings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSAgentAvailability.html">SOSAgentAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSAgentAvailabilityStatusType.html">SOSAgentAvailabilityStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSCameraBaseViewController.html">SOSCameraBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSCameraType.html">SOSCameraType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="SOS.html#/c:SOSSessionManager.h@T@SOSCompletionHandler">SOSCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSConnectingBaseViewController.html">SOSConnectingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSErrorCode.html">SOSErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="SOS.html#/c:objc(cs)SOSLineDrawView">SOSLineDrawView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSMaskedTextField.html">SOSMaskedTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSMaskable.html">SOSMaskable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSMasking.html">SOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSMaskState.html">SOSMaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSNetworkReporter.html">SOSNetworkReporter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSNetworkReporterDelegate.html">SOSNetworkReporterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSNetworkStatus.html">SOSNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSOnboardingBaseViewController.html">SOSOnboardingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSReconnectStatus.html">SOSReconnectStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenAnnotations.html">SOSScreenAnnotations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenSharing.html">SOSScreenSharing</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenSharingBaseViewController.html">SOSScreenSharingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSSessionViewController.html">SOSSessionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSSessionState.html">SOSSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSStopReason.html">SOSStopReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUIDeviceCameraReceivable.html">SOSUIDeviceCameraReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSUIPhase.html">SOSUIPhase</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Action Button Customization">
+            <a class="nav-group-name-link" href="Action Button Customization.html">Action Button Customization</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSActionManager.html">SCSActionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionManagerDelegate.html">SCSActionManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionItem.html">SCSActionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSActionButton.html">SCSActionButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions/SCSActionItemDefaultSort.html">SCSActionItemDefaultSort</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Guides">
+            <a class="nav-group-name-link" href="Other Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="getting-started.html">Getting Started</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Constants">
+            <a class="nav-group-name-link" href="Other Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@CaseUIVersionNumber">CaseUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@CaseUIVersionString">CaseUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeCoreVersionNumber">KnowledgeCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeCoreVersionString">KnowledgeCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeUIVersionNumber">KnowledgeUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeUIVersionString">KnowledgeUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelArticleListSummaryName">SCAppearanceLabelArticleListSummaryName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelArticleListTitleName">SCAppearanceLabelArticleListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseDetailSubtitle">SCAppearanceLabelCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseDetailTitle">SCAppearanceLabelCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseFeedItemBodyName">SCAppearanceLabelCaseFeedItemBodyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseFeedTitle">SCAppearanceLabelCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListDate">SCAppearanceLabelCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListSubTitle">SCAppearanceLabelCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListTitle">SCAppearanceLabelCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCategoryListTitleName">SCAppearanceLabelCategoryListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightBold">SCFontWeightBold</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightLight">SCFontWeightLight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightRegular">SCFontWeightRegular</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCInterfaceStyleDefault">SCInterfaceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionArticleSearch">SCSActionArticleSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCaseInterface">SCSActionCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCaseList">SCSActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCasePublisher">SCSActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionChatInterface">SCSActionChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceBrandContrastColor">SCSAppearanceBrandContrastColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastInvertedColor">SCSAppearanceContrastInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastPrimaryColor">SCSAppearanceContrastPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastQuaternaryColor">SCSAppearanceContrastQuaternaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastSecondaryColor">SCSAppearanceContrastSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastTertiaryColor">SCSAppearanceContrastTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackPrimaryColor">SCSAppearanceFeedbackPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackSecondaryColor">SCSAppearanceFeedbackSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackTertiaryColor">SCSAppearanceFeedbackTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceNavbarBackgroundColor">SCSAppearanceNavbarBackgroundColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceNavbarInvertedColor">SCSAppearanceNavbarInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceOverlayColor">SCSAppearanceOverlayColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearancePrimaryBrandColor">SCSAppearancePrimaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearancePrimaryBrandInvertedColor">SCSAppearancePrimaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceSecondaryBrandColor">SCSAppearanceSecondaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceSecondaryBrandInvertedColor">SCSAppearanceSecondaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceTitleTextColor">SCSAppearanceTitleTextColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSArticleDownloadBeganNotification">SCSArticleDownloadBeganNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSArticleDownloadFinishedNotification">SCSArticleDownloadFinishedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseCoreLogIdentifier">SCSCaseCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseErrorDomain">SCSCaseErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseUILogIdentifier">SCSCaseUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSChatCoreLogIdentifier">SCSChatCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSChatUILogIdentifier">SCSChatUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeCoreLogIdentifier">SCSKnowledgeCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeErrorDomain">SCSKnowledgeErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryAddedNotification">SCSKnowledgeManagerCategoryAddedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryDeletedNotification">SCSKnowledgeManagerCategoryDeletedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryKey">SCSKnowledgeManagerCategoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryUpdatedNotification">SCSKnowledgeManagerCategoryUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerIndexKey">SCSKnowledgeManagerIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSNotificationPayloadKeyCaseId">SCSNotificationPayloadKeyCaseId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSOAuthInvalidSessionId">SCSOAuthInvalidSessionId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceCloudErrorDomain">SCServiceCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceCloudLoggingErrorDomain">SCServiceCloudLoggingErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceErrorDomain">SCServiceErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCUAppearanceStyleDefault">SCUAppearanceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCUServiceUserAccountChangedNotification">SCUServiceUserAccountChangedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCasesVersionNumber">ServiceCasesVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCasesVersionString">ServiceCasesVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceChatVersionNumber">ServiceChatVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceChatVersionString">ServiceChatVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCoreVersionNumber">ServiceCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCoreVersionString">ServiceCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceKnowledgeVersionNumber">ServiceKnowledgeVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceKnowledgeVersionString">ServiceKnowledgeVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:SCSChatCoreDefines.h@kLiveAgentAPIVersion">kLiveAgentAPIVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kPrechatVisitorNameLabel">kPrechatVisitorNameLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionCaseList">kSCAppearanceActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionCasePublisher">kSCAppearanceActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionSearch">kSCAppearanceActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceAttachmentClipIcon">kSCAppearanceAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceBack">kSCAppearanceBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCaseSubmitSuccess">kSCAppearanceCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCategoryHeaderArrow">kSCAppearanceCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatAgentAvatar">kSCAppearanceChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatConnectingIcon">kSCAppearanceChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatConnectingIconLarge">kSCAppearanceChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatIcon">kSCAppearanceChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCompose">kSCAppearanceCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCountBadgeBackground">kSCAppearanceCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceDone">kSCAppearanceDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceDropdown">kSCAppearanceDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptyArticle">kSCAppearanceEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptyIcon">kSCAppearanceEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptySection">kSCAppearanceEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceError">kSCAppearanceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceGenericError">kSCAppearanceGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceImageClose">kSCAppearanceImageClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceMinimizeButtonImage">kSCAppearanceMinimizeButtonImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoAccess">kSCAppearanceNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoConnection">kSCAppearanceNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoSearchResult">kSCAppearanceNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearancePicklistDropdown">kSCAppearancePicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearancePreChatIcon">kSCAppearancePreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSAgentMutedIcon">kSCAppearanceSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSAgentPlaceHolderIcon">kSCAppearanceSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSCameraIcon">kSCAppearanceSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSCancelIcon">kSCAppearanceSOSCancelIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSConfirmIcon">kSCAppearanceSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSEndIcon">kSCAppearanceSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSExpandIcon">kSCAppearanceSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSFlashlightIcon">kSCAppearanceSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSInfoIcon">kSCAppearanceSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMasking">kSCAppearanceSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMicrophoneIcon">kSCAppearanceSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMicrophoneMutedIcon">kSCAppearanceSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSPauseIcon">kSCAppearanceSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSResumeIcon">kSCAppearanceSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSearchPlaceholder">kSCAppearanceSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubCategoryIcon">kSCAppearanceSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubmitButtonNextArrow">kSCAppearanceSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubmitButtonPreviousArrow">kSCAppearanceSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceWhiteBubble">kSCAppearanceWhiteBubble</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Live Agent Chat</h1>
+            <p>Classes related to Live Agent Chat.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSChat"></a>
+                    <a name="//apple_ref/objc/Class/SCSChat" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSChat">SCSChat</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SCSChat</code> class is the main interface to the Live Agent Chat SDK.
+This object manages the flow of Chat sessions throughout the lifetime of the app.</p>
+
+<p>To get an instance of this class, use the <code><a href="Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)chat">SCServiceCloud.chat</a></code> property
+on <code><a href="Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(cm)sharedInstance">+[SCServiceCloud sharedInstance]</a></code>.</p>
+
+<p><code>SCSChat</code> conforms to a multicast delegate model for messaging. Any class which
+implements the <code><a href="Protocols/SCSChatDelegate.html">SCSChatDelegate</a></code> protocol can be added to a list of delegates to
+receive messages asynchronously.</p>
+
+                        <a href="Classes/SCSChat.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSChat</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSChat</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:SCSChat.h@T@SCSChatAvailabilityHandler"></a>
+                    <a name="//apple_ref/objc/Type/SCSChatAvailabilityHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/c:SCSChat.h@T@SCSChatAvailabilityHandler">SCSChatAvailabilityHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SCSChatAvailabilityHandler block definition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">typedef</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">SCSChatAvailabilityHandler</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">__strong</span><span class="p">,</span> <span class="n">BOOL</span><span class="p">)</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">typealias</span> <span class="kt">SCSChatAvailabilityHandler</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Error</span><span class="p">?,</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>NSError</code> instance describing the error. 
+             Error codes can be referenced from <code>SCSChatErrorCode</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>available</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>BOOL</code> representing the availability of an agent to accept 
+             a chat session.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:SCSChat.h@T@SCSChatCompletionHandler"></a>
+                    <a name="//apple_ref/objc/Type/SCSChatCompletionHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/c:SCSChat.h@T@SCSChatCompletionHandler">SCSChatCompletionHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SCSChatCompletionHandler block definition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">typedef</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">SCSChatCompletionHandler</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">__strong</span><span class="p">,</span> <span class="n"><a href="Classes/SCSChat.html">SCSChat</a></span> <span class="o">*</span><span class="n">__weak</span><span class="p">)</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">typealias</span> <span class="kt">SCSChatCompletionHandler</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Error</span><span class="p">?,</span> <span class="kt"><a href="Classes/SCSChat.html">SCSChat</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>NSError</code> instance describing the error.
+         Error codes can be referenced from <code>SCSChatErrorCode</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scsc</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The instance of <code>SCSChat</code> the block is acting on.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSChatConfiguration"></a>
+                    <a name="//apple_ref/objc/Class/SCSChatConfiguration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSChatConfiguration">SCSChatConfiguration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>SCSChatConfiguration</code> object contains configuration information for a
+Live Agent Chat session.</p>
+
+                        <a href="Classes/SCSChatConfiguration.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSChatConfiguration</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSChatConfiguration</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SCSChatPresentationStyle"></a>
+                    <a name="//apple_ref/objc/Enum/SCSChatPresentationStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatPresentationStyle">SCSChatPresentationStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes how a chat session is presented.</p>
+
+                        <a href="Enums/SCSChatPresentationStyle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SCSChatPresentationStyle</span> <span class="o">:</span> <span class="n">NSUInteger</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SCSChatPresentationStyle</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SCSChatDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/SCSChatDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SCSChatDelegate">SCSChatDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SCSChatDelegate</code> protocol provides information about the Live Agent Chat 
+session.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SCSChat.html">SCSChat</a></code>
+
+</div>
+
+                        <a href="Protocols/SCSChatDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSChatDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SCSChatDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SCSChatEndReason"></a>
+                    <a name="//apple_ref/objc/Enum/SCSChatEndReason" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatEndReason">SCSChatEndReason</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reasons why a Live Agent Session may have ended.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SCSChatDelegate.html#/c:objc(pl)SCSChatDelegate(im)chat:didEndWithReason:error:">-[SCSChatDelegate chat:didEndWithReason:error:]</a></code>
+
+</div>
+
+                        <a href="Enums/SCSChatEndReason.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SCSChatEndReason</span> <span class="o">:</span> <span class="n">NSInteger</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SCSChatErrorCode"></a>
+                    <a name="//apple_ref/objc/Enum/SCSChatErrorCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatErrorCode">SCSChatErrorCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Live Agent Chat ErrorCode definitions.</p>
+
+<p>Errors fall into one of several groups (or series) of errors.</p>
+
+<p>If there is an error thrown by a library dependency it will be included as metadata
+  in the userInfo of the error which is returned to the application code.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SCSChatDelegate.html#/c:objc(pl)SCSChatDelegate(im)chat:didError:">-[SCSChatDelegate chat:didError:]</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SCSChatDelegate.html#/c:objc(pl)SCSChatDelegate(im)chat:didEndWithReason:error:">-[SCSChatDelegate chat:didEndWithReason:error:]</a></code>
+
+</div>
+
+                        <a href="Enums/SCSChatErrorCode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SCSChatErrorCode</span> <span class="o">:</span> <span class="n">NSInteger</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SCSChatErrorCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SCSChatSessionState"></a>
+                    <a name="//apple_ref/objc/Enum/SCSChatSessionState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatSessionState">SCSChatSessionState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Full list of Session states the Live Agent Chat framework can exhibit.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SCSChatDelegate.html#/c:objc(pl)SCSChatDelegate(im)chat:stateDidChange:previous:">-[SCSChatDelegate chat:stateDidChange:previous:]</a></code>
+
+</div>
+
+                        <a href="Enums/SCSChatSessionState.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SCSChatSessionState</span> <span class="o">:</span> <span class="n">NSInteger</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSPrechatObject"></a>
+                    <a name="//apple_ref/objc/Class/SCSPrechatObject" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSPrechatObject">SCSPrechatObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A <code>SCSPrechatObject</code> specifies a pre-chat field that you can send directly 
+to the agent. This object contains a <code>label</code> and a <code>value</code>.</p>
+
+<p>This object does not prompt the user for information. To create a field that the
+user can fill in, refer to <code><a href="Classes/SCSPrechatTextInputObject.html">SCSPrechatTextInputObject</a></code>.</p>
+
+<p>This object must be added to your chat configuration using 
+<code><a href="Classes/SCSChatConfiguration.html#/c:objc(cs)SCSChatConfiguration(py)prechatFields">SCSChatConfiguration.prechatFields</a></code>.</p>
+
+                        <a href="Classes/SCSPrechatObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSPrechatObject</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSPrechatObject</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSPrechatPickerObject"></a>
+                    <a name="//apple_ref/objc/Class/SCSPrechatPickerObject" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSPrechatPickerObject">SCSPrechatPickerObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>SCSPrechatPickerObject</code> specifies a pre-chat picker field that is
+displayed before a chat session is initiated.</p>
+
+<p>Use the <code><a href="Classes/SCSPrechatPickerObject.html#/c:objc(cs)SCSPrechatPickerObject(py)required">SCSPrechatPickerObject.required</a></code> property to specify whether this 
+field must have an option selected before initiating a session.</p>
+
+<p>To send data directly to the agent without user input, see <code><a href="Classes/SCSPrechatObject.html">SCSPrechatObject</a></code>.</p>
+
+<p>This object must be added to your chat configuration using 
+<code><a href="Classes/SCSChatConfiguration.html#/c:objc(cs)SCSChatConfiguration(py)prechatFields">SCSChatConfiguration.prechatFields</a></code>.</p>
+
+                        <a href="Classes/SCSPrechatPickerObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSPrechatPickerObject</span> <span class="p">:</span> <span class="nc"><a href="Classes/SCSPrechatObject.html">SCSPrechatObject</a></span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSPrechatPickerObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSPrechatPickerOption"></a>
+                    <a name="//apple_ref/objc/Class/SCSPrechatPickerOption" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSPrechatPickerOption">SCSPrechatPickerOption</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>SCSPrechatPickerOption</code> specifies an option inside a pre-chat picker field
+ that is displayed before a chat session is initiated.</p>
+
+<p>This object must be added to the options array on an <code><a href="Classes/SCSPrechatPickerObject.html">SCSPrechatPickerObject</a></code>.</p>
+
+                        <a href="Classes/SCSPrechatPickerOption.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSPrechatPickerOption</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSPrechatPickerOption</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSPrechatTextInputObject"></a>
+                    <a name="//apple_ref/objc/Class/SCSPrechatTextInputObject" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSPrechatTextInputObject">SCSPrechatTextInputObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An <code>SCSPrechatTextInputObject</code> specifies a pre-chat text input field that is
+displayed before a chat session is initiated.</p>
+
+<p>Use the <code><a href="Classes/SCSPrechatTextInputObject.html#/c:objc(cs)SCSPrechatTextInputObject(py)required">SCSPrechatTextInputObject.required</a></code> property to specify whether
+this field must be filled in before initiating a session.</p>
+
+<p>To send data directly to the agent without user input, see <code><a href="Classes/SCSPrechatObject.html">SCSPrechatObject</a></code>.</p>
+
+<p>This object must be added to your chat configuration using 
+<code><a href="Classes/SCSChatConfiguration.html#/c:objc(cs)SCSChatConfiguration(py)prechatFields">SCSChatConfiguration.prechatFields</a></code>.</p>
+
+                        <a href="Classes/SCSPrechatTextInputObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SCSPrechatTextInputObject</span> <span class="p">:</span> <span class="nc"><a href="Classes/SCSPrechatObject.html">SCSPrechatObject</a></span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SCSPrechatTextInputObject</span> <span class="p">:</span> <span class="kt"><a href="Classes/SCSPrechatObject.html">SCSPrechatObject</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://developer.salesforce.com/page/SnapinsMobile" target="_blank" rel="external">Salesforce</a>. All rights reserved. (Last updated: 2017-08-16)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
