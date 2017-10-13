@@ -1,0 +1,1517 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseCore.framework/Headers/SCCaseDefines.h",
+      "line": 35,
+      "symbol": "SCSCaseCoreLogIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseCore.framework/Headers/SCCaseDefines.h",
+      "line": 38,
+      "symbol": "SCSCaseErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/CaseUI.h",
+      "line": 27,
+      "symbol": "CaseUIVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/CaseUI.h",
+      "line": 28,
+      "symbol": "CaseUIVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseInterface+CaseUI.h",
+      "line": 30,
+      "symbol": "SCCaseInterface(CaseUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 36,
+      "symbol": "SCSAppearanceImageToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 39,
+      "symbol": "SCSAppearanceImageTokenCaseSubmitSuccess",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 40,
+      "symbol": "SCSAppearanceImageTokenPicklistDropdown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 41,
+      "symbol": "SCSAppearanceImageTokenCompose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 42,
+      "symbol": "SCSAppearanceImageTokenActionCasePublisher",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 43,
+      "symbol": "SCSAppearanceImageTokenEmptyIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 45,
+      "symbol": "SCSCaseUILogIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 50,
+      "symbol": "kSCAppearanceCaseSubmitSuccess",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 54,
+      "symbol": "kSCAppearancePicklistDropdown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 58,
+      "symbol": "kSCAppearanceCompose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 62,
+      "symbol": "kSCAppearanceActionCasePublisher",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 66,
+      "symbol": "kSCAppearanceActionCaseList",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCCaseUIDefines.h",
+      "line": 69,
+      "symbol": "kSCAppearanceEmptyIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Frameworks/CaseUI.framework/Headers/SCServiceCloud+CaseUI.h",
+      "line": 28,
+      "symbol": "SCServiceCloud(CaseManagement)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Headers/ServiceCases.h",
+      "line": 28,
+      "symbol": "ServiceCasesVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCases.framework/Headers/ServiceCases.h",
+      "line": 31,
+      "symbol": "ServiceCasesVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSChatCoreDefines.h",
+      "line": 29,
+      "symbol": "kLiveAgentAPIVersion",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSChatCoreDefines.h",
+      "line": 85,
+      "symbol": "SCSChatCoreLogIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatEntity.h",
+      "line": 77,
+      "symbol": "SCSPrechatEntity.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatEntityField.h",
+      "line": 71,
+      "symbol": "SCSPrechatEntityField.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatObject.h",
+      "line": 29,
+      "symbol": "kPrechatVisitorNameLabel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatObject.h",
+      "line": 94,
+      "symbol": "SCSPrechatObject.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatPickerObject.h",
+      "line": 71,
+      "symbol": "SCSPrechatPickerObject.-initWithLabel:value:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatPickerOption.h",
+      "line": 65,
+      "symbol": "SCSPrechatPickerOption.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSPrechatTextInputObject.h",
+      "line": 85,
+      "symbol": "SCSPrechatTextInputObject.-initWithLabel:value:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatCore.framework/Headers/SCSServiceConfiguration+ChatCore.h",
+      "line": 28,
+      "symbol": "SCSServiceConfiguration(ChatCore)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 19,
+      "symbol": "SCSChatUILogIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 22,
+      "symbol": "SCSAppearanceImageToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 25,
+      "symbol": "SCSAppearanceImageTokenActionChat",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 26,
+      "symbol": "SCSAppearanceImageTokenChatAgentAvatar",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 27,
+      "symbol": "SCSAppearanceImageTokenAttachmentClipIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 28,
+      "symbol": "SCSAppearanceImageTokenPreChatIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 29,
+      "symbol": "SCSAppearanceImageTokenDropdown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 30,
+      "symbol": "SCSAppearanceImageTokenChatConnectingIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 31,
+      "symbol": "SCSAppearanceImageTokenChatConnectingIconLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 32,
+      "symbol": "SCSAppearanceImageTokenErrorLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 37,
+      "symbol": "kSCAppearanceChatIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 41,
+      "symbol": "kSCAppearanceChatAgentAvatar",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 45,
+      "symbol": "kSCAppearanceAttachmentClipIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 49,
+      "symbol": "kSCAppearancePreChatIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 53,
+      "symbol": "kSCAppearanceDropdown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 57,
+      "symbol": "kSCAppearanceChatConnectingIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 61,
+      "symbol": "kSCAppearanceChatConnectingIconLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Frameworks/ChatUI.framework/Headers/SCSChatUIDefines.h",
+      "line": 65,
+      "symbol": "kSCAppearanceErrorLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Headers/ServiceChat.h",
+      "line": 12,
+      "symbol": "ServiceChatVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceChat.framework/Headers/ServiceChat.h",
+      "line": 15,
+      "symbol": "ServiceChatVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 35,
+      "symbol": "SCFontWeightLight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 36,
+      "symbol": "SCFontWeightRegular",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 37,
+      "symbol": "SCFontWeightBold",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 106,
+      "symbol": "SCAppearanceConfiguration(Colors)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 130,
+      "symbol": "SCAppearanceConfiguration(Images)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 155,
+      "symbol": "SCAppearanceConfiguration(Fonts)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCAppearanceConfiguration.h",
+      "line": 209,
+      "symbol": "SCAppearanceConfiguration(AttributedText)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 38,
+      "symbol": "SCInterfaceStyleDefault",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 41,
+      "symbol": "SCServiceType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 42,
+      "symbol": "SCServiceTypeCases",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 43,
+      "symbol": "SCServiceTypeKnowledge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 45,
+      "symbol": "SCServiceCloudErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 46,
+      "symbol": "SCSOAuthInvalidSessionId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 49,
+      "symbol": "SCServiceErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 69,
+      "symbol": "SCSAppearanceColorToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 120,
+      "symbol": "SCSAppearanceImageToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 123,
+      "symbol": "SCSAppearanceImageTokenClose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 124,
+      "symbol": "SCSAppearanceImageTokenNoConnection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 125,
+      "symbol": "SCSAppearanceImageTokenDone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 126,
+      "symbol": "SCSAppearanceImageTokenBack",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 127,
+      "symbol": "SCSAppearanceImageTokenGenericError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 128,
+      "symbol": "SCSAppearanceImageTokenWhiteBubble",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 129,
+      "symbol": "SCSAppearanceImageTokenSubmitButtonPreviousArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 130,
+      "symbol": "SCSAppearanceImageTokenSubmitButtonNextArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 131,
+      "symbol": "SCSAppearanceImageTokenMinimizeButton",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 132,
+      "symbol": "SCSAppearanceImageTokenError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 133,
+      "symbol": "SCSAppearanceImageTokenNoAccess",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 134,
+      "symbol": "SCSAppearanceImageTokenCountBadgeBackground",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 139,
+      "symbol": "SCSAppearanceLabelTokenArticleListTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 140,
+      "symbol": "SCSAppearanceLabelTokenArticleListSummary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 141,
+      "symbol": "SCSAppearanceLabelTokenCategoryListTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 142,
+      "symbol": "SCSAppearanceLabelTokenCaseFeedItemBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 145,
+      "symbol": "SCSAppearanceLabelTokenCaseListTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 146,
+      "symbol": "SCSAppearanceLabelTokenCaseListDate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 147,
+      "symbol": "SCSAppearanceLabelTokenCaseListSubTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 148,
+      "symbol": "SCSAppearanceLabelTokenCaseDetailTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 149,
+      "symbol": "SCSAppearanceLabelTokenCaseDetailSubtitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 150,
+      "symbol": "SCSAppearanceLabelTokenCaseFeedTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 154,
+      "symbol": "SCSAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 156,
+      "symbol": "SCSActionCaseInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 157,
+      "symbol": "SCSActionCasePublisher",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 158,
+      "symbol": "SCSActionCaseList",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 159,
+      "symbol": "SCSActionArticleSearch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 160,
+      "symbol": "SCSActionChatInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 163,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 163,
+      "symbol": "SCSActionItemDefaultSort",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 163,
+      "symbol": "SCSActionItemDefaultSort.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 164,
+      "symbol": ".SCSActionItemDefaultSortArticleSearch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 164,
+      "symbol": "SCSActionItemDefaultSort..SCSActionItemDefaultSortArticleSearch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 165,
+      "symbol": ".SCSActionItemDefaultSortCaseInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 165,
+      "symbol": "SCSActionItemDefaultSort..SCSActionItemDefaultSortCaseInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 166,
+      "symbol": ".SCSActionItemDefaultSortChatInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 166,
+      "symbol": "SCSActionItemDefaultSort..SCSActionItemDefaultSortChatInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 167,
+      "symbol": ".SCSActionItemDefaultSortSOSInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 167,
+      "symbol": "SCSActionItemDefaultSort..SCSActionItemDefaultSortSOSInterface",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 171,
+      "symbol": "SCUServiceUserAccountChangedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 174,
+      "symbol": "SCSNotificationPayloadKeyCaseId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 177,
+      "symbol": "SCServiceCloudLoggingErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 182,
+      "symbol": "SCSAppearancePrimaryBrandColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 186,
+      "symbol": "SCSAppearanceSecondaryBrandColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 190,
+      "symbol": "SCSAppearanceContrastPrimaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 194,
+      "symbol": "SCSAppearanceContrastSecondaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 198,
+      "symbol": "SCSAppearanceContrastInvertedColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 202,
+      "symbol": "SCSAppearanceOverlayColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 206,
+      "symbol": "SCSAppearanceFeedbackPrimaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 210,
+      "symbol": "SCSAppearanceFeedbackSecondaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 214,
+      "symbol": "SCSAppearanceFeedbackTertiaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 218,
+      "symbol": "SCSAppearanceNavbarBackgroundColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 222,
+      "symbol": "SCSAppearanceNavbarInvertedColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 226,
+      "symbol": "SCSAppearancePrimaryBrandInvertedColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 230,
+      "symbol": "SCSAppearanceTitleTextColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 234,
+      "symbol": "SCSAppearanceSecondaryBrandInvertedColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 238,
+      "symbol": "SCSAppearanceBrandContrastColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 242,
+      "symbol": "SCSAppearanceContrastTertiaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 246,
+      "symbol": "SCSAppearanceContrastQuaternaryColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 250,
+      "symbol": "kSCAppearanceImageClose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 254,
+      "symbol": "kSCAppearanceNoConnection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 258,
+      "symbol": "kSCAppearanceDone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 262,
+      "symbol": "kSCAppearanceBack",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 266,
+      "symbol": "kSCAppearanceGenericError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 270,
+      "symbol": "kSCAppearanceWhiteBubble",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 274,
+      "symbol": "kSCAppearanceSubmitButtonPreviousArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 278,
+      "symbol": "kSCAppearanceSubmitButtonNextArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 282,
+      "symbol": "kSCAppearanceMinimizeButtonImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 286,
+      "symbol": "kSCAppearanceError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 290,
+      "symbol": "kSCAppearanceNoAccess",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 294,
+      "symbol": "kSCAppearanceCountBadgeBackground",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 298,
+      "symbol": "SCAppearanceLabelArticleListTitleName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 302,
+      "symbol": "SCAppearanceLabelArticleListSummaryName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 306,
+      "symbol": "SCAppearanceLabelCategoryListTitleName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 310,
+      "symbol": "SCAppearanceLabelCaseFeedItemBodyName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 314,
+      "symbol": "SCAppearanceLabelCaseListTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 318,
+      "symbol": "SCAppearanceLabelCaseListDate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 322,
+      "symbol": "SCAppearanceLabelCaseListSubTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 326,
+      "symbol": "SCAppearanceLabelCaseDetailTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 330,
+      "symbol": "SCAppearanceLabelCaseDetailSubtitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCCDefines.h",
+      "line": 334,
+      "symbol": "SCAppearanceLabelCaseFeedTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCServiceCloud.h",
+      "line": 127,
+      "symbol": "SCServiceCloud(Notifications)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCServiceCloud.h",
+      "line": 157,
+      "symbol": "SCServiceCloud(ActionManager)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Headers/ServiceCore.h",
+      "line": 28,
+      "symbol": "ServiceCoreVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceCore.framework/Headers/ServiceCore.h",
+      "line": 31,
+      "symbol": "ServiceCoreVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/KnowledgeCore.h",
+      "line": 27,
+      "symbol": "KnowledgeCoreVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/KnowledgeCore.h",
+      "line": 28,
+      "symbol": "KnowledgeCoreVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCAppearanceConfiguration+Knowledge.h",
+      "line": 30,
+      "symbol": "SCAppearanceConfiguration(Knowledge)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCDefines.h",
+      "line": 39,
+      "symbol": "SCSKnowledgeErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCDefines.h",
+      "line": 41,
+      "symbol": "SCSKnowledgeCoreLogIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticle.h",
+      "line": 32,
+      "symbol": "SCSArticleDownloadBeganNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticle.h",
+      "line": 33,
+      "symbol": "SCSArticleDownloadFinishedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 117,
+      "symbol": "SCSMutableArticleQuery.articleId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 118,
+      "symbol": "SCSMutableArticleQuery.categories",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 119,
+      "symbol": "SCSMutableArticleQuery.queryMethod",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 120,
+      "symbol": "SCSMutableArticleQuery.searchTerm",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 121,
+      "symbol": "SCSMutableArticleQuery.pageSize",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 122,
+      "symbol": "SCSMutableArticleQuery.sortOrder",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSArticleQuery.h",
+      "line": 123,
+      "symbol": "SCSMutableArticleQuery.sortByField",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSKnowledgeManager.h",
+      "line": 30,
+      "symbol": "SCSKnowledgeManagerCategoryAddedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSKnowledgeManager.h",
+      "line": 31,
+      "symbol": "SCSKnowledgeManagerCategoryUpdatedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSKnowledgeManager.h",
+      "line": 32,
+      "symbol": "SCSKnowledgeManagerCategoryDeletedNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSKnowledgeManager.h",
+      "line": 33,
+      "symbol": "SCSKnowledgeManagerCategoryKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSKnowledgeManager.h",
+      "line": 34,
+      "symbol": "SCSKnowledgeManagerIndexKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeCore.framework/Headers/SCSServiceConfiguration+KnowledgeCore.h",
+      "line": 31,
+      "symbol": "SCSServiceConfiguration(KnowledgeCore)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/KnowledgeUI.h",
+      "line": 27,
+      "symbol": "KnowledgeUIVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/KnowledgeUI.h",
+      "line": 28,
+      "symbol": "KnowledgeUIVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 27,
+      "symbol": "SCSCategoryDisplayMode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 27,
+      "symbol": "SCSCategoryDisplayMode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 28,
+      "symbol": "SCSCategoryDisplayMode.SCSCategoryDisplayModeArticlesOnly",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 29,
+      "symbol": "SCSCategoryDisplayMode.SCSCategoryDisplayModeArticlesAndCategories",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 32,
+      "symbol": "SCSCategoryHeaderType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 32,
+      "symbol": "SCSCategoryHeaderType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 33,
+      "symbol": "SCSCategoryHeaderType.SCSCategoryHeaderTypeArticles",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCSCategoryViewController.h",
+      "line": 34,
+      "symbol": "SCSCategoryHeaderType.SCSCategoryHeaderTypeChildCategories",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCServiceCloud+KnowledgeUI.h",
+      "line": 28,
+      "symbol": "SCServiceCloud(Knowledge)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 44,
+      "symbol": "SCSAppearanceImageToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 48,
+      "symbol": "SCUAppearanceStyleDefault",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 50,
+      "symbol": "SCSAppearanceImageTokenCategoryHeaderArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 51,
+      "symbol": "SCSAppearanceImageTokenEmptyArticle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 52,
+      "symbol": "SCSAppearanceImageTokenEmptySection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 53,
+      "symbol": "SCSAppearanceImageTokenSubCategoryIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 54,
+      "symbol": "SCSAppearanceImageTokenActionSearch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 55,
+      "symbol": "SCSAppearanceImageTokenNoSearchResult",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 56,
+      "symbol": "SCSAppearanceImageTokenSearchPlaceholder",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 61,
+      "symbol": "kSCAppearanceCategoryHeaderArrow",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 65,
+      "symbol": "kSCAppearanceEmptyArticle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 69,
+      "symbol": "kSCAppearanceEmptySection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 73,
+      "symbol": "kSCAppearanceSubCategoryIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 77,
+      "symbol": "kSCAppearanceActionSearch",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 81,
+      "symbol": "kSCAppearanceNoSearchResult",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Frameworks/KnowledgeUI.framework/Headers/SCUDefines.h",
+      "line": 85,
+      "symbol": "kSCAppearanceSearchPlaceholder",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Headers/ServiceKnowledge.h",
+      "line": 28,
+      "symbol": "ServiceKnowledgeVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceKnowledge.framework/Headers/ServiceKnowledge.h",
+      "line": 31,
+      "symbol": "ServiceKnowledgeVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSLineDrawView.h",
+      "line": 27,
+      "symbol": "SOSLineDrawView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSMasking.h",
+      "line": 45,
+      "symbol": "SOSMasking.-initWithSOS:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 31,
+      "symbol": "kSCAppearanceSOSConfirmIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 32,
+      "symbol": "kSCAppearanceSOSEndIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 33,
+      "symbol": "kSCAppearanceSOSPauseIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 34,
+      "symbol": "kSCAppearanceSOSResumeIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 35,
+      "symbol": "kSCAppearanceSOSCameraIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 36,
+      "symbol": "kSCAppearanceSOSMicrophoneIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 37,
+      "symbol": "kSCAppearanceSOSMicrophoneMutedIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 38,
+      "symbol": "kSCAppearanceSOSAgentMutedIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 49,
+      "symbol": "kSCAppearanceSOSFlashlightIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIAppearanceDefines.h",
+      "line": 50,
+      "symbol": "kSCAppearanceSOSInfoIcon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIDeviceCameraReceivable.h",
+      "line": 30,
+      "symbol": "SOSUIDeviceCameraReceivable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIDeviceCameraReceivable.h",
+      "line": 33,
+      "symbol": "SOSUIDeviceCameraReceivable.-willHandleDeviceCamera",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yzalkow/Documents/servicesdk_dev/ref-docs/RefDocs-iOS/Frameworks/ServiceSOS.framework/Headers/SOSUIDeviceCameraReceivable.h",
+      "line": 37,
+      "symbol": "SOSUIDeviceCameraReceivable.-didReceiveDeviceCaptureLayer:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/"
+}

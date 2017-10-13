@@ -1,0 +1,2372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SOS  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jazzy.js" defer></script>
+
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        $("#Nav-Constants").hide();
+        $("#Nav-Other\\ Constants").hide();
+      });
+    </script>
+
+    <a title="SOS  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="http://forcedotcom.github.io/ServiceSDK-iOS/">
+          SnapinsSDK iOS Reference Documentation Home
+        </a>
+        
+      </p>
+    
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://http%3A%2F%2Fforcedotcom%2Egithub%2Eio%2FServiceSDK%2DiOS%2Freleases%2Fapi%2Fdocsets%2FSnapinsSDK%2Exml">
+            <img class="header-icon" src="img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">SnapinsSDK Reference</a>
+      <img class="carat" src="img/carat.png" />
+      SOS  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name" id="Nav-SDK Common">
+            <a class="nav-group-name-link" href="SDK Common.html">SDK Common</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCServiceCloud.html">SCServiceCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCAppearanceConfigurationDelegate.html">SCAppearanceConfigurationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSMinimizable.html">SCSMinimizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCServiceErrorCode.html">SCServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSNotification.html">SCSNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSNotificationType.html">SCSNotificationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="servicecommonstringconstants.html">ServiceCommonStringConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Case Management">
+            <a class="nav-group-name-link" href="Case Management.html">Case Management</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCCaseInterface.html">SCCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseDetailViewController.html">SCSCaseDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCaseDetailViewControllerDelegate.html">SCSCaseDetailViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCaseErrorCode.html">SCSCaseErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseListViewController.html">SCSCaseListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCaseListViewControllerDelegate.html">SCSCaseListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCaseNotification.html">SCSCaseNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCasePublisherResult.html">SCSCasePublisherResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCasePublisherViewController.html">SCSCasePublisherViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCasePublisherViewControllerDelegate.html">SCSCasePublisherViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="casemanagementstringconstants.html">CaseManagementStringConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Knowledge">
+            <a class="nav-group-name-link" href="Knowledge.html">Knowledge</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCKnowledgeInterfaceDelegate.html">SCKnowledgeInterfaceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSKnowledgeManager.html">SCSKnowledgeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCArticleSortByField.html">SCArticleSortByField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCArticleSortOrder.html">SCArticleSortOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCChannelType.html">SCChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCQueryMethod.html">SCQueryMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticle.html">SCSArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSArticleDownloadOption.html">SCSArticleDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleViewController.html">SCSArticleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSArticleViewControllerDelegate.html">SCSArticleViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleQuery.html">SCSArticleQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleQueryListViewController.html">SCSArticleQueryListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSArticleQueryListViewControllerDelegate.html">SCSArticleQueryListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSArticleQueryResultsController.html">SCSArticleQueryResultsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSArticleQueryResultsControllerDelegate.html">SCSArticleQueryResultsControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCategory.html">SCSCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCategoryGroup.html">SCSCategoryGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSCategoryViewController.html">SCSCategoryViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSCategoryViewControllerDelegate.html">SCSCategoryViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSKnowledgeErrorCode.html">SCSKnowledgeErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSKnowledgeHomeViewController.html">SCSKnowledgeHomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSKnowledgeHomeViewControllerDelegate.html">SCSKnowledgeHomeViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSMutableArticleQuery.html">SCSMutableArticleQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="knowledgestringconstants.html">KnowledgeStringConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Live Agent Chat">
+            <a class="nav-group-name-link" href="Live Agent Chat.html">Live Agent Chat</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSChat.html">SCSChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSChatConfiguration.html">SCSChatConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSChatDelegate.html">SCSChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Live Agent Chat.html#/c:SCSChat.h@T@SCSChatAvailabilityHandler">SCSChatAvailabilityHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Live Agent Chat.html#/c:SCSChat.h@T@SCSChatCompletionHandler">SCSChatCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatEndReason.html">SCSChatEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatErrorCode.html">SCSChatErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSChatSessionState.html">SCSChatSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatEntity.html">SCSPrechatEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatEntityField.html">SCSPrechatEntityField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatObject.html">SCSPrechatObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatPickerObject.html">SCSPrechatPickerObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatPickerOption.html">SCSPrechatPickerOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSPrechatTextInputObject.html">SCSPrechatTextInputObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="liveagentchatstringconstants.html">LiveAgentChatStringConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-SOS">
+            <a class="nav-group-name-link" href="SOS.html">SOS</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSSessionManager.html">SOSSessionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSOptions.html">SOSOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSDelegate.html">SOSDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSAgentAvailability.html">SOSAgentAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSAgentAvailabilityStatusType.html">SOSAgentAvailabilityStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSCameraBaseViewController.html">SOSCameraBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSCameraType.html">SOSCameraType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="SOS.html#/c:SOSSessionManager.h@T@SOSCompletionHandler">SOSCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSConnectingBaseViewController.html">SOSConnectingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSErrorCode.html">SOSErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="SOS.html#/c:objc(cs)SOSLineDrawView">SOSLineDrawView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSMaskedTextField.html">SOSMaskedTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSMaskable.html">SOSMaskable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSMasking.html">SOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSMaskState.html">SOSMaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSNetworkReporter.html">SOSNetworkReporter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSNetworkReporterDelegate.html">SOSNetworkReporterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSNetworkStatus.html">SOSNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSOnboardingBaseViewController.html">SOSOnboardingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSReconnectStatus.html">SOSReconnectStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenAnnotations.html">SOSScreenAnnotations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenSharing.html">SOSScreenSharing</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSScreenSharingBaseViewController.html">SOSScreenSharingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSSessionViewController.html">SOSSessionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSSessionState.html">SOSSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSStopReason.html">SOSStopReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUIDeviceCameraReceivable.html">SOSUIDeviceCameraReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SOSUIPhase.html">SOSUIPhase</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="sosstringconstants.html">SOSStringConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Action Button Customization">
+            <a class="nav-group-name-link" href="Action Button Customization.html">Action Button Customization</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSActionManager.html">SCSActionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionManagerDelegate.html">SCSActionManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionItem.html">SCSActionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SCSActionButton.html">SCSActionButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Type Definitions/SCSActionItemDefaultSort.html">SCSActionItemDefaultSort</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Guides">
+            <a class="nav-group-name-link" href="Other Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="getting-started.html">Getting Started</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Constants">
+            <a class="nav-group-name-link" href="Other Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@CaseUIVersionNumber">CaseUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@CaseUIVersionString">CaseUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeCoreVersionNumber">KnowledgeCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeCoreVersionString">KnowledgeCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeUIVersionNumber">KnowledgeUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@KnowledgeUIVersionString">KnowledgeUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelArticleListSummaryName">SCAppearanceLabelArticleListSummaryName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelArticleListTitleName">SCAppearanceLabelArticleListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseDetailSubtitle">SCAppearanceLabelCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseDetailTitle">SCAppearanceLabelCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseFeedItemBodyName">SCAppearanceLabelCaseFeedItemBodyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseFeedTitle">SCAppearanceLabelCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListDate">SCAppearanceLabelCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListSubTitle">SCAppearanceLabelCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCaseListTitle">SCAppearanceLabelCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCAppearanceLabelCategoryListTitleName">SCAppearanceLabelCategoryListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightBold">SCFontWeightBold</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightLight">SCFontWeightLight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCFontWeightRegular">SCFontWeightRegular</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCInterfaceStyleDefault">SCInterfaceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionArticleSearch">SCSActionArticleSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCaseInterface">SCSActionCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCaseList">SCSActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionCasePublisher">SCSActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSActionChatInterface">SCSActionChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceBrandContrastColor">SCSAppearanceBrandContrastColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimary">SCSAppearanceColorTokenBrandPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimaryInverted">SCSAppearanceColorTokenBrandPrimaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondary">SCSAppearanceColorTokenBrandSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondaryInverted">SCSAppearanceColorTokenBrandSecondaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenContrastInverted">SCSAppearanceColorTokenContrastInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenContrastPrimary">SCSAppearanceColorTokenContrastPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenContrastQuaternary">SCSAppearanceColorTokenContrastQuaternary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenContrastSecondary">SCSAppearanceColorTokenContrastSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenContrastTertiary">SCSAppearanceColorTokenContrastTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackPrimary">SCSAppearanceColorTokenFeedbackPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackSecondary">SCSAppearanceColorTokenFeedbackSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackTertiary">SCSAppearanceColorTokenFeedbackTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenNavbarBackground">SCSAppearanceColorTokenNavbarBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenNavbarInverted">SCSAppearanceColorTokenNavbarInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceColorTokenOverlay">SCSAppearanceColorTokenOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastInvertedColor">SCSAppearanceContrastInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastPrimaryColor">SCSAppearanceContrastPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastQuaternaryColor">SCSAppearanceContrastQuaternaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastSecondaryColor">SCSAppearanceContrastSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceContrastTertiaryColor">SCSAppearanceContrastTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackPrimaryColor">SCSAppearanceFeedbackPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackSecondaryColor">SCSAppearanceFeedbackSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceFeedbackTertiaryColor">SCSAppearanceFeedbackTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenActionCasePublisher">SCSAppearanceImageTokenActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenActionChat">SCSAppearanceImageTokenActionChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenActionSearch">SCSAppearanceImageTokenActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenAttachmentClipIcon">SCSAppearanceImageTokenAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenBack">SCSAppearanceImageTokenBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenCaseSubmitSuccess">SCSAppearanceImageTokenCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenCategoryHeaderArrow">SCSAppearanceImageTokenCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenChatAgentAvatar">SCSAppearanceImageTokenChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIcon">SCSAppearanceImageTokenChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIconLarge">SCSAppearanceImageTokenChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenClose">SCSAppearanceImageTokenClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenCompose">SCSAppearanceImageTokenCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenCountBadgeBackground">SCSAppearanceImageTokenCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenDone">SCSAppearanceImageTokenDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenDropdown">SCSAppearanceImageTokenDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenEmptyArticle">SCSAppearanceImageTokenEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenEmptyIcon">SCSAppearanceImageTokenEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenEmptySection">SCSAppearanceImageTokenEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenError">SCSAppearanceImageTokenError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenErrorLarge">SCSAppearanceImageTokenErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenGenericError">SCSAppearanceImageTokenGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenMinimizeButton">SCSAppearanceImageTokenMinimizeButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenNoAccess">SCSAppearanceImageTokenNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenNoConnection">SCSAppearanceImageTokenNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenNoSearchResult">SCSAppearanceImageTokenNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenPicklistDropdown">SCSAppearanceImageTokenPicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenPreChatIcon">SCSAppearanceImageTokenPreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenSearchPlaceholder">SCSAppearanceImageTokenSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenSubCategoryIcon">SCSAppearanceImageTokenSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonNextArrow">SCSAppearanceImageTokenSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonPreviousArrow">SCSAppearanceImageTokenSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceImageTokenWhiteBubble">SCSAppearanceImageTokenWhiteBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListSummary">SCSAppearanceLabelTokenArticleListSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListTitle">SCSAppearanceLabelTokenArticleListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailSubtitle">SCSAppearanceLabelTokenCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailTitle">SCSAppearanceLabelTokenCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedItemBody">SCSAppearanceLabelTokenCaseFeedItemBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedTitle">SCSAppearanceLabelTokenCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListDate">SCSAppearanceLabelTokenCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListSubTitle">SCSAppearanceLabelTokenCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListTitle">SCSAppearanceLabelTokenCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceLabelTokenCategoryListTitle">SCSAppearanceLabelTokenCategoryListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceNavbarBackgroundColor">SCSAppearanceNavbarBackgroundColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceNavbarInvertedColor">SCSAppearanceNavbarInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceOverlayColor">SCSAppearanceOverlayColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearancePrimaryBrandColor">SCSAppearancePrimaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearancePrimaryBrandInvertedColor">SCSAppearancePrimaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceSecondaryBrandColor">SCSAppearanceSecondaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceSecondaryBrandInvertedColor">SCSAppearanceSecondaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSAppearanceTitleTextColor">SCSAppearanceTitleTextColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSArticleDownloadBeganNotification">SCSArticleDownloadBeganNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSArticleDownloadFinishedNotification">SCSArticleDownloadFinishedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseCoreLogIdentifier">SCSCaseCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseErrorDomain">SCSCaseErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSCaseUILogIdentifier">SCSCaseUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSChatCoreLogIdentifier">SCSChatCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSChatUILogIdentifier">SCSChatUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeCoreLogIdentifier">SCSKnowledgeCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeErrorDomain">SCSKnowledgeErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryAddedNotification">SCSKnowledgeManagerCategoryAddedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryDeletedNotification">SCSKnowledgeManagerCategoryDeletedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryKey">SCSKnowledgeManagerCategoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerCategoryUpdatedNotification">SCSKnowledgeManagerCategoryUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSKnowledgeManagerIndexKey">SCSKnowledgeManagerIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSNotificationPayloadKeyCaseId">SCSNotificationPayloadKeyCaseId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCSOAuthInvalidSessionId">SCSOAuthInvalidSessionId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceCloudErrorDomain">SCServiceCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceCloudLoggingErrorDomain">SCServiceCloudLoggingErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceErrorDomain">SCServiceErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCUAppearanceStyleDefault">SCUAppearanceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@SCUServiceUserAccountChangedNotification">SCUServiceUserAccountChangedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCasesVersionNumber">ServiceCasesVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCasesVersionString">ServiceCasesVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceChatVersionNumber">ServiceChatVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceChatVersionString">ServiceChatVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCoreVersionNumber">ServiceCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceCoreVersionString">ServiceCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceKnowledgeVersionNumber">ServiceKnowledgeVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@ServiceKnowledgeVersionString">ServiceKnowledgeVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:SCSChatCoreDefines.h@kLiveAgentAPIVersion">kLiveAgentAPIVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kPrechatVisitorNameLabel">kPrechatVisitorNameLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionCaseList">kSCAppearanceActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionCasePublisher">kSCAppearanceActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceActionSearch">kSCAppearanceActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceAttachmentClipIcon">kSCAppearanceAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceBack">kSCAppearanceBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCaseSubmitSuccess">kSCAppearanceCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCategoryHeaderArrow">kSCAppearanceCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatAgentAvatar">kSCAppearanceChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatConnectingIcon">kSCAppearanceChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatConnectingIconLarge">kSCAppearanceChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceChatIcon">kSCAppearanceChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCompose">kSCAppearanceCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceCountBadgeBackground">kSCAppearanceCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceDone">kSCAppearanceDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceDropdown">kSCAppearanceDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptyArticle">kSCAppearanceEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptyIcon">kSCAppearanceEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceEmptySection">kSCAppearanceEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceError">kSCAppearanceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceErrorLarge">kSCAppearanceErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceGenericError">kSCAppearanceGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceImageClose">kSCAppearanceImageClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceMinimizeButtonImage">kSCAppearanceMinimizeButtonImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoAccess">kSCAppearanceNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoConnection">kSCAppearanceNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceNoSearchResult">kSCAppearanceNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearancePicklistDropdown">kSCAppearancePicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearancePreChatIcon">kSCAppearancePreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSAgentMutedIcon">kSCAppearanceSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSAgentPlaceHolderIcon">kSCAppearanceSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSCameraIcon">kSCAppearanceSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSCancelIcon">kSCAppearanceSOSCancelIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSConfirmIcon">kSCAppearanceSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSEndIcon">kSCAppearanceSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSExpandIcon">kSCAppearanceSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSFlashlightIcon">kSCAppearanceSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSInfoIcon">kSCAppearanceSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMasking">kSCAppearanceSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMicrophoneIcon">kSCAppearanceSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSMicrophoneMutedIcon">kSCAppearanceSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSPauseIcon">kSCAppearanceSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSOSResumeIcon">kSCAppearanceSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSearchPlaceholder">kSCAppearanceSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubCategoryIcon">kSCAppearanceSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubmitButtonNextArrow">kSCAppearanceSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceSubmitButtonPreviousArrow">kSCAppearanceSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Constants.html#/c:@kSCAppearanceWhiteBubble">kSCAppearanceWhiteBubble</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Enums">
+            <a class="nav-group-name-link" href="Other Enums.html">Other Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCategoryDisplayMode.html">SCSCategoryDisplayMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/SCSCategoryHeaderType.html">SCSCategoryHeaderType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Type Definitions">
+            <a class="nav-group-name-link" href="Other Type Definitions.html">Other Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Type Definitions.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Type Definitions.html#/c:SCCDefines.h@T@SCSAppearanceColorToken">SCSAppearanceColorToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Type Definitions.html#/c:SCCDefines.h@T@SCSAppearanceImageToken">SCSAppearanceImageToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Type Definitions.html#/c:SCCDefines.h@T@SCSAppearanceLabelToken">SCSAppearanceLabelToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other Type Definitions.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SOS</h1>
+            <p>Classes related to SOS.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSSessionManager"></a>
+                    <a name="//apple_ref/objc/Class/SOSSessionManager" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSSessionManager">SOSSessionManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSSessionManager</code> class is the main interface to the SOS framework.</p>
+
+<p>This object manages the flow of SOS sessions throughout the lifetime of the app.
+  Configuration and customization of the SOS framework is handled through the public 
+  properties on the <code>SOSSessionManager</code> instance.</p>
+
+<p><code>SOSSessionManager</code> conforms to a multicast delegate model for messaging. Any class
+  which implements the <code><a href="Protocols/SOSDelegate.html">SOSDelegate</a></code> protocol can be added to a list of delegates to
+  receive messages asynchronously.</p>
+
+<p>To get an instance of this class, use the <code><a href="Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)sos">SCServiceCloud.sos</a></code> property
+  on <code><a href="Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(cm)sharedInstance">+[SCServiceCloud sharedInstance]</a></code>.</p>
+
+                        <a href="Classes/SOSSessionManager.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSSessionManager</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSSessionManager</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSDelegate">SOSDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSDelegate</code> protocol provides information about the SOS session.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code>
+
+</div>
+
+                        <a href="Protocols/SOSDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:SOSSessionManager.h@T@SOSCompletionHandler"></a>
+                    <a name="//apple_ref/objc/Type/SOSCompletionHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/c:SOSSessionManager.h@T@SOSCompletionHandler">SOSCompletionHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SOSCompletionHandler block definition</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">typedef</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">SOSCompletionHandler</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">__strong</span><span class="p">,</span>
+                                     <span class="n"><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></span> <span class="o">*</span><span class="n">__strong</span><span class="p">)</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">typealias</span> <span class="kt">SOSCompletionHandler</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Error</span><span class="p">?,</span> <span class="kt"><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error that occurred in the block.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sos</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The instance of the <code>SOSSessionManager</code> the block is acting on.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSSessionState"></a>
+                    <a name="//apple_ref/objc/Enum/SOSSessionState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSSessionState">SOSSessionState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Full list of Session states the SOS framework can exhibit.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSDelegate.html">SOSDelegate</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code>
+
+</div>
+
+                        <a href="Enums/SOSSessionState.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSSessionState</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSSessionState</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSStopReason"></a>
+                    <a name="//apple_ref/objc/Enum/SOSStopReason" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSStopReason">SOSStopReason</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reasons provided to the <code><a href="Protocols/SOSDelegate.html#/c:objc(pl)SOSDelegate(im)sos:didStopWithReason:error:">-[SOSDelegate sos:didStopWithReason:error:]</a></code> event.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSDelegate.html">SOSDelegate</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code>
+
+</div>
+
+                        <a href="Enums/SOSStopReason.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSStopReason</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSStopReason</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSOptions"></a>
+                    <a name="//apple_ref/objc/Class/SOSOptions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSOptions">SOSOptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSOptions</code> class allows you to configure the behavior of any <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code> session.</p>
+
+<p>This object determines how an SOS session is routed, as well as the behavior of a session once established.</p>
+
+                        <a href="Classes/SOSOptions.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSOptions</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSOptions</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSCameraType"></a>
+                    <a name="//apple_ref/objc/Enum/SOSCameraType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSCameraType">SOSCameraType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the starting view for the current SOS Session.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSOptions.html">SOSOptions</a></code>
+
+</div>
+
+                        <a href="Enums/SOSCameraType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSCameraType</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSCameraType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSUIPhase"></a>
+                    <a name="//apple_ref/objc/Enum/SOSUIPhase" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSUIPhase">SOSUIPhase</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the Phase of the UI that will be replaced by the user</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSOptions.html">SOSOptions</a></code>
+
+</div>
+
+                        <a href="Enums/SOSUIPhase.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSUIPhase</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSUIPhase</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSAgentAvailability"></a>
+                    <a name="//apple_ref/objc/Class/SOSAgentAvailability" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSAgentAvailability">SOSAgentAvailability</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSAgentAvailability</code> class allows you to configure periodic polling against a single SOS deployment for your organization.</p>
+
+<p>When the availability changes, an <code><a href="Protocols/SOSAgentAvailabilityDelegate.html#/c:objc(pl)SOSAgentAvailabilityDelegate(im)agentAvailability:didChange:">-[SOSAgentAvailabilityDelegate agentAvailability:didChange:]</a></code> event is fired.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a></code>
+
+</div>
+
+                        <a href="Classes/SOSAgentAvailability.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSAgentAvailability</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSAgentAvailability</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSAgentAvailabilityDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSAgentAvailabilityDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSAgentAvailabilityDelegate">SOSAgentAvailabilityDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate protocol for <code><a href="Classes/SOSAgentAvailability.html">SOSAgentAvailability</a></code>.</p>
+
+<p>Implement this protocol in your classes to listen for availability change events from the <code><a href="Classes/SOSAgentAvailability.html">SOSAgentAvailability</a></code> class.</p>
+
+                        <a href="Protocols/SOSAgentAvailabilityDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSAgentAvailabilityDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSAgentAvailabilityDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSAgentAvailabilityStatusType"></a>
+                    <a name="//apple_ref/objc/Enum/SOSAgentAvailabilityStatusType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSAgentAvailabilityStatusType">SOSAgentAvailabilityStatusType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enum for the Availability Status updates generated by the 
+ <code><a href="Protocols/SOSAgentAvailabilityDelegate.html#/c:objc(pl)SOSAgentAvailabilityDelegate(im)agentAvailability:didChange:">-[SOSAgentAvailabilityDelegate agentAvailability:didChange:]</a></code> event.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a></code>
+
+</div>
+
+                        <a href="Enums/SOSAgentAvailabilityStatusType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSAgentAvailabilityStatusType</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSAgentAvailabilityStatusType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSCameraBaseViewController"></a>
+                    <a name="//apple_ref/objc/Class/SOSCameraBaseViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSCameraBaseViewController">SOSCameraBaseViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The SOSCameraBaseViewController serves as the base controller which manages interactions between the UI and SOS backend
+  for the camera phase of SOS.</p>
+
+<p>If you wish to replace the camera UI, your class must implement this base class.</p>
+
+<p>All method overrides require a call back to super for SOS to function properly.</p>
+
+                        <a href="Classes/SOSCameraBaseViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSCameraBaseViewController</span>
+    <span class="p">:</span> <span class="nc"><a href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a></span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a></span><span class="p">,</span>
+                                    <span class="n"><a href="Protocols/SOSUIDeviceCameraReceivable.html">SOSUIDeviceCameraReceivable</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSConnectingBaseViewController"></a>
+                    <a name="//apple_ref/objc/Class/SOSConnectingBaseViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSConnectingBaseViewController">SOSConnectingBaseViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSConnectingBaseViewController</code> serves as the base controller which manages interactions between the UI and SOS backend
+  for the connecting phase of SOS.</p>
+
+<p>If you wish to replace the onboarding UI, your class must implement this base class.</p>
+
+<p>All method overrides require a call back to super for SOS to function properly.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a></code>
+
+</div>
+
+                        <a href="Classes/SOSConnectingBaseViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSConnectingBaseViewController</span>
+    <span class="p">:</span> <span class="nc">UIViewController</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSConnectingBaseViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSConnectingViewController"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSConnectingViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSConnectingViewController">SOSConnectingViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol which defines properties and methods which are required for all view controllers which
+  will accommodate the role for onboarding in SOS.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSConnectingBaseViewController.html">SOSConnectingBaseViewController</a></code>
+
+</div>
+
+                        <a href="Protocols/SOSConnectingViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSConnectingViewController</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSConnectingViewController</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSErrorCode"></a>
+                    <a name="//apple_ref/objc/Enum/SOSErrorCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSErrorCode">SOSErrorCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SOS ErrorCode definitions.</p>
+
+<p>Errors fall into one of several groups (or series) of errors.</p>
+
+<p>If there is an error thrown by a library dependency it will be included as metadata
+  in the userInfo of the error which is returned to the application code.</p>
+
+                        <a href="Enums/SOSErrorCode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSErrorCode</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSErrorCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSLineDrawView"></a>
+                    <a name="//apple_ref/objc/Class/SOSLineDrawView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSLineDrawView">SOSLineDrawView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSMaskedTextField"></a>
+                    <a name="//apple_ref/objc/Class/SOSMaskedTextField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSMaskedTextField">SOSMaskedTextField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Custom UITextField that auto-masks itself when screen sharing is enabled during an SOS session.
+  Otherwise identical to the default <code>UITextField</code>.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSMaskable.html">SOSMaskable</a></code>
+
+</div>
+
+                        <a href="Classes/SOSMaskedTextField.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSMaskedTextField</span> <span class="p">:</span> <span class="nc">UITextField</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSMaskable.html">SOSMaskable</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSMaskedTextField</span> <span class="p">:</span> <span class="kt">UITextField</span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSMaskable.html">SOSMaskable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSMaskable"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSMaskable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSMaskable">SOSMaskable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol for objects that can be registered as maskable. Anything implementing this protocol can
+  be registered with the SOS Masking class, which will send the messages declared below at the
+  appropriate times to enable/disable the masks during an SOS session.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSMaskedTextField.html">SOSMaskedTextField</a></code>
+
+</div>
+
+                        <a href="Protocols/SOSMaskable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSMaskable</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSMaskable</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSMaskState"></a>
+                    <a name="//apple_ref/objc/Enum/SOSMaskState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSMaskState">SOSMaskState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enumeration of the various states a given mask can be in.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSMaskable.html">SOSMaskable</a></code>
+
+</div>
+
+                        <a href="Enums/SOSMaskState.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSMaskState</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSMaskState</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSMasking"></a>
+                    <a name="//apple_ref/objc/Class/SOSMasking" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSMasking">SOSMasking</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSMasking</code> class is responsible for managing the field masking applied during an SOS
+  session. Sensitive fields or sections of the application may be masked to prevent them from
+  appearing to the customer service agent in the video feed.</p>
+
+<p>You can retrieve a reference to this class from the <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code> instance, and then
+  use the APIs provided below to add or remove parts of your application to be masked on an
+  as-needed basis.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSSessionManager.html">SOSSessionManager</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSDelegate.html">SOSDelegate</a></code>
+
+</div>
+
+                        <a href="Classes/SOSMasking.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSMasking</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSDelegate.html">SOSDelegate</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSMasking</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSDelegate.html">SOSDelegate</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSNetworkReporter"></a>
+                    <a name="//apple_ref/objc/Class/SOSNetworkReporter" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSNetworkReporter">SOSNetworkReporter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>SOS Network Reporter to manage delegates which receive information about SOS Audio/Video networking events.</p>
+
+<p>Please note that the information related here refers to network information about the agent&rsquo;s connection experience.</p>
+
+                        <a href="Classes/SOSNetworkReporter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSNetworkReporter</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSNetworkReporterDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSNetworkReporterDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSNetworkReporterDelegate">SOSNetworkReporterDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delegate protocol to listen to SOS network traffic events.</p>
+
+                        <a href="Protocols/SOSNetworkReporterDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSNetworkReporterDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSNetworkReporterDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSNetworkStatus"></a>
+                    <a name="//apple_ref/objc/Enum/SOSNetworkStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSNetworkStatus">SOSNetworkStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Defines the discrete network conditions which can occur within an SOS Session.</p>
+
+                        <a href="Enums/SOSNetworkStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSNetworkStatus</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSNetworkStatus</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@SOSReconnectStatus"></a>
+                    <a name="//apple_ref/objc/Enum/SOSReconnectStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SOSReconnectStatus">SOSReconnectStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Defines the discrete network reconnect status which can occur within an SOS Session.</p>
+
+                        <a href="Enums/SOSReconnectStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">enum</span> <span class="n">SOSReconnectStatus</span> <span class="p">{}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">enum</span> <span class="kt">SOSReconnectStatus</span> <span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSOnboardingBaseViewController"></a>
+                    <a name="//apple_ref/objc/Class/SOSOnboardingBaseViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSOnboardingBaseViewController">SOSOnboardingBaseViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSOnboardingBaseViewController</code> serves as the base controller which manages interactions between the UI and SOS backend
+  for the onboarding phase of SOS.</p>
+
+<p>If you wish to replace the onboarding UI, your class must implement this base class.</p>
+
+<p>All method overrides require a call back to super for SOS to function properly.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a></code>
+
+</div>
+
+                        <a href="Classes/SOSOnboardingBaseViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSOnboardingBaseViewController</span>
+    <span class="p">:</span> <span class="nc">UIViewController</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSOnboardingBaseViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSOnboardingViewController"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSOnboardingViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSOnboardingViewController">SOSOnboardingViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol which defines properties and methods which are required for all view controllers which
+  will accommodate the role for onboarding in SOS.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSOnboardingBaseViewController.html">SOSOnboardingBaseViewController</a></code>
+
+</div>
+
+                        <a href="Protocols/SOSOnboardingViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSOnboardingViewController</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSOnboardingViewController</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSScreenAnnotations"></a>
+                    <a name="//apple_ref/objc/Class/SOSScreenAnnotations" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSScreenAnnotations">SOSScreenAnnotations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class to handle screen annotations. This class implements the <code>SOSWebRTCDelegate</code>.</p>
+
+                        <a href="Classes/SOSScreenAnnotations.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSScreenAnnotations</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSScreenAnnotations</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSScreenSharing"></a>
+                    <a name="//apple_ref/objc/Class/SOSScreenSharing" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSScreenSharing">SOSScreenSharing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Interface for configuring screen sharing behavior.</p>
+
+                        <a href="Classes/SOSScreenSharing.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSScreenSharing</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSScreenSharing</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSScreenSharingBaseViewController"></a>
+                    <a name="//apple_ref/objc/Class/SOSScreenSharingBaseViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSScreenSharingBaseViewController">SOSScreenSharingBaseViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSScreenSharingBaseViewController</code> serves as the base controller which manages interactions between the UI and SOS backend
+  for the screen sharing phase of SOS.</p>
+
+<p>If you wish to replace the screen sharing UI, your class must implement this base class.</p>
+
+<p>All method overrides require a call back to super for SOS to function properly.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a></code>
+
+</div>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a></code>
+
+</div>
+
+                        <a href="Classes/SOSScreenSharingBaseViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSScreenSharingBaseViewController</span>
+    <span class="p">:</span> <span class="nc"><a href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a></span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a></span><span class="p">,</span>
+                                    <span class="n"><a href="Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSScreenSharingBaseViewController</span> <span class="p">:</span> <span class="kt"><a href="Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SOSSessionBaseViewController"></a>
+                    <a name="//apple_ref/objc/Class/SOSSessionBaseViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SOSSessionBaseViewController">SOSSessionBaseViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code><a href="Classes/SOSScreenSharingBaseViewController.html">SOSScreenSharingBaseViewController</a></code> serves as the base controller which manages interactions between the UI and SOS backend
+  for the screen sharing phase of SOS.</p>
+
+<p>If you wish to replace the screen sharing UI, your class must implement this base class.</p>
+
+<p>All method overrides require a call back to super for SOS to function properly.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="Protocols/SOSSessionViewController.html">SOSSessionViewController</a></code>
+
+</div>
+
+                        <a href="Classes/SOSSessionBaseViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SOSSessionBaseViewController</span>
+    <span class="p">:</span> <span class="nc">UIViewController</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/SOSSessionViewController.html">SOSSessionViewController</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">SOSSessionBaseViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="Protocols/SOSSessionViewController.html">SOSSessionViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSSessionViewController"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSSessionViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSSessionViewController">SOSSessionViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol which defines properties and methods which are required for all view controllers which
+will accommodate the role for screen sharing in SOS.</p>
+
+                        <a href="Protocols/SOSSessionViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSSessionViewController</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSSessionViewController</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSUIAgentStreamReceivable"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSUIAgentStreamReceivable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSUIAgentStreamReceivable">SOSUIAgentStreamReceivable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSUIAgentStreamReceivable</code> protocol allows your view controller implementation to handle an agent video stream.</p>
+
+                        <a href="Protocols/SOSUIAgentStreamReceivable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSUIAgentStreamReceivable</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSUIAgentStreamReceivable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSUIDeviceCameraReceivable"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSUIDeviceCameraReceivable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSUIDeviceCameraReceivable">SOSUIDeviceCameraReceivable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/SOSUIDeviceCameraReceivable.html" class="slightly-smaller">See more</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)SOSUILineDrawingReceivable"></a>
+                    <a name="//apple_ref/objc/Protocol/SOSUILineDrawingReceivable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)SOSUILineDrawingReceivable">SOSUILineDrawingReceivable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>SOSUILineDrawingReceivable</code> protocol allows your view controller implementation to handle line drawings.</p>
+
+                        <a href="Protocols/SOSUILineDrawingReceivable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SOSUILineDrawingReceivable</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">SOSUILineDrawingReceivable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://developer.salesforce.com/page/SnapinsMobile" target="_blank" rel="external">Salesforce</a>. All rights reserved. (Last updated: 2017-10-11)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
