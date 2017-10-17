@@ -16,9 +16,9 @@ extension SnapinsConfig : SCSActionManagerDelegate {
      Determines which actions to show for a given controller.
      */
     func actionManager(_ actionManager: SCSActionManager,
-                       actionsToShowFor controller: UIViewController?,
-                       withDefaultActions defaultActions: Set<String>) -> Set<String>?
-    {
+                                          actionsToShowFor controller: UIViewController?,
+                                          withDefaultActions defaultActions: Set<SCSAction>)
+                                          -> Set<SCSAction>? {
         var mySet = defaultActions
 
         // Add our custom action button.
@@ -26,7 +26,7 @@ extension SnapinsConfig : SCSActionManagerDelegate {
         // you can inspect `controller` to determine whether you want
         // to add a custom button for a given view controller...)
         if (SnapinsConstants.ENABLE_CUSTOM_ACTION_BUTTONS) {
-            mySet.insert(SnapinsConstants.CUSTOM_ACTION_NAME)
+            mySet.insert(SCSAction(SnapinsConstants.CUSTOM_ACTION_NAME))
         }
 
         return mySet
@@ -36,26 +36,26 @@ extension SnapinsConfig : SCSActionManagerDelegate {
      Shows the button for a given action.
      */
     func actionManager(_ actionManager: SCSActionManager,
-                       viewForActionItemWithName name: String) -> UIView?
-    {
-        if name == SnapinsConstants.CUSTOM_ACTION_NAME {
-
-            // Create our custom action button
-            let customActionButton = SCSActionButton()
-            customActionButton.setTitle(SnapinsConstants.CUSTOM_ACTION_TITLE, for: .normal)
-            customActionButton.addTarget(self, action: #selector(myCustomButtonHandler), for: .touchUpInside)
-
-            return customActionButton
-        }
-
-        return nil
+                                          viewForActionItemWithName name: SCSAction)
+                                          -> (UIView & SCSActionItem)? {
+      if name.rawValue == SnapinsConstants.CUSTOM_ACTION_NAME {
+      
+        // Create our custom action button
+        let customActionButton = SCSActionButton()
+        customActionButton.setTitle(SnapinsConstants.CUSTOM_ACTION_TITLE, for: .normal)
+        customActionButton.addTarget(self, action: #selector(myCustomButtonHandler), for: .touchUpInside)
+      
+        return customActionButton
+      }
+    
+      return nil
     }
 
     /**
      Handler for the custom action.
      */
-    func myCustomButtonHandler(sender: UIButton!) {
-        SCServiceCloud.sharedInstance().knowledge.setInterfaceVisible(false, animated: true, completion: nil)
+    @objc func myCustomButtonHandler(sender: UIButton!) {
+        ServiceCloud.shared().knowledge.setInterfaceVisible(false, animated: true, completion: nil)
 
         let alert = UIAlertController(title: "Custom Action",
                                       message: "Here is where you can provide a custom action!",

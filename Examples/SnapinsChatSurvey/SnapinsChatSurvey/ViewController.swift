@@ -30,7 +30,7 @@ class ViewController: UIViewController {
    is called by ChatManager when a chat session successfully completes and
    it's time for us to display a survey.
    */
-  func chatSessionCompleted() {
+  @objc func chatSessionCompleted() {
     // Launch a view with the survey!
     performSegue(withIdentifier: "SurveyViewSegue", sender: self)
   }
