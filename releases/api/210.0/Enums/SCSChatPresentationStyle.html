@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SCSActionManagerDelegate Protocol Reference</title>
+    <title>SCSChatPresentationStyle Enum Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -16,9 +16,9 @@
         $("#Nav-Other\\ Constants").hide();
       });
     </script>
-    <a name="//apple_ref/objc/Protocol/SCSActionManagerDelegate" class="dashAnchor"></a>
+    <a name="//apple_ref/objc/Enum/SCSChatPresentationStyle" class="dashAnchor"></a>
 
-    <a title="SCSActionManagerDelegate Protocol Reference"></a>
+    <a title="SCSChatPresentationStyle Enum Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
@@ -40,7 +40,7 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">SnapinsSDK Reference</a>
       <img class="carat" src="../img/carat.png" />
-      SCSActionManagerDelegate Protocol Reference
+      SCSChatPresentationStyle Enum Reference
     </p>
 
     <div class="content-wrapper">
@@ -853,14 +853,14 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>SCSActionManagerDelegate</h1>
+            <h1>SCSChatPresentationStyle</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="k">@protocol</span> <span class="nc">SCSActionManagerDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+                  <pre class="highlight"><code><span class="k">enum</span> <span class="n">SCSChatPresentationStyle</span> <span class="p">{}</span></code></pre>
 
                 </div>
               </div>
-            <p>Delegate protocol used by the <code><a href="../Classes/SCSActionManager.html">SCSActionManager</a></code> to customize the appearance and functionality of the action manager.</p>
+            <p>Describes how a chat session is presented.</p>
 
           </div>
         </section>
@@ -872,9 +872,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManagerContainerViewController:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManagerContainerViewController:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManagerContainerViewController:">-actionManagerContainerViewController:</a>
+                    <a name="/c:@E@SCSChatPresentationStyle@SCSChatPresentationStyleFullscreen"></a>
+                    <a name="//apple_ref/objc/Case/SCSChatPresentationStyleFullscreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatPresentationStyle@SCSChatPresentationStyleFullscreen">SCSChatPresentationStyleFullscreen</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -882,51 +882,18 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Asks the delegate for a view controller to present action buttons to the user when it is about to be presented.</p>
+                        <p>Present chat session in full-screen mode.</p>
 
-<p>This method should only be used when a developer wishes to customize the appearance of the action buttons, or when the action display controller should be disallowed.</p>
-
-<p>If no action buttons should be displayed to the user, this method can return <code>nil</code>.</p>
-
-<p>If this is a view controller, it will be presented in the UI for you.  Otherwise, your application is responsible for managing the display of these items yourself.</p>
+<p>Sets <code>allowMinimization=NO, defaultToMinimized=NO, &amp; fullscreenPrechat=YES</code></p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">__kindof</span> <span class="n">UIViewController</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span>
-<span class="nf">actionManagerContainerViewController</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span><span class="p">;</span></code></pre>
+                          <pre class="highlight"><code><span class="n">SCSChatPresentationStyleFullscreen</span> <span class="o">=</span> <span class="mi">1</span></code></pre>
 
                         </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManagerContainerViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>SCSActionManager</code> instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Constructed UIViewController instance, conforming to the <code><a href="../Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a></code> protocol, or <code>nil</code> if no action button controller should be shown.</p>
                       </div>
                     </section>
                   </div>
@@ -934,9 +901,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:viewForActionItemWithName:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:viewForActionItemWithName:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:viewForActionItemWithName:">-actionManager:viewForActionItemWithName:</a>
+                    <a name="/c:@E@SCSChatPresentationStyle@SCSChatPresentationStyleNonBlocking"></a>
+                    <a name="//apple_ref/objc/Case/SCSChatPresentationStyleNonBlocking" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@SCSChatPresentationStyle@SCSChatPresentationStyleNonBlocking">SCSChatPresentationStyleNonBlocking</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -944,544 +911,18 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Asks the delegate to supply a custom view for the action of the given name.  If the return value is <code>nil</code>, the default system-provided view will be used, if any.</p>
+                        <p>Present chat session in non-blocking mode.</p>
 
-<p>The view is expected to trigger the action as needed using the <code><a href="../Classes/SCSActionManager.html#/c:objc(cs)SCSActionManager(im)performActionWithName:actionItem:">-[SCSActionManager performActionWithName:actionItem:]</a></code>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">__kindof</span> <span class="n">UIView</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSActionItem.html">SCSActionItem</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span>
-            <span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-<span class="nf">viewForActionItemWithName</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span><span class="nv">name</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">viewForActionItemWithName</span> <span class="nv">name</span><span class="p">:</span> <span class="kt"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>SCSActionManager</code> instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>name</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Action name.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p><code>UIView</code> conforming to <code><a href="../Protocols/SCSActionItem.html">SCSActionItem</a></code> to represent the given action, or <code>nil</code> to accept the system default.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:sortIndexForActionItemWithName:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:sortIndexForActionItemWithName:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:sortIndexForActionItemWithName:">-actionManager:sortIndexForActionItemWithName:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Asks the delegate to indicate the relative sort positioning of the given action item.</p>
+<p>Sets <code>allowMinimization=YES, defaultToMinimized=YES, &amp; fullscreenPrechat=NO</code></p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">sortIndexForActionItemWithName</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span><span class="nv">name</span><span class="p">;</span></code></pre>
+                          <pre class="highlight"><code><span class="n">SCSChatPresentationStyleNonBlocking</span></code></pre>
 
                         </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">sortIndexForActionItemWithName</span> <span class="nv">name</span><span class="p">:</span> <span class="kt"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>SCSActionManager</code> instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>name</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Action name.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Integer value indicating the sort position of the given action.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:actionsToShowForViewController:withDefaultActions:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:actionsToShowForViewController:withDefaultActions:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:actionsToShowForViewController:withDefaultActions:">-actionManager:actionsToShowForViewController:withDefaultActions:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Asks the delegate for the set of named actions that should be shown when the given controller is presented.  If this method is not implemented a set of defaults is automatically determined.  This default set of actions is supplied to this method to allow the default behavior to be maintained when needed, or to extend or subtract from the default set.</p>
-
-<p>When no controllers are visible, the <code>controller</code> property may be <code>nil</code>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">NSSet</span><span class="o">&lt;</span><span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span>
-                 <span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-<span class="nf">actionsToShowForViewController</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIViewController</span> <span class="o">*</span><span class="p">)</span><span class="nv">controller</span>
-            <span class="nf">withDefaultActions</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSSet</span><span class="o">&lt;</span><span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">defaultActions</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">actionsToShowForViewController</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">,</span> <span class="n">withDefaultActions</span> <span class="n">defaultActions</span><span class="p">:</span> <span class="kt">Set</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>SCSActionManager</code> instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>controller</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The controller that is being presented, or <code>nil</code> if the last controller has been dismised.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>defaultActions</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The default actions that would be displayed for this given controller.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Set of string action item names to display.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:shouldShowContainerForViewController:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:shouldShowContainerForViewController:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:shouldShowContainerForViewController:">-actionManager:shouldShowContainerForViewController:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Asks the delegate whether or not the action container should be shown when the given controller becomes visible.  This provides the delegate with the opportunity to conditionally show or hide the action items when the visible state of the Service SDK changes.</p>
-
-<p>If the resulting container visibility is different from the current state, the appropriate change will be made, and the accompanying <code><a href="../Protocols/SCSActionManagerDelegate.html#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerWillChangeVisibility:animated:">-[SCSActionManagerDelegate actionManager:containerWillChangeVisibility:animated:]</a></code> and <code><a href="../Protocols/SCSActionManagerDelegate.html#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerDidChangeVisibility:animated:">-[SCSActionManagerDelegate actionManager:containerDidChangeVisibility:animated:]</a></code> methods will be invoked as needed.</p>
-
-<p>If the supplied controller&rsquo;s presentation, or dismissal, is animated, this will result in the action container&rsquo;s visibility change being animated as well.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">shouldShowContainerForViewController</span><span class="p">:</span>
-        <span class="p">(</span><span class="n">nullable</span> <span class="n">UIViewController</span> <span class="o">*</span><span class="p">)</span><span class="nv">controller</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">shouldShowContainerForViewController</span> <span class="nv">controller</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The action manager instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>controller</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The controller about to be presented, or <code>nil</code> if the last controller is being dismissed.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p><code>YES</code> if the container should be visible, otherwise <code>NO</code> if the action container should be hidden.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerWillChangeVisibility:animated:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:containerWillChangeVisibility:animated:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerWillChangeVisibility:animated:">-actionManager:containerWillChangeVisibility:animated:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Message sent to the delegate when the action container will change its visibility, either to be shown or hidden.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">containerWillChangeVisibility</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">visible</span>
-                         <span class="nf">animated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">containerWillChangeVisibility</span> <span class="nv">visible</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The action manager instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>visible</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>YES</code> if the action container will become visible, otherwise <code>NO</code> if the action bar will become hidden.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>YES</code> if the visibility change will be animated.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerDidChangeVisibility:animated:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:containerDidChangeVisibility:animated:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:containerDidChangeVisibility:animated:">-actionManager:containerDidChangeVisibility:animated:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Message sent to the delegate after the action container has changed its visibility, either to be shown or hidden.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">containerDidChangeVisibility</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">visible</span>
-                        <span class="nf">animated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">containerDidChangeVisibility</span> <span class="nv">visible</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The action manager instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>visible</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>YES</code> if the action container became visible, otherwise <code>NO</code> if the action bar is hidden.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>YES</code> if the visibility change was animated.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:performActionWithName:actionItem:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:performActionWithName:actionItem:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:performActionWithName:actionItem:">-actionManager:performActionWithName:actionItem:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">performActionWithName</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span><span class="nv">actionName</span>
-               <span class="nf">actionItem</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIView</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSActionItem.html">SCSActionItem</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">actionItem</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">performActionWithName</span> <span class="nv">actionName</span><span class="p">:</span> <span class="kt"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">,</span> <span class="nv">actionItem</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p><code>YES</code> if the action was handled, or <code>NO</code> if the default behavior should be performed for this action.</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:objc(pl)SCSActionManagerDelegate(im)actionManager:shouldShowActionWithName:"></a>
-                    <a name="//apple_ref/objc/Method/-actionManager:shouldShowActionWithName:" class="dashAnchor"></a>
-                    <a class="token" href="#/c:objc(pl)SCSActionManagerDelegate(im)actionManager:shouldShowActionWithName:">-actionManager:shouldShowActionWithName:</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Asks the delegate whether the specified action button should be present.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Objective-C</p>
-                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">actionManager</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">actionManager</span>
-    <span class="nf">shouldShowActionWithName</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span><span class="nv">name</span><span class="p">;</span></code></pre>
-
-                        </div>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">actionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">actionManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span><span class="p">,</span> <span class="n">shouldShowActionWithName</span> <span class="nv">name</span><span class="p">:</span> <span class="kt"><a href="../Type Defs.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>actionManager</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><code>SCSActionManager</code> instance.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>name</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Name representing the action in question.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p><code>YES</code> if the action button should be visible; <code>NO</code> if the action button should be omitted.</p>
                       </div>
                     </section>
                   </div>
