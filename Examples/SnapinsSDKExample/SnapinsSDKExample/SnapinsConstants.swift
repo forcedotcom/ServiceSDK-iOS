@@ -52,3 +52,4 @@ class SnapinsConstants {
   static let CUSTOM_ACTION_NAME = "MyCustomAction"
   static let CUSTOM_ACTION_TITLE = "👾"
 }
+

@@ -41,7 +41,7 @@ class SnapinsConfig : NSObject {
     initializeSOS()
 
     if (SnapinsConstants.ENABLE_CUSTOM_ACTION_BUTTONS) {
-        let serviceCloud = SCServiceCloud.sharedInstance()
+      let serviceCloud = ServiceCloud.shared()
 
         // Add self as an action button delegate
         serviceCloud.actions.delegate = self
@@ -52,7 +52,7 @@ class SnapinsConfig : NSObject {
    One time configuration for Knowledge and/or Case Management.
    */
   func initializeKnowledgeAndCases() {
-    let serviceCloud = SCServiceCloud.sharedInstance()
+    let serviceCloud = ServiceCloud.shared()
 
     // Create a configuration object for Knowledge or Cases
     // (If both are enabled, the Knowledge config will handle both situations)
@@ -89,7 +89,7 @@ class SnapinsConfig : NSObject {
    One time configuration for Live Agent Chat.
    */
   func initializeChat() {
-    let serviceCloud = SCServiceCloud.sharedInstance()
+    let serviceCloud = ServiceCloud.shared()
 
     if SnapinsConstants.ENABLE_CHAT {
       
@@ -108,7 +108,7 @@ class SnapinsConfig : NSObject {
    One time configuration for SOS.
    */
   func initializeSOS() {
-    let serviceCloud = SCServiceCloud.sharedInstance()
+    let serviceCloud = ServiceCloud.shared()
 
     if SnapinsConstants.ENABLE_SOS {
       

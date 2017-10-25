@@ -57,7 +57,7 @@ class ChatManager : NSObject {
     }
     
     // Get the service cloud shared instance
-    let serviceCloud = SCServiceCloud.sharedInstance()
+    let serviceCloud = ServiceCloud.shared()
     
     // Create a configuration object for chat
     self.chatConfig =
@@ -77,7 +77,7 @@ class ChatManager : NSObject {
   func uninitialize() {
     if (isOrgConfigured(showAlert: false)) {
       // Remove ourselves as a chat delegate
-      SCServiceCloud.sharedInstance().chat.remove(self)
+      ServiceCloud.shared().chat.remove(self)
     }
   }
   
@@ -91,7 +91,7 @@ class ChatManager : NSObject {
     }
 
     // Start a session with the configuration information
-    SCServiceCloud.sharedInstance().chat.startSession(with: chatConfig)
+    ServiceCloud.shared().chat.startSession(with: chatConfig)
   }
   
   /**
