@@ -1,9 +1,12 @@
-# Snap-ins SDK for iOS
+# Snap-Ins SDK for iOS
 
-* To see the iOS reference documentation, go [here](http://forcedotcom.github.io/ServiceSDK-iOS/).
-* To review the iOS release notes, go [here](https://github.com/forcedotcom/ServiceSDK-iOS/releases).
-* To see the iOS developer's guide, go [here](https://developer.salesforce.com/docs/atlas.en-us.noversion.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm).
-* To see some examples, go [here](./Examples/).
+Welcome to the Snap-ins SDK for iOS GitHub repository!
 
-Latest version: October 2017 (210.0.0)
+## Links
+
+* [iOS Release Notes](https://github.com/forcedotcom/ServiceSDK-iOS/releases)
+* [iOS Developer's Guide](https://developer.salesforce.com/docs/atlas.en-us.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm)
+* [iOS Reference Documentation](http://forcedotcom.github.io/ServiceSDK-iOS/)
+* [iOS Examples](./Examples/)
+* [Trailhead Tutorial](https://trailhead.salesforce.com/modules/service_snap-ins_mobile_apps)
 
