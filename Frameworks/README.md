@@ -11,7 +11,3 @@ You can get the framework files by downloading the iOS SDK from the [Snap-ins Pr
   * ./Frameworks/ServiceCases.framework
   * ./Frameworks/ServiceChat.framework
   * ./Frameworks/ServiceSOS.framework
-  * ./Frameworks/SalesforceMobileSDK/CocoaLumberjack.framework
-  * ./Frameworks/SalesforceMobileSDK/SalesforceAnalytics.framework
-  * ./Frameworks/SalesforceMobileSDK/SalesforceSDKCore.framework
-  * ./Frameworks/SalesforceMobileSDK/SmartStore.framework
