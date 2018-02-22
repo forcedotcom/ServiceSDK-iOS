@@ -11,4 +11,4 @@ Welcome to the Snap-ins SDK for iOS GitHub repository!
 * [iOS Examples](./Examples/)
 * [Trailhead Tutorial](https://trailhead.salesforce.com/modules/service_snap-ins_mobile_apps)
 
-<!-- 210.2.0 -->
+<!-- 212.0.0 -->
