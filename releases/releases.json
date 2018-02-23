@@ -1,42 +1,42 @@
 [
   {
     "changelog": "common/changelog.md",
-    "date": "2017-10-25",
+    "date": "2018-02-27",
     "example": "common/example.md",
-    "reference": "api/210.0/Classes/SCServiceCloud.html",
+    "reference": "api/212.0/Classes/SCServiceCloud.html",
     "sdk": "common",
-    "version": "2.0.0"
+    "version": "3.0.0"
   },
   {
     "changelog": "knowledge/changelog.md",
-    "date": "2017-10-25",
+    "date": "2018-02-27",
     "example": "knowledge/example.md",
-    "reference": "api/210.0/Classes/SCKnowledgeInterface.html",
+    "reference": "api/212.0/Classes/SCKnowledgeInterface.html",
     "sdk": "knowledge",
-    "version": "2.3.0"
+    "version": "3.0.0"
   },
   {
     "changelog": "case/changelog.md",
-    "date": "2017-10-25",
+    "date": "2018-02-27",
     "example": "case/example.md",
-    "reference": "api/210.0/Classes/SCCaseInterface.html",
+    "reference": "api/212.0/Classes/SCCaseInterface.html",
     "sdk": "case",
-    "version": "1.5.0"
+    "version": "2.0.0"
   },
   {
     "changelog": "chat/changelog.md",
-    "date": "2017-10-25",
+    "date": "2018-02-27",
     "example": "chat/example.md",
-    "reference": "api/210.0/Classes/SCSChat.html",
+    "reference": "api/212.0/Classes/SCSChat.html",
     "sdk": "chat",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "changelog": "sos/changelog.md",
-    "date": "2017-10-25",
+    "date": "2018-02-27",
     "example": "sos/example.md",
-    "reference": "api/210.0/Classes/SOSSessionManager.html",
+    "reference": "api/212.0/Classes/SOSSessionManager.html",
     "sdk": "sos",
-    "version": "3.6.0"
+    "version": "3.7.0"
   }
 ]
