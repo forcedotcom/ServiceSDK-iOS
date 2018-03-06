@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FCD89541EE7312D0034FD59 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89481EE731020034FD59 /* CocoaLumberjack.framework */; };
-		6FCD89551EE7312D0034FD59 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89481EE731020034FD59 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89561EE7312D0034FD59 /* SalesforceAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89491EE731020034FD59 /* SalesforceAnalytics.framework */; };
-		6FCD89571EE7312D0034FD59 /* SalesforceAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89491EE731020034FD59 /* SalesforceAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89581EE7312D0034FD59 /* SalesforceSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894C1EE731020034FD59 /* SalesforceSDKCore.framework */; };
-		6FCD89591EE7312D0034FD59 /* SalesforceSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894C1EE731020034FD59 /* SalesforceSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD895A1EE7312D0034FD59 /* SmartStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894D1EE731020034FD59 /* SmartStore.framework */; };
-		6FCD895B1EE7312D0034FD59 /* SmartStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894D1EE731020034FD59 /* SmartStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; };
 		6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89501EE731020034FD59 /* ServiceChat.framework */; };
@@ -46,12 +38,8 @@
 			files = (
 				6FCD89611EE7312D0034FD59 /* ServiceCore.framework in Embed Frameworks */,
 				6FCD895F1EE7312D0034FD59 /* ServiceChat.framework in Embed Frameworks */,
-				6FCD895B1EE7312D0034FD59 /* SmartStore.framework in Embed Frameworks */,
-				6FCD89591EE7312D0034FD59 /* SalesforceSDKCore.framework in Embed Frameworks */,
 				6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */,
 				6FCD89651EE7312D0034FD59 /* ServiceSOS.framework in Embed Frameworks */,
-				6FCD89571EE7312D0034FD59 /* SalesforceAnalytics.framework in Embed Frameworks */,
-				6FCD89551EE7312D0034FD59 /* CocoaLumberjack.framework in Embed Frameworks */,
 				6FCD89631EE7312D0034FD59 /* ServiceKnowledge.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -93,12 +81,8 @@
 			files = (
 				6FCD89601EE7312D0034FD59 /* ServiceCore.framework in Frameworks */,
 				6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */,
-				6FCD895A1EE7312D0034FD59 /* SmartStore.framework in Frameworks */,
-				6FCD89581EE7312D0034FD59 /* SalesforceSDKCore.framework in Frameworks */,
 				6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */,
 				6FCD89641EE7312D0034FD59 /* ServiceSOS.framework in Frameworks */,
-				6FCD89561EE7312D0034FD59 /* SalesforceAnalytics.framework in Frameworks */,
-				6FCD89541EE7312D0034FD59 /* CocoaLumberjack.framework in Frameworks */,
 				6FCD89621EE7312D0034FD59 /* ServiceKnowledge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +384,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
-					"$(PROJECT_DIR)/../../Frameworks/SalesforceMobileSDK",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -420,7 +403,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
-					"$(PROJECT_DIR)/../../Frameworks/SalesforceMobileSDK",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
