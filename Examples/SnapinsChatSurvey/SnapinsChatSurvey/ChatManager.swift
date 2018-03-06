@@ -15,7 +15,7 @@ class ChatManager : NSObject {
   // TO DO: Fill in these org configuration settings.
   // See the Snap-ins Developer's Guide for more info:
   // https://developer.salesforce.com/docs/atlas.en-us.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm
-  static let CHAT_POD_NAME = "d.la.<#pod_name#>.salesforce.com"
+  static let CHAT_POD_NAME = "d.<#pod_name#>.salesforce.com"
   static let CHAT_ORG_ID = "<#org_id#>"
   static let CHAT_DEPLOYMENT_ID = "<#deployment_id#>"
   static let CHAT_BUTTON_ID = "<#button_id#>"

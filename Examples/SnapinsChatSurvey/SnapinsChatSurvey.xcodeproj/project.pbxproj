@@ -10,14 +10,6 @@
 		870627AB1F269D3D007052DF /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870627AA1F269D3D007052DF /* ChatManager.swift */; };
 		8725F40D1F2163070007E948 /* ChatManager+ChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8725F40C1F2163070007E948 /* ChatManager+ChatDelegate.swift */; };
 		8738C9911F22626500C2D9BE /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738C9901F22626500C2D9BE /* SurveyViewController.swift */; };
-		87B2A4931F2678FC007299E5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */; };
-		87B2A4941F2678FC007299E5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		87B2A4951F2678FC007299E5 /* SalesforceAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4881F2678D0007299E5 /* SalesforceAnalytics.framework */; };
-		87B2A4961F2678FC007299E5 /* SalesforceAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4881F2678D0007299E5 /* SalesforceAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		87B2A4971F2678FC007299E5 /* SalesforceSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48B1F2678D0007299E5 /* SalesforceSDKCore.framework */; };
-		87B2A4981F2678FC007299E5 /* SalesforceSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48B1F2678D0007299E5 /* SalesforceSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		87B2A4991F2678FC007299E5 /* SmartStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48C1F2678D0007299E5 /* SmartStore.framework */; };
-		87B2A49A1F2678FC007299E5 /* SmartStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48C1F2678D0007299E5 /* SmartStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87B2A49B1F2678FC007299E5 /* ServiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48F1F2678D0007299E5 /* ServiceChat.framework */; };
 		87B2A49C1F2678FC007299E5 /* ServiceChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A48F1F2678D0007299E5 /* ServiceChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87B2A49D1F2678FC007299E5 /* ServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2A4901F2678D0007299E5 /* ServiceCore.framework */; };
@@ -36,12 +28,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				87B2A49A1F2678FC007299E5 /* SmartStore.framework in Embed Frameworks */,
 				87B2A49E1F2678FC007299E5 /* ServiceCore.framework in Embed Frameworks */,
-				87B2A4981F2678FC007299E5 /* SalesforceSDKCore.framework in Embed Frameworks */,
-				87B2A4961F2678FC007299E5 /* SalesforceAnalytics.framework in Embed Frameworks */,
 				87B2A49C1F2678FC007299E5 /* ServiceChat.framework in Embed Frameworks */,
-				87B2A4941F2678FC007299E5 /* CocoaLumberjack.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,10 +40,6 @@
 		870627AA1F269D3D007052DF /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		8725F40C1F2163070007E948 /* ChatManager+ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatManager+ChatDelegate.swift"; sourceTree = "<group>"; };
 		8738C9901F22626500C2D9BE /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
-		87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
-		87B2A4881F2678D0007299E5 /* SalesforceAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceAnalytics.framework; sourceTree = "<group>"; };
-		87B2A48B1F2678D0007299E5 /* SalesforceSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceSDKCore.framework; sourceTree = "<group>"; };
-		87B2A48C1F2678D0007299E5 /* SmartStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartStore.framework; sourceTree = "<group>"; };
 		87B2A48F1F2678D0007299E5 /* ServiceChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceChat.framework; sourceTree = "<group>"; };
 		87B2A4901F2678D0007299E5 /* ServiceCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceCore.framework; sourceTree = "<group>"; };
 		87C375C71F215F3700E4FAB0 /* SnapinsChatSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapinsChatSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,12 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B2A4991F2678FC007299E5 /* SmartStore.framework in Frameworks */,
 				87B2A49D1F2678FC007299E5 /* ServiceCore.framework in Frameworks */,
-				87B2A4971F2678FC007299E5 /* SalesforceSDKCore.framework in Frameworks */,
-				87B2A4951F2678FC007299E5 /* SalesforceAnalytics.framework in Frameworks */,
 				87B2A49B1F2678FC007299E5 /* ServiceChat.framework in Frameworks */,
-				87B2A4931F2678FC007299E5 /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,23 +67,11 @@
 		87B2A4841F2678D0007299E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87B2A4861F2678D0007299E5 /* SalesforceMobileSDK */,
 				87B2A48F1F2678D0007299E5 /* ServiceChat.framework */,
 				87B2A4901F2678D0007299E5 /* ServiceCore.framework */,
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
-			sourceTree = "<group>";
-		};
-		87B2A4861F2678D0007299E5 /* SalesforceMobileSDK */ = {
-			isa = PBXGroup;
-			children = (
-				87B2A4871F2678D0007299E5 /* CocoaLumberjack.framework */,
-				87B2A4881F2678D0007299E5 /* SalesforceAnalytics.framework */,
-				87B2A48B1F2678D0007299E5 /* SalesforceSDKCore.framework */,
-				87B2A48C1F2678D0007299E5 /* SmartStore.framework */,
-			);
-			path = SalesforceMobileSDK;
 			sourceTree = "<group>";
 		};
 		87C375BE1F215F3700E4FAB0 = {
@@ -357,7 +325,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
-					"$(PROJECT_DIR)/../../Frameworks/SalesforceMobileSDK",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SnapinsChatSurvey/Info.plist;
@@ -376,7 +343,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../Frameworks",
-					"$(PROJECT_DIR)/../../Frameworks/SalesforceMobileSDK",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SnapinsChatSurvey/Info.plist;
