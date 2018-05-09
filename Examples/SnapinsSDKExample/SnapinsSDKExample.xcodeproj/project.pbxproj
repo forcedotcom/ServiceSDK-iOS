@@ -48,13 +48,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6FCD89481EE731020034FD59 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
-		6FCD89491EE731020034FD59 /* SalesforceAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceAnalytics.framework; sourceTree = "<group>"; };
-		6FCD894A1EE731020034FD59 /* SalesforceHybridSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceHybridSDK.framework; sourceTree = "<group>"; };
-		6FCD894B1EE731020034FD59 /* SalesforceReact.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceReact.framework; sourceTree = "<group>"; };
-		6FCD894C1EE731020034FD59 /* SalesforceSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SalesforceSDKCore.framework; sourceTree = "<group>"; };
-		6FCD894D1EE731020034FD59 /* SmartStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartStore.framework; sourceTree = "<group>"; };
-		6FCD894E1EE731020034FD59 /* SmartSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartSync.framework; sourceTree = "<group>"; };
 		6FCD894F1EE731020034FD59 /* ServiceCases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceCases.framework; sourceTree = "<group>"; };
 		6FCD89501EE731020034FD59 /* ServiceChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceChat.framework; sourceTree = "<group>"; };
 		6FCD89511EE731020034FD59 /* ServiceCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceCore.framework; sourceTree = "<group>"; };
@@ -93,7 +86,6 @@
 		6FCD89461EE731020034FD59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FCD89471EE731020034FD59 /* SalesforceMobileSDK */,
 				6FCD894F1EE731020034FD59 /* ServiceCases.framework */,
 				6FCD89501EE731020034FD59 /* ServiceChat.framework */,
 				6FCD89511EE731020034FD59 /* ServiceCore.framework */,
@@ -102,20 +94,6 @@
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
-			sourceTree = "<group>";
-		};
-		6FCD89471EE731020034FD59 /* SalesforceMobileSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6FCD89481EE731020034FD59 /* CocoaLumberjack.framework */,
-				6FCD89491EE731020034FD59 /* SalesforceAnalytics.framework */,
-				6FCD894A1EE731020034FD59 /* SalesforceHybridSDK.framework */,
-				6FCD894B1EE731020034FD59 /* SalesforceReact.framework */,
-				6FCD894C1EE731020034FD59 /* SalesforceSDKCore.framework */,
-				6FCD894D1EE731020034FD59 /* SmartStore.framework */,
-				6FCD894E1EE731020034FD59 /* SmartSync.framework */,
-			);
-			path = SalesforceMobileSDK;
 			sourceTree = "<group>";
 		};
 		87EBF7861ECDF4A100127B7B = {
