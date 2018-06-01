@@ -1,0 +1,1940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SCServiceCloud Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        $("#Nav-Constants").hide();
+        $("#Nav-Other\\ Constants").hide();
+      });
+    </script>
+    <a name="//apple_ref/objc/Class/SCServiceCloud" class="dashAnchor"></a>
+
+    <a title="SCServiceCloud Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="http://forcedotcom.github.io/ServiceSDK-iOS/">
+          SnapinsSDK iOS Reference Documentation Home
+        </a>
+        
+      </p>
+    
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://http%3A%2F%2Fforcedotcom%2Egithub%2Eio%2FServiceSDK%2DiOS%2Freleases%2Fapi%2Fdocsets%2FSnapinsSDK%2Exml">
+            <img class="header-icon" src="../img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SnapinsSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      SCServiceCloud Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name" id="Nav-Guides">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../reference-overview.html">Reference Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../getting-started.html">Getting Started</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../authentication.html">Authentication</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Service Core">
+            <a class="nav-group-name-link" href="../Service Core.html">Service Core</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCServiceCloud.html">SCServiceCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicecorestringconstants.html">ServiceCoreStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCAppearanceConfigurationDelegate.html">SCAppearanceConfigurationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceColorToken">SCSAppearanceColorToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceImageToken">SCSAppearanceImageToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceLabelToken">SCSAppearanceLabelToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCServiceErrorCode.html">SCServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCServiceLogger.html">SCServiceLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSLoggerLevel.html">SCSLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSMinimizable.html">SCSMinimizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSNotification.html">SCSNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSNotificationType.html">SCSNotificationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCSAuthenticationSettings.h@T@SCSOAuth2JSONKey">SCSOAuth2JSONKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Knowledge">
+            <a class="nav-group-name-link" href="../Knowledge.html">Knowledge</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCKnowledgeInterfaceDelegate.html">SCKnowledgeInterfaceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSKnowledgeManager.html">SCSKnowledgeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../serviceknowledgestringconstants.html">ServiceKnowledgeStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCArticleSortByField.html">SCArticleSortByField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCArticleSortOrder.html">SCArticleSortOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCChannelType.html">SCChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCQueryMethod.html">SCQueryMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticle.html">SCSArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSArticleDownloadOption.html">SCSArticleDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleViewController.html">SCSArticleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleViewControllerDelegate.html">SCSArticleViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQueryListViewController.html">SCSArticleQueryListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleQueryListViewControllerDelegate.html">SCSArticleQueryListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQueryResultsController.html">SCSArticleQueryResultsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleQueryResultsControllerDelegate.html">SCSArticleQueryResultsControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategory.html">SCSCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCategoryDisplayMode.html">SCSCategoryDisplayMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCategoryHeaderType.html">SCSCategoryHeaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategoryGroup.html">SCSCategoryGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategoryViewController.html">SCSCategoryViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCategoryViewControllerDelegate.html">SCSCategoryViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSKnowledgeErrorCode.html">SCSKnowledgeErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSKnowledgeHomeViewController.html">SCSKnowledgeHomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSKnowledgeHomeViewControllerDelegate.html">SCSKnowledgeHomeViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSMutableArticleQuery.html">SCSMutableArticleQuery</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Live Agent Chat">
+            <a class="nav-group-name-link" href="../Live Agent Chat.html">Live Agent Chat</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChat.html">SCSChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatInterface.html">SCSChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatConfiguration.html">SCSChatConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatDelegate.html">SCSChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicechatstringconstants.html">ServiceChatStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Live Agent Chat.html#/c:SCSChat.h@T@SCSChatAvailabilityHandler">SCSChatAvailabilityHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Live Agent Chat.html#/c:SCSChat.h@T@SCSChatCompletionHandler">SCSChatCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatEndReason.html">SCSChatEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatErrorCode.html">SCSChatErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatPresentationStyle.html">SCSChatPresentationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatSessionState.html">SCSChatSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatEntity.html">SCSPrechatEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatEntityField.html">SCSPrechatEntityField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatObject.html">SCSPrechatObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatPickerObject.html">SCSPrechatPickerObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatPickerOption.html">SCSPrechatPickerOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatTextInputObject.html">SCSPrechatTextInputObject</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Case Management">
+            <a class="nav-group-name-link" href="../Case Management.html">Case Management</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCCaseInterface.html">SCCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicecasesstringconstants.html">ServiceCasesStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseDetailViewController.html">SCSCaseDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCaseDetailViewControllerDelegate.html">SCSCaseDetailViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCaseErrorCode.html">SCSCaseErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseListViewController.html">SCSCaseListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCaseListViewControllerDelegate.html">SCSCaseListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseNotification.html">SCSCaseNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCasePublisherResult.html">SCSCasePublisherResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCasePublisherViewController.html">SCSCasePublisherViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCasePublisherViewControllerDelegate.html">SCSCasePublisherViewControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-SOS">
+            <a class="nav-group-name-link" href="../SOS.html">SOS</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSSessionManager.html">SOSSessionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSOptions.html">SOSOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSDelegate.html">SOSDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicesosstringconstants.html">ServiceSOSStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSAgentAvailability.html">SOSAgentAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSAgentAvailabilityStatusType.html">SOSAgentAvailabilityStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSCameraBaseViewController.html">SOSCameraBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSCameraType.html">SOSCameraType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../SOS.html#/c:SOSSessionManager.h@T@SOSCompletionHandler">SOSCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSConnectingBaseViewController.html">SOSConnectingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSErrorCode.html">SOSErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../SOS.html#/c:objc(cs)SOSLineDrawView">SOSLineDrawView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSMaskedTextField.html">SOSMaskedTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSMaskable.html">SOSMaskable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSMasking.html">SOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSMaskState.html">SOSMaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSNetworkReporter.html">SOSNetworkReporter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSNetworkReporterDelegate.html">SOSNetworkReporterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSNetworkStatus.html">SOSNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSOnboardingBaseViewController.html">SOSOnboardingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSReconnectStatus.html">SOSReconnectStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenAnnotations.html">SOSScreenAnnotations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenSharing.html">SOSScreenSharing</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenSharingBaseViewController.html">SOSScreenSharingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSSessionViewController.html">SOSSessionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSSessionState.html">SOSSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSStopReason.html">SOSStopReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUIDeviceCameraReceivable.html">SOSUIDeviceCameraReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSUIPhase.html">SOSUIPhase</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Action Button Customization">
+            <a class="nav-group-name-link" href="../Action Button Customization.html">Action Button Customization</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSActionManager.html">SCSActionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionManagerDelegate.html">SCSActionManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionItem.html">SCSActionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSActionButton.html">SCSActionButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions/SCSActionItemDefaultSort.html">SCSActionItemDefaultSort</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Action Button Customization.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Constants">
+            <a class="nav-group-name-link" href="../Other Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@CaseUIVersionNumber">CaseUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@CaseUIVersionString">CaseUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeCoreVersionNumber">KnowledgeCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeCoreVersionString">KnowledgeCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeUIVersionNumber">KnowledgeUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeUIVersionString">KnowledgeUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelArticleListSummaryName">SCAppearanceLabelArticleListSummaryName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelArticleListTitleName">SCAppearanceLabelArticleListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseDetailSubtitle">SCAppearanceLabelCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseDetailTitle">SCAppearanceLabelCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseFeedItemBodyName">SCAppearanceLabelCaseFeedItemBodyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseFeedTitle">SCAppearanceLabelCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListDate">SCAppearanceLabelCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListSubTitle">SCAppearanceLabelCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListTitle">SCAppearanceLabelCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCategoryListTitleName">SCAppearanceLabelCategoryListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightBold">SCFontWeightBold</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightLight">SCFontWeightLight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightRegular">SCFontWeightRegular</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCInterfaceStyleDefault">SCInterfaceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCNavigationBarButtonWidth">SCNavigationBarButtonWidth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionArticleSearch">SCSActionArticleSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCaseInterface">SCSActionCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCaseList">SCSActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCasePublisher">SCSActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionChatInterface">SCSActionChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceBrandContrastColor">SCSAppearanceBrandContrastColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimary">SCSAppearanceColorTokenBrandPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimaryInverted">SCSAppearanceColorTokenBrandPrimaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondary">SCSAppearanceColorTokenBrandSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondaryInverted">SCSAppearanceColorTokenBrandSecondaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastInverted">SCSAppearanceColorTokenContrastInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastPrimary">SCSAppearanceColorTokenContrastPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastQuaternary">SCSAppearanceColorTokenContrastQuaternary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastSecondary">SCSAppearanceColorTokenContrastSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastTertiary">SCSAppearanceColorTokenContrastTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackPrimary">SCSAppearanceColorTokenFeedbackPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackSecondary">SCSAppearanceColorTokenFeedbackSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackTertiary">SCSAppearanceColorTokenFeedbackTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenNavbarBackground">SCSAppearanceColorTokenNavbarBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenNavbarInverted">SCSAppearanceColorTokenNavbarInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenOverlay">SCSAppearanceColorTokenOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastInvertedColor">SCSAppearanceContrastInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastPrimaryColor">SCSAppearanceContrastPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastQuaternaryColor">SCSAppearanceContrastQuaternaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastSecondaryColor">SCSAppearanceContrastSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastTertiaryColor">SCSAppearanceContrastTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackPrimaryColor">SCSAppearanceFeedbackPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackSecondaryColor">SCSAppearanceFeedbackSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackTertiaryColor">SCSAppearanceFeedbackTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionCasePublisher">SCSAppearanceImageTokenActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionChat">SCSAppearanceImageTokenActionChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionSearch">SCSAppearanceImageTokenActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenAttachmentClipIcon">SCSAppearanceImageTokenAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenBack">SCSAppearanceImageTokenBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCaseSubmitSuccess">SCSAppearanceImageTokenCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCategoryHeaderArrow">SCSAppearanceImageTokenCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatAgentAvatar">SCSAppearanceImageTokenChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatBotFooterMenu">SCSAppearanceImageTokenChatBotFooterMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIcon">SCSAppearanceImageTokenChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIconLarge">SCSAppearanceImageTokenChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenClose">SCSAppearanceImageTokenClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCompose">SCSAppearanceImageTokenCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCountBadgeBackground">SCSAppearanceImageTokenCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenDone">SCSAppearanceImageTokenDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenDropdown">SCSAppearanceImageTokenDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptyArticle">SCSAppearanceImageTokenEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptyIcon">SCSAppearanceImageTokenEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptySection">SCSAppearanceImageTokenEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenError">SCSAppearanceImageTokenError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenErrorLarge">SCSAppearanceImageTokenErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenGenericError">SCSAppearanceImageTokenGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenMinimizeButton">SCSAppearanceImageTokenMinimizeButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoAccess">SCSAppearanceImageTokenNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoConnection">SCSAppearanceImageTokenNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoSearchResult">SCSAppearanceImageTokenNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenPicklistDropdown">SCSAppearanceImageTokenPicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenPreChatIcon">SCSAppearanceImageTokenPreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSAgentMutedIcon">SCSAppearanceImageTokenSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSAgentPlaceHolderIcon">SCSAppearanceImageTokenSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSCameraIcon">SCSAppearanceImageTokenSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSCancel">SCSAppearanceImageTokenSOSCancel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSConfirmIcon">SCSAppearanceImageTokenSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSEndIcon">SCSAppearanceImageTokenSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSExpandIcon">SCSAppearanceImageTokenSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSFlashlightIcon">SCSAppearanceImageTokenSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSInfoIcon">SCSAppearanceImageTokenSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMasking">SCSAppearanceImageTokenSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMicrophoneIcon">SCSAppearanceImageTokenSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMicrophoneMutedIcon">SCSAppearanceImageTokenSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSPauseIcon">SCSAppearanceImageTokenSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSResumeIcon">SCSAppearanceImageTokenSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSearchPlaceholder">SCSAppearanceImageTokenSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSend">SCSAppearanceImageTokenSend</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubCategoryIcon">SCSAppearanceImageTokenSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonNextArrow">SCSAppearanceImageTokenSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonPreviousArrow">SCSAppearanceImageTokenSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenWhiteBubble">SCSAppearanceImageTokenWhiteBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListSummary">SCSAppearanceLabelTokenArticleListSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListTitle">SCSAppearanceLabelTokenArticleListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailSubtitle">SCSAppearanceLabelTokenCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailTitle">SCSAppearanceLabelTokenCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedItemBody">SCSAppearanceLabelTokenCaseFeedItemBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedTitle">SCSAppearanceLabelTokenCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListDate">SCSAppearanceLabelTokenCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListSubTitle">SCSAppearanceLabelTokenCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListTitle">SCSAppearanceLabelTokenCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCategoryListTitle">SCSAppearanceLabelTokenCategoryListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceNavbarBackgroundColor">SCSAppearanceNavbarBackgroundColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceNavbarInvertedColor">SCSAppearanceNavbarInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceOverlayColor">SCSAppearanceOverlayColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearancePrimaryBrandColor">SCSAppearancePrimaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearancePrimaryBrandInvertedColor">SCSAppearancePrimaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceSecondaryBrandColor">SCSAppearanceSecondaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceSecondaryBrandInvertedColor">SCSAppearanceSecondaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceTitleTextColor">SCSAppearanceTitleTextColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSArticleDownloadBeganNotification">SCSArticleDownloadBeganNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSArticleDownloadFinishedNotification">SCSArticleDownloadFinishedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAuthenticationSettingsUpdatedNotification">SCSAuthenticationSettingsUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseCoreLogIdentifier">SCSCaseCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseErrorDomain">SCSCaseErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseUILogIdentifier">SCSCaseUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatCoreLogIdentifier">SCSChatCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatUILogIdentifier">SCSChatUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeCoreLogIdentifier">SCSKnowledgeCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeErrorDomain">SCSKnowledgeErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryAddedNotification">SCSKnowledgeManagerCategoryAddedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryDeletedNotification">SCSKnowledgeManagerCategoryDeletedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryKey">SCSKnowledgeManagerCategoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryUpdatedNotification">SCSKnowledgeManagerCategoryUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerIndexKey">SCSKnowledgeManagerIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSNotificationPayloadKeyCaseId">SCSNotificationPayloadKeyCaseId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyAccessToken">SCSOAuth2JSONKeyAccessToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyCommunityId">SCSOAuth2JSONKeyCommunityId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyCommunityUrl">SCSOAuth2JSONKeyCommunityUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyIdentityUrl">SCSOAuth2JSONKeyIdentityUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyInstanceUrl">SCSOAuth2JSONKeyInstanceUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyRefreshToken">SCSOAuth2JSONKeyRefreshToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuthInvalidSessionId">SCSOAuthInvalidSessionId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceCloudErrorDomain">SCServiceCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceCloudLoggingErrorDomain">SCServiceCloudLoggingErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceErrorDomain">SCServiceErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCUAppearanceStyleDefault">SCUAppearanceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCasesVersionNumber">ServiceCasesVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCasesVersionString">ServiceCasesVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceChatVersionNumber">ServiceChatVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceChatVersionString">ServiceChatVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCoreVersionNumber">ServiceCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCoreVersionString">ServiceCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceKnowledgeVersionNumber">ServiceKnowledgeVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceKnowledgeVersionString">ServiceKnowledgeVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kPrechatVisitorNameLabel">kPrechatVisitorNameLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionCaseList">kSCAppearanceActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionCasePublisher">kSCAppearanceActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionSearch">kSCAppearanceActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceAttachmentClipIcon">kSCAppearanceAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceBack">kSCAppearanceBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCaseSubmitSuccess">kSCAppearanceCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCategoryHeaderArrow">kSCAppearanceCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatAgentAvatar">kSCAppearanceChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatConnectingIcon">kSCAppearanceChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatConnectingIconLarge">kSCAppearanceChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatIcon">kSCAppearanceChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCompose">kSCAppearanceCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCountBadgeBackground">kSCAppearanceCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceDone">kSCAppearanceDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceDropdown">kSCAppearanceDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptyArticle">kSCAppearanceEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptyIcon">kSCAppearanceEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptySection">kSCAppearanceEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceError">kSCAppearanceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceErrorLarge">kSCAppearanceErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceGenericError">kSCAppearanceGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceImageClose">kSCAppearanceImageClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceMinimizeButtonImage">kSCAppearanceMinimizeButtonImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoAccess">kSCAppearanceNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoConnection">kSCAppearanceNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoSearchResult">kSCAppearanceNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearancePicklistDropdown">kSCAppearancePicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearancePreChatIcon">kSCAppearancePreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSAgentMutedIcon">kSCAppearanceSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSAgentPlaceHolderIcon">kSCAppearanceSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSCameraIcon">kSCAppearanceSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSCancelIcon">kSCAppearanceSOSCancelIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSConfirmIcon">kSCAppearanceSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSEndIcon">kSCAppearanceSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSExpandIcon">kSCAppearanceSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSFlashlightIcon">kSCAppearanceSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSInfoIcon">kSCAppearanceSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMasking">kSCAppearanceSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMicrophoneIcon">kSCAppearanceSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMicrophoneMutedIcon">kSCAppearanceSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSPauseIcon">kSCAppearanceSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSResumeIcon">kSCAppearanceSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSearchPlaceholder">kSCAppearanceSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubCategoryIcon">kSCAppearanceSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubmitButtonNextArrow">kSCAppearanceSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubmitButtonPreviousArrow">kSCAppearanceSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceWhiteBubble">kSCAppearanceWhiteBubble</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SCServiceCloud</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code>
+<span class="k">@interface</span> <span class="nc">SCServiceCloud</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Shared singleton class used as the primary access point for the Snap-ins SDK.</p>
+<h3 id='overview' class='heading'>Overview</h3>
+
+<p>This class gives you access to all the features of the SDK and allows you
+to configure or customize the SDK. Use the <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(cm)sharedInstance">+[SCServiceCloud sharedInstance]</a></code>
+class method to access the singleton for this class.</p>
+
+<p>You can access each of the SDK features with properties on this singleton:
+<code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)knowledge">SCServiceCloud.knowledge</a></code>, <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)cases">SCServiceCloud.cases</a></code>, <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)chat">SCServiceCloud.chat</a></code>,
+<code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)sos">SCServiceCloud.sos</a></code>.</p>
+
+<p>Specify your <code><a href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a></code> implementation using the
+<code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)delegate">SCServiceCloud.delegate</a></code> property. With this delegate, you can respond
+to events and make decisions on behalf of the SDK.</p>
+<h3 id='configuration' class='heading'>Configuration</h3>
+
+<p>Customize the appearance of the interface (such as the fonts, images, and strings)
+using the <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)appearanceConfiguration">SCServiceCloud.appearanceConfiguration</a></code> property. Specify the
+Knowledge and Case Management configuration settings using
+the <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)serviceConfiguration">SCServiceCloud.serviceConfiguration</a></code> property.</p>
+<h3 id='authentication-amp-notifications' class='heading'>Authentication &amp; Notifications</h3>
+
+<p>Knowledge and Case Management both have an option to authenticate users
+so that users can access information related to their user account or
+their user profile. To learn more about authentication, see <a href="../authentication.html">Authentication</a>.</p>
+
+<p><code>SCServiceCloud</code> allows you to explicitly set the authentication settings using
+<code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)setAuthenticationSettings:forServiceType:completion:">-setAuthenticationSettings:forServiceType:completion:</a></code>. You can also check the
+authentication for a particular service using <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)authenticationSettingsForServiceType:">-authenticationSettingsForServiceType:</a></code>.
+Refer to <code><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></code> for the core class associated with authentication.</p>
+
+<p>Authenticated users can be notified using push notifications when there is activity
+on their cases. To learn more about notifications see <a href="https://developer.salesforce.com/docs/atlas.en-us.service_sdk_ios.meta/service_sdk_ios/cases_push_notification.htm">Push Notifications for Case Activity</a>.</p>
+
+<p><code>SCServiceCloud</code> lets you determine whether the SDK can handle a remote push notification with
+<code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)notificationFromRemoteNotificationDictionary:">-notificationFromRemoteNotificationDictionary:</a></code>. If the notification
+can be handled by the SDK, pass it to the <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)showInterfaceForNotification:">-showInterfaceForNotification:</a></code> method.</p>
+<h3 id='action-buttons' class='heading'>Action Buttons</h3>
+
+<p>You can customize the action buttons used throughout the UI. You can override the look
+and the behavior of existing buttons, and you can create buttons associated with new actions.
+Use the <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(py)actions">SCServiceCloud.actions</a></code> property to get access to <code><a href="../Classes/SCSActionManager.html">SCSActionManager</a></code> and the action button API.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a></code>
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(cm)sharedInstance"></a>
+                    <a name="//apple_ref/objc/Method/+sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(cm)sharedInstance">+sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the shared service cloud manager for this process.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">shared</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Initialized shared instace.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)primaryWindow"></a>
+                    <a name="//apple_ref/objc/Property/primaryWindow" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)primaryWindow">primaryWindow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Identifies the primary window where view controllers should be placed when
+presented.</p>
+
+<p>This value is automatically determined under most circumstances, but in the 
+event that a custom value needs to be set, the <code>primaryWindow</code> property can 
+be set to a specific window that should be used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">null_resettable</span><span class="p">)</span>
+    <span class="n">UIWindow</span> <span class="o">*</span><span class="n">primaryWindow</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">primaryWindow</span><span class="p">:</span> <span class="nf">UIWindow</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)delegate"></a>
+                    <a name="//apple_ref/objc/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The delegate for the service interface manager.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span>
+    <span class="n">NSObject</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a></span><span class="o">&gt;</span> <span class="o">*</span><span class="n">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="nf">SCServiceCloudDelegate</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)interfaceStyle"></a>
+                    <a name="//apple_ref/objc/Property/interfaceStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)interfaceStyle">interfaceStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The appearance style to use in presented views and view controllers.</p>
+
+<p>The default value for this is <code><a href="../Other Constants.html#/c:@SCInterfaceStyleDefault">SCInterfaceStyleDefault</a></code>.  If this value is set 
+after the interface has already been presented, it results in the service 
+interface being dismissed.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    We recommend that you only assign this property once in the
+lifetime of an application.  Changing interface styles at runtime may have
+unpredictable results, and the behavior is undefined.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">interfaceStyle</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">interfaceStyle</span><span class="p">:</span> <span class="nf">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)appearanceConfiguration"></a>
+                    <a name="//apple_ref/objc/Property/appearanceConfiguration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)appearanceConfiguration">appearanceConfiguration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the appearance configuration for the service interface. If not specified,
+this value falls back to default values.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a></span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">appearanceConfiguration</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">appearanceConfiguration</span><span class="p">:</span> <span class="nf">SCAppearanceConfiguration</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)serviceConfiguration"></a>
+                    <a name="//apple_ref/objc/Property/serviceConfiguration" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)serviceConfiguration">serviceConfiguration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configuration object used to define the self-service parameters used to 
+enable with Cases and/or Knowledge features.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n"><a href="../Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a></span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">serviceConfiguration</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">serviceConfiguration</span><span class="p">:</span> <span class="nf">SCSServiceConfiguration</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/CaseManagement"></a>
+                <a name="//apple_ref/objc/Section/CaseManagement" class="dashAnchor"></a>
+                <a href="#/CaseManagement">
+                  <h3 class="section-name">CaseManagement</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)cases"></a>
+                    <a name="//apple_ref/objc/Property/cases" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)cases">cases</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The singleton instance for Case Management.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCCaseInterface.html">SCCaseInterface</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SCCaseInterface.html">SCCaseInterface</a></span> <span class="o">*</span><span class="n">cases</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cases</span><span class="p">:</span> <span class="nf">SCCaseInterface</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/LiveAgentChat"></a>
+                <a name="//apple_ref/objc/Section/LiveAgentChat" class="dashAnchor"></a>
+                <a href="#/LiveAgentChat">
+                  <h3 class="section-name">LiveAgentChat</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)chat"></a>
+                    <a name="//apple_ref/objc/Property/chat" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)chat">chat</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The singleton instance for Live Agent Chat.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCSChat.html">SCSChat</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SCSChat.html">SCSChat</a></span> <span class="o">*</span><span class="n">chat</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">chat</span><span class="p">:</span> <span class="nf">SCSChat</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ChatUI"></a>
+                <a name="//apple_ref/objc/Section/ChatUI" class="dashAnchor"></a>
+                <a href="#/ChatUI">
+                  <h3 class="section-name">ChatUI</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)chatUI"></a>
+                    <a name="//apple_ref/objc/Property/chatUI" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)chatUI">chatUI</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The singleton instance of the chat user interface</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SCSChatInterface.html">SCSChatInterface</a></span> <span class="o">*</span><span class="n">chatUI</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">chatUI</span><span class="p">:</span> <span class="nf">SCSChatInterface</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Authentication"></a>
+                <a name="//apple_ref/objc/Section/Authentication" class="dashAnchor"></a>
+                <a href="#/Authentication">
+                  <h3 class="section-name">Authentication</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(im)setAuthenticationSettings:forServiceType:completion:"></a>
+                    <a name="//apple_ref/objc/Method/-setAuthenticationSettings:forServiceType:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(im)setAuthenticationSettings:forServiceType:completion:">-setAuthenticationSettings:forServiceType:completion:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the authentication settings for the designated service.</p>
+
+<p>The service can be one of the <code><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></code> enum values:</p>
+<li><code><a href="../Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a></code>: for the Case Management service</li>
+<li><p><code><a href="../Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a></code>: for the Knowledge service</p></li>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p><code><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="nf">setAuthenticationSettings</span><span class="p">:(</span><span class="n">nullable</span> <span class="n"><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">settings</span>
+           <span class="nf">forServiceType</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></span><span class="p">)</span><span class="nv">serviceType</span>
+               <span class="nf">completion</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="n">__strong</span><span class="p">))</span>
+                              <span class="n">completion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAuthenticationSettings</span><span class="p">(</span><span class="n">_</span> <span class="nv">settings</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></span><span class="p">?,</span> <span class="n">forServiceType</span> <span class="nv">serviceType</span><span class="p">:</span> <span class="kt"><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>settings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Authentication settings for this service.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>serviceType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The designated service.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The completion block that is called after the SDK attempts to authenticate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(im)authenticationSettingsForServiceType:"></a>
+                    <a name="//apple_ref/objc/Method/-authenticationSettingsForServiceType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(im)authenticationSettingsForServiceType:">-authenticationSettingsForServiceType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the authentication settings for the designated service type.</p>
+
+<p>The service can be one of the <code><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></code> enum values:</p>
+<li><code><a href="../Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a></code>: for the Case Management service</li>
+<li><p><code><a href="../Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a></code>: for the Knowledge service</p></li>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p><code><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></code></p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n"><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">authenticationSettingsForServiceType</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></span><span class="p">)</span><span class="nv">serviceType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">authenticationSettings</span><span class="p">(</span><span class="n">forServiceType</span> <span class="nv">serviceType</span><span class="p">:</span> <span class="kt"><a href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>serviceType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The designated service.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Notifications"></a>
+                <a name="//apple_ref/objc/Section/Notifications" class="dashAnchor"></a>
+                <a href="#/Notifications">
+                  <h3 class="section-name">Notifications</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(im)notificationFromRemoteNotificationDictionary:"></a>
+                    <a name="//apple_ref/objc/Method/-notificationFromRemoteNotificationDictionary:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(im)notificationFromRemoteNotificationDictionary:">-notificationFromRemoteNotificationDictionary:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a concrete subclass of <code><a href="../Classes/SCSNotification.html">SCSNotification</a></code> from a remote notification
+dictionary.</p>
+
+<p>Returns <code>nil</code> if the notification cannot be handled by the SDK.
+Use <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)showInterfaceForNotification:">-showInterfaceForNotification:</a></code> to show the view associated with this 
+notification.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)showInterfaceForNotification:">-showInterfaceForNotification:</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n"><a href="../Classes/SCSNotification.html">SCSNotification</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">notificationFromRemoteNotificationDictionary</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">userInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="n">fromRemoteNotificationDictionary</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/SCSNotification.html">SCSNotification</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The remote notification dictionary.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(im)showInterfaceForNotification:"></a>
+                    <a name="//apple_ref/objc/Method/-showInterfaceForNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(im)showInterfaceForNotification:">-showInterfaceForNotification:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shows the appropriate view related to the notification that is passed to this 
+method.</p>
+
+<p>Use <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)notificationFromRemoteNotificationDictionary:">-notificationFromRemoteNotificationDictionary:</a></code> to convert an 
+<code>NSDictionary</code> into an <code><a href="../Classes/SCSNotification.html">SCSNotification</a></code> object.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCServiceCloud.html#/c:objc(cs)SCServiceCloud(im)notificationFromRemoteNotificationDictionary:">-notificationFromRemoteNotificationDictionary:</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">showInterfaceForNotification</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/SCSNotification.html">SCSNotification</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showInterface</span><span class="p">(</span><span class="k">for</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt"><a href="../Classes/SCSNotification.html">SCSNotification</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>notification</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The notification that determines what interface to show.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ActionManager"></a>
+                <a name="//apple_ref/objc/Section/ActionManager" class="dashAnchor"></a>
+                <a href="#/ActionManager">
+                  <h3 class="section-name">ActionManager</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)actions"></a>
+                    <a name="//apple_ref/objc/Property/actions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)actions">actions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Access point for interacting with the floating action bar.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCSActionManager.html">SCSActionManager</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SCSActionManager.html">SCSActionManager</a></span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">actions</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">actions</span><span class="p">:</span> <span class="nf">SCSActionManager</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Knowledge"></a>
+                <a name="//apple_ref/objc/Section/Knowledge" class="dashAnchor"></a>
+                <a href="#/Knowledge">
+                  <h3 class="section-name">Knowledge</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)knowledge"></a>
+                    <a name="//apple_ref/objc/Property/knowledge" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)knowledge">knowledge</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The singleton instance for Knowledge.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a></span> <span class="o">*</span><span class="n">knowledge</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">knowledge</span><span class="p">:</span> <span class="nf">SCKnowledgeInterface</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/SOS"></a>
+                <a name="//apple_ref/objc/Section/SOS" class="dashAnchor"></a>
+                <a href="#/SOS">
+                  <h3 class="section-name">SOS</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCServiceCloud(py)sos"></a>
+                    <a name="//apple_ref/objc/Property/sos" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCServiceCloud(py)sos">sos</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The singleton instance for SOS.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <code><a href="../Classes/SOSSessionManager.html">SOSSessionManager</a></code>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n"><a href="../Classes/SOSSessionManager.html">SOSSessionManager</a></span> <span class="o">*</span><span class="n">sos</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">sos</span><span class="p">:</span> <span class="nf">SOSSessionManager</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2018 <a class="link" href="https://developer.salesforce.com/page/SnapinsMobile" target="_blank" rel="external">Salesforce</a>. All rights reserved. (Last updated: 2018-05-31)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
