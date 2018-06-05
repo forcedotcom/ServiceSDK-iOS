@@ -1115,21 +1115,21 @@
     },
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ServiceSDK-iOS/ServiceSDK-iOS/distribution/212.0.3/staging/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCServiceCloud.h",
-      "line": 144,
+      "line": 147,
       "symbol": "SCServiceCloud(Authentication)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ServiceSDK-iOS/ServiceSDK-iOS/distribution/212.0.3/staging/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCServiceCloud.h",
-      "line": 179,
+      "line": 182,
       "symbol": "SCServiceCloud(Notifications)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yzalkow/Documents/servicesdk_dev/ServiceSDK-iOS/ServiceSDK-iOS/distribution/212.0.3/staging/Frameworks/ServiceCore.framework/Frameworks/ServiceCommon.framework/Headers/SCServiceCloud.h",
-      "line": 209,
+      "line": 212,
       "symbol": "SCServiceCloud(ActionManager)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
       "warning": "undocumented"
