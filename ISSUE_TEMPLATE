@@ -1,0 +1,41 @@
+Before filing an issue:
+-----------------------
+- Attempt to reproduce the issue using 
+  [this sample application](Examples/SnapinsSDKExample/)
+- Search [existing issues](https://github.com/forcedotcom/ServiceSDK-iOS/issues), 
+  including issues that are closed.
+- Review the "Known Issues" 
+  [section of our release documentation](https://github.com/forcedotcom/ServiceSDK-iOS/releases) 
+  for your issue.
+- If this is an implementation-specific question please refer to the
+  [Snap-Ins for iOS Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.noversion.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm)
+  or the [Service Cloud Snap-Ins API Reference](http://forcedotcom.github.io/ServiceSDK-iOS/).
+- This issue tracker is intended for bugs and iOS Snap-Ins SDK
+  specific questions. If you're asking a general iOS development question,
+  please do so on Stack Overflow.
+
+When reporting a bug:
+-----------------------
+Fill out the sections below, leaving the headers but replacing the content. If
+you're unable to provide certain information, please explain why in the relevant
+section. We may close issues if they do not include sufficient information.
+
+### Issue description
+Describe the issue in detail, including observed and expected behavior.
+
+### Reproduction steps
+Describe how the issue can be reproduced, ideally using 
+[this sample application](Examples/SnapinsSDKExample/).
+Please indicate if the issue was reproduced while the user was authenticated
+or unauthenticated. Include any sample code that can help us reproduce the issue.
+
+### Version of SDK components being used
+Specify the absolute version number. Avoid using terms such as "latest".
+
+### Device(s) and version(s) of iOS being used
+Specify the devices and versions of iOS on which the issue can be
+reproduced, and how easily it reproduces. If possible, please test on multiple
+devices and iOS versions.
+
+### Screenshots / Videos
+Please provide any screenshots or videos which can be used to help clarify the issue.
