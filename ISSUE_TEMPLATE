@@ -1,7 +1,7 @@
 Before filing an issue:
 -----------------------
 - Attempt to reproduce the issue using 
-  [this sample application](Examples/SnapinsSDKExample/)
+  [this sample application](Examples/SnapinsSDKExample/).
 - Search [existing issues](https://github.com/forcedotcom/ServiceSDK-iOS/issues), 
   including issues that are closed.
 - Review the "Known Issues" 
