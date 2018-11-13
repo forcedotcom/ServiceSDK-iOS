@@ -7,7 +7,7 @@ Before filing an issue:
 - Review the "Known Issues" 
   [section of our release documentation](https://github.com/forcedotcom/ServiceSDK-iOS/releases) 
   for your issue.
-- If this is an implementation-specific question please refer to the
+- If this is an implementation-specific question, refer to the
   [Snap-Ins for iOS Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.noversion.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm)
   or the [Service Cloud Snap-Ins API Reference](http://forcedotcom.github.io/ServiceSDK-iOS/).
 - This issue tracker is intended for bugs and iOS Snap-Ins SDK
