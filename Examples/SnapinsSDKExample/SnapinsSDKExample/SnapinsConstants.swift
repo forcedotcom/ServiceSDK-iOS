@@ -33,7 +33,7 @@ class SnapinsConstants {
   // Live Agent Chat Config
   // TO DO: These variables are required for Chat...
   static let ENABLE_CHAT = false
-  static let CHAT_POD_NAME = "d.<#pod_name#>.salesforce.com"
+  static let CHAT_POD_NAME = "d.<#pod_name#>.com"
   static let CHAT_ORG_ID = "<#org_id#>"
   static let CHAT_DEPLOYMENT_ID = "<#deployment_id#>"
   static let CHAT_BUTTON_ID = "<#button_id#>"
@@ -41,7 +41,7 @@ class SnapinsConstants {
   // SOS Config
   // TO DO: These variables are required for SOS...
   static let ENABLE_SOS = false
-  static let SOS_POD_NAME = "d.<#pod_name#>.salesforce.com"
+  static let SOS_POD_NAME = "d.<#pod_name#>.com"
   static let SOS_ORG_ID = "<#org_id#>"
   static let SOS_DEPLOYMENT_ID = "<#deployment_id#>"
   
