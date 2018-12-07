@@ -45,8 +45,7 @@ class ViewController: UIViewController {
    */
   @IBAction func startKnowledge(_ sender: AnyObject) {
     ServiceCloud.shared().knowledge.setInterfaceVisible(true,
-                                                                  animated: true,
-                                                                  completion: nil)
+      animated: true, completion: nil)
   }
   
   /**
@@ -54,15 +53,14 @@ class ViewController: UIViewController {
    */
   @IBAction func startCases(_ sender: Any) {
     ServiceCloud.shared().cases.setInterfaceVisible(true,
-                                                              animated: true,
-                                                              completion: nil)
+      animated: true, completion: nil)
   }
 
   /**
    Starts Live Agent Chat.
    */
   @IBAction func startChat(_ sender: Any) {
-    ServiceCloud.shared().chat.startSession(with: SnapinsConfig.instance.chatConfig)
+    ServiceCloud.shared().chatUI.showChat(with: SnapinsConfig.instance.chatConfig!)
   }
 
   /**

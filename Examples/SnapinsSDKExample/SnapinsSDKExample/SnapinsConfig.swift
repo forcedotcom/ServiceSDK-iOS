@@ -100,7 +100,7 @@ class SnapinsConfig : NSObject {
                                         buttonId: SnapinsConstants.CHAT_BUTTON_ID)
 
       // Add self as a chat delegate
-      serviceCloud.chat.add(self)
+      serviceCloud.chatCore.add(delegate: self)
     }
   }
   
