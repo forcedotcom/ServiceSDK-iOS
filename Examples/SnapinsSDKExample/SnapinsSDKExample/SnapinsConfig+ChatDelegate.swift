@@ -21,9 +21,9 @@ extension SnapinsConfig : SCSChatSessionDelegate {
         
         // Here we'll handle the situation where the agent ends the session
         // and when there are no agents available...
-        switch (endEvent.type) {
+        switch (endEvent.reason) {
         case .agent:
-            description = "The agent has ended the session."
+            description = "The agent ended the session."
         case .noAgentsAvailable:
             description = "It looks like there are no agents available. Try again later."
         default:
