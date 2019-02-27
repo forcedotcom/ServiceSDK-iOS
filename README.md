@@ -1,4 +1,4 @@
-# Snap-Ins SDK for iOS
+# Embedded Service SDK for iOS
 
 Welcome to the Embedded Service SDK for iOS GitHub repository!
 
