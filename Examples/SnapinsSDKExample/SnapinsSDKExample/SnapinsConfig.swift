@@ -128,6 +128,10 @@ class SnapinsConfig : NSObject {
         // (This illustrates a good way to directly send data to your org.)
         let subjectField = SCSPrechatObject(label: "Subject", value: "Chat case created by app")
         
+        // Update config object with the pre-chat fields
+        config?.prechatFields =
+            [firstNameField, lastNameField, emailField, subjectField] as? [SCSPrechatObject]
+
         // Create an entity mapping for a Contact record type
         // (All this entity stuff is only required if you
         // want to map transcript fields to other Salesforce records.)
@@ -162,10 +166,6 @@ class SnapinsConfig : NSObject {
         let subjectEntityField = SCSPrechatEntityField(fieldName: "Subject", label: "Subject")
         subjectEntityField.doCreate = true
         caseEntity.entityFieldsMaps.add(subjectEntityField)
-        
-        // Update config object with the pre-chat fields
-        config?.prechatFields =
-            [firstNameField, lastNameField, emailField, subjectField] as? [SCSPrechatObject]
         
         // Update config object with the entity mappings
         // (This is only required if you want to map transcript
