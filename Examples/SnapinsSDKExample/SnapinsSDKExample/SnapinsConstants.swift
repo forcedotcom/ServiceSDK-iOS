@@ -33,11 +33,12 @@ class SnapinsConstants {
   // Live Agent Chat Config
   // TO DO: These variables are required for Chat...
   static let ENABLE_CHAT = false
+  static let ENABLE_PRECHAT_FIELDS = false
   static let CHAT_POD_NAME = "d.<#pod_name#>.com"
   static let CHAT_ORG_ID = "<#org_id#>"
   static let CHAT_DEPLOYMENT_ID = "<#deployment_id#>"
   static let CHAT_BUTTON_ID = "<#button_id#>"
-  
+
   // SOS Config
   // TO DO: These variables are required for SOS...
   static let ENABLE_SOS = false
