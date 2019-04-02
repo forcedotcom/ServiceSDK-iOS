@@ -60,7 +60,12 @@ class ViewController: UIViewController {
    Starts Live Agent Chat.
    */
   @IBAction func startChat(_ sender: Any) {
-    ServiceCloud.shared().chatUI.showChat(with: SnapinsConfig.instance.chatConfig!)
+    
+    ServiceCloud.shared().chatUI.showChat(with: SnapinsConfig.instance.chatConfig!,
+                                          showPrechat: SnapinsConstants.ENABLE_PRECHAT_FIELDS)
+    
+    // Use this command instead of above if you never need to show a pre-chat form...
+    // ServiceCloud.shared().chatUI.showChat(with: SnapinsConfig.instance.chatConfig!)
   }
 
   /**

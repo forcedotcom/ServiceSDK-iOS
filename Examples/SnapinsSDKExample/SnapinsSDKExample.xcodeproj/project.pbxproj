@@ -117,9 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				87C1E3AA1ECF3F52000B2299 /* SnapinsConstants.swift */,
-				87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */,
 				87EBF7921ECDF4A100127B7B /* AppDelegate.swift */,
 				87EBF7941ECDF4A100127B7B /* ViewController.swift */,
+				87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */,
 				87C1E3AC1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift */,
 				87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */,
 				87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */,
