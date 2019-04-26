@@ -1,8 +1,8 @@
-_This sample app demonstrates Snap-ins features. It doesn't contain production-quality code and is not meant to be used in a production app._
+_This sample app demonstrates Embedded Service SDK features. It doesn't contain production-quality code and is not meant to be used in a production app._
 
-# Snap-Ins SDK Hello World Example
+# Embedded Service SDK Hello World Example
 
-A simple Snap-ins SDK Hello World app that launches Knowledge, Cases, Chat, and SOS. This app also uses the action button API to create a custom button with a custom action.
+A simple Embedded Service SDK Hello World app that launches Knowledge, Cases, Chat, and SOS. This app also uses the action button API to create a custom button with a custom action.
 
 ## Instructions
 
