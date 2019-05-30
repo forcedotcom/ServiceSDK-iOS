@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SCSActionButton Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jazzy.js" defer></script>
+
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        $("#Nav-Constants").hide();
+        $("#Nav-Other\\ Constants").hide();
+      });
+    </script>
+    <a name="//apple_ref/objc/Class/SCSActionButton" class="dashAnchor"></a>
+
+    <a title="SCSActionButton Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="http://forcedotcom.github.io/ServiceSDK-iOS/">
+          ServiceSDK iOS Reference Documentation Home
+        </a>
+        
+      </p>
+    
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://http%3A%2F%2Fforcedotcom%2Egithub%2Eio%2FServiceSDK%2DiOS%2Freleases%2Fapi%2Fdocsets%2FServiceSDK%2Exml">
+            <img class="header-icon" src="../img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">ServiceSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      SCSActionButton Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name" id="Nav-Guides">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../reference-overview.html">Reference Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../getting-started.html">Getting Started</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../authentication.html">Authentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../color-branding.html">Color Branding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Service Core">
+            <a class="nav-group-name-link" href="../Service Core.html">Service Core</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCServiceCloud.html">SCServiceCloud</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicecorestringconstants.html">ServiceCoreStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCServiceCloudDelegate.html">SCServiceCloudDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSServiceConfiguration.html">SCSServiceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCAppearanceConfiguration.html">SCAppearanceConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCAppearanceConfigurationDelegate.html">SCAppearanceConfigurationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceColorToken">SCSAppearanceColorToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceImageToken">SCSAppearanceImageToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCSAppearanceLabelToken">SCSAppearanceLabelToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSAuthenticationSettings.html">SCSAuthenticationSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCServiceErrorCode.html">SCServiceErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCServiceLogger.html">SCServiceLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCCDefines.h@T@SCServiceType">SCServiceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSLoggerLevel.html">SCSLoggerLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSMinimizable.html">SCSMinimizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSMinimizableDelegate.html">SCSMinimizableDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSNotification.html">SCSNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSNotificationType.html">SCSNotificationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Service Core.html#/c:SCSAuthenticationSettings.h@T@SCSOAuth2JSONKey">SCSOAuth2JSONKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Chat">
+            <a class="nav-group-name-link" href="../Chat.html">Chat</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChat.html">SCSChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatInterface.html">SCSChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicechatstringconstants.html">ServiceChatStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSAgentJoinEvent.html">SCSAgentJoinEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Chat.html#/c:objc(cs)SCSAgentLeftConferenceEvent">SCSAgentLeftConferenceEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSAgentTextEvent.html">SCSAgentTextEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatBotMenu.html">SCSChatBotMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatBotMenuDelegate.html">SCSChatBotMenuDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatBotMenuEvent.html">SCSChatBotMenuEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Chat.html#/c:SCSChatBotMenu.h@T@SCSChatBotMenuType">SCSChatBotMenuType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatConfiguration.html">SCSChatConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatActor.html">SCSChatActor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatActorType.html">SCSChatActorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Chat.html#/c:SCSChat.h@T@SCSChatAvailabilityHandler">SCSChatAvailabilityHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Chat.html#/c:SCSChat.h@T@SCSChatCompletionHandler">SCSChatCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatEndReason.html">SCSChatEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatErrorCode.html">SCSChatErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatEvent.html">SCSChatEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatEvent.html">SCSChatEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatEventType.html">SCSChatEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatEventDelegate.html">SCSChatEventDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatMenuSelectionEvent.html">SCSChatMenuSelectionEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatSendableEvent.html">SCSChatSendableEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatSession.html">SCSChatSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatSessionDelegate.html">SCSChatSessionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSChatSessionEndEvent.html">SCSChatSessionEndEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSChatSessionInfo.html">SCSChatSessionInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSChatSessionState.html">SCSChatSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSFileTransferDelegate.html">SCSFileTransferDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSFileTransferEvent.html">SCSFileTransferEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSFileTransferRequest.html">SCSFileTransferRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Chat.html#/c:SCSChatInterface.h@T@SCSPrechatCompletion">SCSPrechatCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatEntity.html">SCSPrechatEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatEntityField.html">SCSPrechatEntityField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatObject.html">SCSPrechatObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatPickerObject.html">SCSPrechatPickerObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatPickerOption.html">SCSPrechatPickerOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSPrechatTextInputObject.html">SCSPrechatTextInputObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSURLEvent.html">SCSURLEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSUserEventDeliveryStatus.html">SCSUserEventDeliveryStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSUserTextEvent.html">SCSUserTextEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCUserEventInfoType.html">SCUserEventInfoType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Knowledge">
+            <a class="nav-group-name-link" href="../Knowledge.html">Knowledge</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCKnowledgeInterface.html">SCKnowledgeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../serviceknowledgestringconstants.html">ServiceKnowledgeStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCKnowledgeInterfaceDelegate.html">SCKnowledgeInterfaceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSKnowledgeManager.html">SCSKnowledgeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCArticleSortByField.html">SCArticleSortByField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCArticleSortOrder.html">SCArticleSortOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCChannelType.html">SCChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCQueryMethod.html">SCQueryMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticle.html">SCSArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSArticleDownloadOption.html">SCSArticleDownloadOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleViewController.html">SCSArticleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleViewControllerDelegate.html">SCSArticleViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQuery.html">SCSArticleQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQueryListViewController.html">SCSArticleQueryListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleQueryListViewControllerDelegate.html">SCSArticleQueryListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSArticleQueryResultsController.html">SCSArticleQueryResultsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSArticleQueryResultsControllerDelegate.html">SCSArticleQueryResultsControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategory.html">SCSCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCategoryDisplayMode.html">SCSCategoryDisplayMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCategoryHeaderType.html">SCSCategoryHeaderType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategoryGroup.html">SCSCategoryGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCategoryViewController.html">SCSCategoryViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCategoryViewControllerDelegate.html">SCSCategoryViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSKnowledgeErrorCode.html">SCSKnowledgeErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSKnowledgeHomeViewController.html">SCSKnowledgeHomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSKnowledgeHomeViewControllerDelegate.html">SCSKnowledgeHomeViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSMutableArticleQuery.html">SCSMutableArticleQuery</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Case Management">
+            <a class="nav-group-name-link" href="../Case Management.html">Case Management</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCCaseInterface.html">SCCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicecasesstringconstants.html">ServiceCasesStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseDetailViewController.html">SCSCaseDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCaseDetailViewControllerDelegate.html">SCSCaseDetailViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCaseErrorCode.html">SCSCaseErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseListViewController.html">SCSCaseListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCaseListViewControllerDelegate.html">SCSCaseListViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCaseNotification.html">SCSCaseNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSCasePublisherResult.html">SCSCasePublisherResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSCasePublisherViewController.html">SCSCasePublisherViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSCasePublisherViewControllerDelegate.html">SCSCasePublisherViewControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-SOS">
+            <a class="nav-group-name-link" href="../SOS.html">SOS</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSSessionManager.html">SOSSessionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../servicesosstringconstants.html">ServiceSOSStringConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSOptions.html">SOSOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSDelegate.html">SOSDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSAgentAvailability.html">SOSAgentAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSAgentAvailabilityDelegate.html">SOSAgentAvailabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSAgentAvailabilityStatusType.html">SOSAgentAvailabilityStatusType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSCameraBaseViewController.html">SOSCameraBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSCameraType.html">SOSCameraType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../SOS.html#/c:SOSSessionManager.h@T@SOSCompletionHandler">SOSCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSConnectingBaseViewController.html">SOSConnectingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSConnectingViewController.html">SOSConnectingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSErrorCode.html">SOSErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../SOS.html#/c:objc(cs)SOSLineDrawView">SOSLineDrawView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSMaskedTextField.html">SOSMaskedTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSMaskable.html">SOSMaskable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSMasking.html">SOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSMaskState.html">SOSMaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSNetworkReporter.html">SOSNetworkReporter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSNetworkReporterDelegate.html">SOSNetworkReporterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSNetworkStatus.html">SOSNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSOnboardingBaseViewController.html">SOSOnboardingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSOnboardingViewController.html">SOSOnboardingViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSReconnectStatus.html">SOSReconnectStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenAnnotations.html">SOSScreenAnnotations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenSharing.html">SOSScreenSharing</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSScreenSharingBaseViewController.html">SOSScreenSharingBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SOSSessionBaseViewController.html">SOSSessionBaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSSessionViewController.html">SOSSessionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSSessionState.html">SOSSessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSStopReason.html">SOSStopReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUIAgentStreamReceivable.html">SOSUIAgentStreamReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUIDeviceCameraReceivable.html">SOSUIDeviceCameraReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SOSUILineDrawingReceivable.html">SOSUILineDrawingReceivable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SOSUIPhase.html">SOSUIPhase</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Action Button Customization">
+            <a class="nav-group-name-link" href="../Action Button Customization.html">Action Button Customization</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSActionManager.html">SCSActionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionManagerDelegate.html">SCSActionManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionItem.html">SCSActionItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SCSActionButton.html">SCSActionButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SCSActionItemContainer.html">SCSActionItemContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SCSActionItemDefaultSort.html">SCSActionItemDefaultSort</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Action Button Customization.html#/c:SCCDefines.h@T@SCSAction">SCSAction</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name" id="Nav-Other Constants">
+            <a class="nav-group-name-link" href="../Other Constants.html">Other Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@CaseUIVersionNumber">CaseUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@CaseUIVersionString">CaseUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeCoreVersionNumber">KnowledgeCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeCoreVersionString">KnowledgeCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeUIVersionNumber">KnowledgeUIVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@KnowledgeUIVersionString">KnowledgeUIVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelArticleListSummaryName">SCAppearanceLabelArticleListSummaryName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelArticleListTitleName">SCAppearanceLabelArticleListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseDetailSubtitle">SCAppearanceLabelCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseDetailTitle">SCAppearanceLabelCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseFeedItemBodyName">SCAppearanceLabelCaseFeedItemBodyName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseFeedTitle">SCAppearanceLabelCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListDate">SCAppearanceLabelCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListSubTitle">SCAppearanceLabelCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCaseListTitle">SCAppearanceLabelCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCAppearanceLabelCategoryListTitleName">SCAppearanceLabelCategoryListTitleName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightBold">SCFontWeightBold</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightLight">SCFontWeightLight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCFontWeightRegular">SCFontWeightRegular</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCInterfaceStyleDefault">SCInterfaceStyleDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCNavigationBarButtonWidth">SCNavigationBarButtonWidth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionArticleSearch">SCSActionArticleSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCaseInterface">SCSActionCaseInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCaseList">SCSActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionCasePublisher">SCSActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSActionChatInterface">SCSActionChatInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceBrandContrastColor">SCSAppearanceBrandContrastColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimary">SCSAppearanceColorTokenBrandPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandPrimaryInverted">SCSAppearanceColorTokenBrandPrimaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondary">SCSAppearanceColorTokenBrandSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenBrandSecondaryInverted">SCSAppearanceColorTokenBrandSecondaryInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastInverted">SCSAppearanceColorTokenContrastInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastPrimary">SCSAppearanceColorTokenContrastPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastQuaternary">SCSAppearanceColorTokenContrastQuaternary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastSecondary">SCSAppearanceColorTokenContrastSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenContrastTertiary">SCSAppearanceColorTokenContrastTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackPrimary">SCSAppearanceColorTokenFeedbackPrimary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackSecondary">SCSAppearanceColorTokenFeedbackSecondary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenFeedbackTertiary">SCSAppearanceColorTokenFeedbackTertiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenNavbarBackground">SCSAppearanceColorTokenNavbarBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenNavbarInverted">SCSAppearanceColorTokenNavbarInverted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceColorTokenOverlay">SCSAppearanceColorTokenOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastInvertedColor">SCSAppearanceContrastInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastPrimaryColor">SCSAppearanceContrastPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastQuaternaryColor">SCSAppearanceContrastQuaternaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastSecondaryColor">SCSAppearanceContrastSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceContrastTertiaryColor">SCSAppearanceContrastTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackPrimaryColor">SCSAppearanceFeedbackPrimaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackSecondaryColor">SCSAppearanceFeedbackSecondaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceFeedbackTertiaryColor">SCSAppearanceFeedbackTertiaryColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionCasePublisher">SCSAppearanceImageTokenActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionChat">SCSAppearanceImageTokenActionChat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenActionSearch">SCSAppearanceImageTokenActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenAttachmentClipIcon">SCSAppearanceImageTokenAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenBack">SCSAppearanceImageTokenBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCaseSubmitSuccess">SCSAppearanceImageTokenCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCategoryHeaderArrow">SCSAppearanceImageTokenCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatAgentAvatar">SCSAppearanceImageTokenChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatBotAvatar">SCSAppearanceImageTokenChatBotAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatBotFooterMenu">SCSAppearanceImageTokenChatBotFooterMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIcon">SCSAppearanceImageTokenChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenChatConnectingIconLarge">SCSAppearanceImageTokenChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenClose">SCSAppearanceImageTokenClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCompose">SCSAppearanceImageTokenCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenCountBadgeBackground">SCSAppearanceImageTokenCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenDone">SCSAppearanceImageTokenDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenDropdown">SCSAppearanceImageTokenDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptyArticle">SCSAppearanceImageTokenEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptyIcon">SCSAppearanceImageTokenEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenEmptySection">SCSAppearanceImageTokenEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenError">SCSAppearanceImageTokenError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenErrorLarge">SCSAppearanceImageTokenErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenGenericError">SCSAppearanceImageTokenGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenMinimizeButton">SCSAppearanceImageTokenMinimizeButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoAccess">SCSAppearanceImageTokenNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoConnection">SCSAppearanceImageTokenNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenNoSearchResult">SCSAppearanceImageTokenNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenPicklistDropdown">SCSAppearanceImageTokenPicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenPreChatIcon">SCSAppearanceImageTokenPreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenRightArrow">SCSAppearanceImageTokenRightArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSAgentMutedIcon">SCSAppearanceImageTokenSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSAgentPlaceHolderIcon">SCSAppearanceImageTokenSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSCameraIcon">SCSAppearanceImageTokenSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSCancel">SCSAppearanceImageTokenSOSCancel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSConfirmIcon">SCSAppearanceImageTokenSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSEndIcon">SCSAppearanceImageTokenSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSExpandIcon">SCSAppearanceImageTokenSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSFlashlightIcon">SCSAppearanceImageTokenSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSInfoIcon">SCSAppearanceImageTokenSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMasking">SCSAppearanceImageTokenSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMicrophoneIcon">SCSAppearanceImageTokenSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSMicrophoneMutedIcon">SCSAppearanceImageTokenSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSPauseIcon">SCSAppearanceImageTokenSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSOSResumeIcon">SCSAppearanceImageTokenSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSearchPlaceholder">SCSAppearanceImageTokenSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSend">SCSAppearanceImageTokenSend</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubCategoryIcon">SCSAppearanceImageTokenSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonNextArrow">SCSAppearanceImageTokenSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenSubmitButtonPreviousArrow">SCSAppearanceImageTokenSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceImageTokenWhiteBubble">SCSAppearanceImageTokenWhiteBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListSummary">SCSAppearanceLabelTokenArticleListSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenArticleListTitle">SCSAppearanceLabelTokenArticleListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailSubtitle">SCSAppearanceLabelTokenCaseDetailSubtitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseDetailTitle">SCSAppearanceLabelTokenCaseDetailTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedItemBody">SCSAppearanceLabelTokenCaseFeedItemBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseFeedTitle">SCSAppearanceLabelTokenCaseFeedTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListDate">SCSAppearanceLabelTokenCaseListDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListSubTitle">SCSAppearanceLabelTokenCaseListSubTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCaseListTitle">SCSAppearanceLabelTokenCaseListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceLabelTokenCategoryListTitle">SCSAppearanceLabelTokenCategoryListTitle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceNavbarBackgroundColor">SCSAppearanceNavbarBackgroundColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceNavbarInvertedColor">SCSAppearanceNavbarInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceOverlayColor">SCSAppearanceOverlayColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearancePrimaryBrandColor">SCSAppearancePrimaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearancePrimaryBrandInvertedColor">SCSAppearancePrimaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceSecondaryBrandColor">SCSAppearanceSecondaryBrandColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceSecondaryBrandInvertedColor">SCSAppearanceSecondaryBrandInvertedColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAppearanceTitleTextColor">SCSAppearanceTitleTextColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSArticleDownloadBeganNotification">SCSArticleDownloadBeganNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSArticleDownloadFinishedNotification">SCSArticleDownloadFinishedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSAuthenticationSettingsUpdatedNotification">SCSAuthenticationSettingsUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseCoreLogIdentifier">SCSCaseCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseErrorDomain">SCSCaseErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSCaseUILogIdentifier">SCSCaseUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatBotFooterMenu">SCSChatBotFooterMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatBotQuickReplyMenu">SCSChatBotQuickReplyMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatBotWindowMenu">SCSChatBotWindowMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatCoreLogIdentifier">SCSChatCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSChatUILogIdentifier">SCSChatUILogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeCoreLogIdentifier">SCSKnowledgeCoreLogIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeErrorDomain">SCSKnowledgeErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryAddedNotification">SCSKnowledgeManagerCategoryAddedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryDeletedNotification">SCSKnowledgeManagerCategoryDeletedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryKey">SCSKnowledgeManagerCategoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerCategoryUpdatedNotification">SCSKnowledgeManagerCategoryUpdatedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSKnowledgeManagerIndexKey">SCSKnowledgeManagerIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSNotificationPayloadKeyCaseId">SCSNotificationPayloadKeyCaseId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyAccessToken">SCSOAuth2JSONKeyAccessToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyCommunityId">SCSOAuth2JSONKeyCommunityId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyCommunityUrl">SCSOAuth2JSONKeyCommunityUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyIdentityUrl">SCSOAuth2JSONKeyIdentityUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyInstanceUrl">SCSOAuth2JSONKeyInstanceUrl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuth2JSONKeyRefreshToken">SCSOAuth2JSONKeyRefreshToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCSOAuthInvalidSessionId">SCSOAuthInvalidSessionId</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceCloudErrorDomain">SCServiceCloudErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceCloudLoggingErrorDomain">SCServiceCloudLoggingErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceErrorDomain">SCServiceErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceTypeCases">SCServiceTypeCases</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@SCServiceTypeKnowledge">SCServiceTypeKnowledge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCasesVersionNumber">ServiceCasesVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCasesVersionString">ServiceCasesVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceChatVersionNumber">ServiceChatVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceChatVersionString">ServiceChatVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCoreVersionNumber">ServiceCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceCoreVersionString">ServiceCoreVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceKnowledgeVersionNumber">ServiceKnowledgeVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@ServiceKnowledgeVersionString">ServiceKnowledgeVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kPrechatVisitorNameLabel">kPrechatVisitorNameLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionCaseList">kSCAppearanceActionCaseList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionCasePublisher">kSCAppearanceActionCasePublisher</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceActionSearch">kSCAppearanceActionSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceAttachmentClipIcon">kSCAppearanceAttachmentClipIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceBack">kSCAppearanceBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCaseSubmitSuccess">kSCAppearanceCaseSubmitSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCategoryHeaderArrow">kSCAppearanceCategoryHeaderArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatAgentAvatar">kSCAppearanceChatAgentAvatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatConnectingIcon">kSCAppearanceChatConnectingIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatConnectingIconLarge">kSCAppearanceChatConnectingIconLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceChatIcon">kSCAppearanceChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCompose">kSCAppearanceCompose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceCountBadgeBackground">kSCAppearanceCountBadgeBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceDone">kSCAppearanceDone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceDropdown">kSCAppearanceDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptyArticle">kSCAppearanceEmptyArticle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptyIcon">kSCAppearanceEmptyIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceEmptySection">kSCAppearanceEmptySection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceError">kSCAppearanceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceErrorLarge">kSCAppearanceErrorLarge</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceGenericError">kSCAppearanceGenericError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceImageClose">kSCAppearanceImageClose</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceMinimizeButtonImage">kSCAppearanceMinimizeButtonImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoAccess">kSCAppearanceNoAccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoConnection">kSCAppearanceNoConnection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceNoSearchResult">kSCAppearanceNoSearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearancePicklistDropdown">kSCAppearancePicklistDropdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearancePreChatIcon">kSCAppearancePreChatIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSAgentMutedIcon">kSCAppearanceSOSAgentMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSAgentPlaceHolderIcon">kSCAppearanceSOSAgentPlaceHolderIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSCameraIcon">kSCAppearanceSOSCameraIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSCancelIcon">kSCAppearanceSOSCancelIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSConfirmIcon">kSCAppearanceSOSConfirmIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSEndIcon">kSCAppearanceSOSEndIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSExpandIcon">kSCAppearanceSOSExpandIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSFlashlightIcon">kSCAppearanceSOSFlashlightIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSInfoIcon">kSCAppearanceSOSInfoIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMasking">kSCAppearanceSOSMasking</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMicrophoneIcon">kSCAppearanceSOSMicrophoneIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSMicrophoneMutedIcon">kSCAppearanceSOSMicrophoneMutedIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSPauseIcon">kSCAppearanceSOSPauseIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSOSResumeIcon">kSCAppearanceSOSResumeIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSearchPlaceholder">kSCAppearanceSearchPlaceholder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubCategoryIcon">kSCAppearanceSubCategoryIcon</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubmitButtonNextArrow">kSCAppearanceSubmitButtonNextArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceSubmitButtonPreviousArrow">kSCAppearanceSubmitButtonPreviousArrow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Constants.html#/c:@kSCAppearanceWhiteBubble">kSCAppearanceWhiteBubble</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SCSActionButton</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">SCSActionButton</span> <span class="p">:</span> <span class="nc">UIButton</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/SCSActionItem.html">SCSActionItem</a></span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>Default <code><a href="../Protocols/SCSActionItem.html">SCSActionItem</a></code> instance that provides the circular button for the default experience.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SCSActionButton(py)badgeCenterPoint"></a>
+                    <a name="//apple_ref/objc/Property/badgeCenterPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SCSActionButton(py)badgeCenterPoint">badgeCenterPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The center point to show the badge view on the button, when used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">CGPoint</span> <span class="n">badgeCenterPoint</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">badgeCenterPoint</span><span class="p">:</span> <span class="kt">CGPoint</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://developer.salesforce.com/developer-centers/service-cloud/sdk" target="_blank" rel="external">Salesforce</a>. All rights reserved. (Last updated: 2019-04-29)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
