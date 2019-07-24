@@ -4,7 +4,7 @@ _These sample apps demonstrate Service SDK features. They do not contain product
 
 ## Instructions
 
-To use an example app, drop the required framework files in the [Frameworks root directory](../Frameworks/) of this repo. You can get the framework files by downloading the iOS SDK from the [Snap-ins Product Page](https://developer.salesforce.com/page/SnapinsMobile).
+To use an example app, drop the required framework files in the [Frameworks root directory](../Frameworks/) of this repo. You can get the framework files by downloading the iOS SDK from the [Embedded Service SDK Developer Center](https://developer.salesforce.com/developer-centers/service-cloud/sdk/).
 
 ## Sample Apps
 
