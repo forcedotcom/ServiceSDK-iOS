@@ -11,4 +11,4 @@ Welcome to the Embedded Service SDK for iOS GitHub repository!
 * [iOS Examples](./Examples/)
 * [Trailhead Tutorial](https://trailhead.salesforce.com/modules/service_snap-ins_mobile_apps)
 
-<!-- 220.1.0 -->
+<!-- 222.0.1 -->
