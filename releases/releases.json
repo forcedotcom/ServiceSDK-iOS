@@ -1,35 +1,35 @@
 [
   {
     "changelog": "common/changelog.md",
-    "date": "2020-03-05",
+    "date": "2021-09-29",
     "example": "common/example.md",
     "reference": "api/224.0/Classes/SCServiceCloud.html",
     "sdk": "common",
-    "version": "4.2.4"
+    "version": "4.2.7"
   },
   {
     "changelog": "chat/changelog.md",
-    "date": "2020-03-05",
+    "date": "2021-09-29",
     "example": "chat/example.md",
     "reference": "api/224.0/Classes/SCSChatInterface.html",
     "sdk": "chat",
-    "version": "4.0.4"
+    "version": "4.0.8"
   },
   {
     "changelog": "knowledge/changelog.md",
-    "date": "2020-03-05",
+    "date": "2021-09-29",
     "example": "knowledge/example.md",
     "reference": "api/224.0/Classes/SCKnowledgeInterface.html",
     "sdk": "knowledge",
-    "version": "3.5.4"
+    "version": "3.5.7"
   },
   {
     "changelog": "case/changelog.md",
-    "date": "2020-03-05",
+    "date": "2021-09-29",
     "example": "case/example.md",
     "reference": "api/224.0/Classes/SCCaseInterface.html",
     "sdk": "case",
-    "version": "2.2.4"
+    "version": "2.2.7"
   },
   {
     "changelog": "sos/changelog.md",
