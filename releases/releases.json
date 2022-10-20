@@ -14,29 +14,5 @@
     "reference": "api/234.1/Classes/SCSChatInterface.html",
     "sdk": "chat",
     "version": "4.1.0"
-  },
-  {
-    "changelog": "knowledge/changelog.md",
-    "date": "2022-01-06",
-    "example": "knowledge/example.md",
-    "reference": "api/234.1/Classes/SCKnowledgeInterface.html",
-    "sdk": "knowledge",
-    "version": "3.5.8"
-  },
-  {
-    "changelog": "case/changelog.md",
-    "date": "2022-01-06",
-    "example": "case/example.md",
-    "reference": "api/234.1/Classes/SCCaseInterface.html",
-    "sdk": "case",
-    "version": "2.2.8"
-  },
-  {
-    "changelog": "sos/changelog.md",
-    "date": "2020-03-05",
-    "example": "sos/example.md",
-    "reference": "api/224.0/Classes/SOSSessionManager.html",
-    "sdk": "sos",
-    "version": "3.11.4"
   }
 ]
