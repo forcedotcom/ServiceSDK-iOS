@@ -1,5 +1,5 @@
 # Second Generation Salesforce Chat Product
-Messaging for InApp, the modern replacement for ServiceChat
+Check out Messaging for In-App, a newer chat solution for mobile apps.
 To learn more, see the [Messaging for In-App Developer Guide](https://developer.salesforce.com/docs/service/messaging-in-app/overview)
 Try out an example from our [Sample App Repo](https://github.com/Salesforce-Async-Messaging/messaging-in-app-ios/tree/master/examples)
 
