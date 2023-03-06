@@ -1,3 +1,8 @@
+# Second Generation Salesforce Chat Product
+Check out Messaging for In-App, a newer chat solution for mobile apps.
+To learn more, see the [Messaging for In-App Developer Guide](https://developer.salesforce.com/docs/service/messaging-in-app/overview)
+Try out an example from our [Sample App Repo](https://github.com/Salesforce-Async-Messaging/messaging-in-app-ios/tree/master/examples)
+
 # Embedded Service SDK for iOS
 
 Welcome to the Embedded Service SDK for iOS GitHub repository!
