@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,38 +20,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7yv-ap-ZDi">
-                                <rect key="frame" x="24" y="48" width="327" height="233.5"/>
+                                <rect key="frame" x="24" y="28" width="327" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zg-3k-KYZ">
-                                        <rect key="frame" x="73" y="0.0" width="181" height="30"/>
-                                        <state key="normal" title="Knowledge Support Home"/>
-                                        <connections>
-                                            <action selector="startKnowledge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5xI-ef-9gi"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Y1-CW-7Tp">
-                                        <rect key="frame" x="112" y="38" width="103" height="30"/>
-                                        <state key="normal" title="Case Publisher"/>
-                                        <connections>
-                                            <action selector="startCases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kmg-fl-8zs"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyw-X6-CIS">
-                                        <rect key="frame" x="109" y="76" width="109" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyw-X6-CIS">
+                                        <rect key="frame" x="109" y="0.0" width="109" height="30"/>
                                         <state key="normal" title="Live Agent Chat"/>
                                         <connections>
                                             <action selector="startChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cmx-Gr-QcP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYp-ZN-uWK">
-                                        <rect key="frame" x="148.5" y="114" width="30" height="30"/>
-                                        <state key="normal" title="SOS"/>
-                                        <connections>
-                                            <action selector="startSOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sug-Vw-73p"/>
-                                        </connections>
-                                    </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oops. It looks like you haven't enabled any features from the SnapinsConstants class... Check out that class to get started..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84B-OQ-HU6">
-                                        <rect key="frame" x="0.0" y="152" width="327" height="81.5"/>
+                                        <rect key="frame" x="-305.5" y="0.0" width="938" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -71,15 +47,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="casesButton" destination="4Y1-CW-7Tp" id="6xG-cX-Yts"/>
                         <outlet property="chatButton" destination="dyw-X6-CIS" id="mRF-0T-S7b"/>
-                        <outlet property="knowledgeButton" destination="5zg-3k-KYZ" id="7PD-aA-gsW"/>
                         <outlet property="nothingEnabledLabel" destination="84B-OQ-HU6" id="IOC-UP-Ucz"/>
-                        <outlet property="sosButton" destination="AYp-ZN-uWK" id="wQ0-cE-WjO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="74" y="0.0"/>
         </scene>
     </scenes>
 </document>

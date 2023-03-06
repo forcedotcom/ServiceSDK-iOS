@@ -3,22 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; };
-		6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD894F1EE731020034FD59 /* ServiceCases.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89501EE731020034FD59 /* ServiceChat.framework */; };
-		6FCD895F1EE7312D0034FD59 /* ServiceChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89501EE731020034FD59 /* ServiceChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89601EE7312D0034FD59 /* ServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89511EE731020034FD59 /* ServiceCore.framework */; };
-		6FCD89611EE7312D0034FD59 /* ServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89511EE731020034FD59 /* ServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89621EE7312D0034FD59 /* ServiceKnowledge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */; };
-		6FCD89631EE7312D0034FD59 /* ServiceKnowledge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6FCD89641EE7312D0034FD59 /* ServiceSOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89531EE731020034FD59 /* ServiceSOS.framework */; };
-		6FCD89651EE7312D0034FD59 /* ServiceSOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD89531EE731020034FD59 /* ServiceSOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041FFD9F29718D5D00B5DFE1 /* ServiceChat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FFD9D29718D5B00B5DFE1 /* ServiceChat.xcframework */; };
+		041FFDA029718D5D00B5DFE1 /* ServiceCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FFD9E29718D5C00B5DFE1 /* ServiceCore.xcframework */; };
 		87C1E3AB1ECF3F52000B2299 /* SnapinsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1E3AA1ECF3F52000B2299 /* SnapinsConstants.swift */; };
-		87C1E3AD1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1E3AC1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift */; };
 		87EBF7931ECDF4A100127B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EBF7921ECDF4A100127B7B /* AppDelegate.swift */; };
 		87EBF7951ECDF4A100127B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EBF7941ECDF4A100127B7B /* ViewController.swift */; };
 		87EBF7981ECDF4A100127B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EBF7961ECDF4A100127B7B /* Main.storyboard */; };
@@ -26,7 +17,6 @@
 		87EBF79D1ECDF4A100127B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EBF79B1ECDF4A100127B7B /* LaunchScreen.storyboard */; };
 		87F348C81ECF667B00DB9066 /* SnapinsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */; };
 		87F348CA1ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */; };
-		87F348CC1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,11 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6FCD89611EE7312D0034FD59 /* ServiceCore.framework in Embed Frameworks */,
-				6FCD895F1EE7312D0034FD59 /* ServiceChat.framework in Embed Frameworks */,
-				6FCD895D1EE7312D0034FD59 /* ServiceCases.framework in Embed Frameworks */,
-				6FCD89651EE7312D0034FD59 /* ServiceSOS.framework in Embed Frameworks */,
-				6FCD89631EE7312D0034FD59 /* ServiceKnowledge.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,13 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6FCD894F1EE731020034FD59 /* ServiceCases.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceCases.framework; sourceTree = "<group>"; };
-		6FCD89501EE731020034FD59 /* ServiceChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceChat.framework; sourceTree = "<group>"; };
-		6FCD89511EE731020034FD59 /* ServiceCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceCore.framework; sourceTree = "<group>"; };
-		6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceKnowledge.framework; sourceTree = "<group>"; };
-		6FCD89531EE731020034FD59 /* ServiceSOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceSOS.framework; sourceTree = "<group>"; };
+		041FFD9D29718D5B00B5DFE1 /* ServiceChat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ServiceChat.xcframework; sourceTree = "<group>"; };
+		041FFD9E29718D5C00B5DFE1 /* ServiceCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ServiceCore.xcframework; sourceTree = "<group>"; };
 		87C1E3AA1ECF3F52000B2299 /* SnapinsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapinsConstants.swift; sourceTree = "<group>"; };
-		87C1E3AC1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnapinsConfig+ActionManagerDelegate.swift"; sourceTree = "<group>"; };
 		87EBF78F1ECDF4A100127B7B /* SnapinsSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapinsSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EBF7921ECDF4A100127B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87EBF7941ECDF4A100127B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +45,6 @@
 		87EBF79E1ECDF4A100127B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapinsConfig.swift; sourceTree = "<group>"; };
 		87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnapinsConfig+ChatDelegate.swift"; sourceTree = "<group>"; };
-		87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnapinsConfig+SOSDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCD89601EE7312D0034FD59 /* ServiceCore.framework in Frameworks */,
-				6FCD895E1EE7312D0034FD59 /* ServiceChat.framework in Frameworks */,
-				6FCD895C1EE7312D0034FD59 /* ServiceCases.framework in Frameworks */,
-				6FCD89641EE7312D0034FD59 /* ServiceSOS.framework in Frameworks */,
-				6FCD89621EE7312D0034FD59 /* ServiceKnowledge.framework in Frameworks */,
+				041FFDA029718D5D00B5DFE1 /* ServiceCore.xcframework in Frameworks */,
+				041FFD9F29718D5D00B5DFE1 /* ServiceChat.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +63,8 @@
 		6FCD89461EE731020034FD59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FCD894F1EE731020034FD59 /* ServiceCases.framework */,
-				6FCD89501EE731020034FD59 /* ServiceChat.framework */,
-				6FCD89511EE731020034FD59 /* ServiceCore.framework */,
-				6FCD89521EE731020034FD59 /* ServiceKnowledge.framework */,
-				6FCD89531EE731020034FD59 /* ServiceSOS.framework */,
+				041FFD9D29718D5B00B5DFE1 /* ServiceChat.xcframework */,
+				041FFD9E29718D5C00B5DFE1 /* ServiceCore.xcframework */,
 			);
 			name = Frameworks;
 			path = ../../Frameworks;
@@ -120,9 +94,7 @@
 				87EBF7921ECDF4A100127B7B /* AppDelegate.swift */,
 				87EBF7941ECDF4A100127B7B /* ViewController.swift */,
 				87F348C71ECF667B00DB9066 /* SnapinsConfig.swift */,
-				87C1E3AC1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift */,
 				87F348C91ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift */,
-				87F348CB1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift */,
 				87EBF7961ECDF4A100127B7B /* Main.storyboard */,
 				87EBF7991ECDF4A100127B7B /* Assets.xcassets */,
 				87EBF79B1ECDF4A100127B7B /* LaunchScreen.storyboard */,
@@ -183,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -214,11 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F348CC1ECF721C00DB9066 /* SnapinsConfig+SOSDelegate.swift in Sources */,
 				87C1E3AB1ECF3F52000B2299 /* SnapinsConstants.swift in Sources */,
 				87EBF7951ECDF4A100127B7B /* ViewController.swift in Sources */,
 				87F348C81ECF667B00DB9066 /* SnapinsConfig.swift in Sources */,
-				87C1E3AD1ECF449D000B2299 /* SnapinsConfig+ActionManagerDelegate.swift in Sources */,
 				87F348CA1ECF6E6900DB9066 /* SnapinsConfig+ChatDelegate.swift in Sources */,
 				87EBF7931ECDF4A100127B7B /* AppDelegate.swift in Sources */,
 			);
@@ -351,7 +322,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -368,7 +340,10 @@
 					"$(PROJECT_DIR)/../../Frameworks",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -387,7 +362,10 @@
 					"$(PROJECT_DIR)/../../Frameworks",
 				);
 				INFOPLIST_FILE = SnapinsSDKExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = sf.SnapinsSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
