@@ -1,7 +1,7 @@
 # Second Generation Salesforce Chat Product
 Messaging for InApp, the modern replacement for ServiceChat
 [To Learn More](https://developer.salesforce.com/docs/service/messaging-in-app/overview)
-[Test App Repo](https://github.com/Salesforce-Async-Messaging/messaging-in-app-ios/tree/master/examples)
+Try out an example from our [Sample App Repo](https://github.com/Salesforce-Async-Messaging/messaging-in-app-ios/tree/master/examples)
 
 # Embedded Service SDK for iOS
 
