@@ -1,4 +1,4 @@
-# Second Generation Salesforce Chat Product
+# Next Generation Salesforce Chat Product
 Check out Messaging for In-App, a newer chat solution for mobile apps.
 
 * To learn more, see the [Messaging for In-App Developer Guide](https://developer.salesforce.com/docs/service/messaging-in-app/overview).
